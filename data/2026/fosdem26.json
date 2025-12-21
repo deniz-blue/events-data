@@ -1,0 +1,37 @@
+{
+    "v": 0,
+    "name": {
+        "en": "FOSDEM 2026"
+    },
+    "venues": [
+        {
+            "venueId": "ulb",
+            "venueType": "physical",
+            "venueName": {
+                "en": "ULB University",
+                "be": "Université Libre de Bruxelles"
+            },
+            "address": {
+                "countryCode": "BE",
+                "addr": "Campus du Solbosch Av. F. D. Roosevelt 50 1050 Bruxelles",
+                "postalCode": "1050"
+            }
+        },
+        {
+            "venueId": "live",
+            "venueType": "online",
+            "venueName": {
+                "en": "Live Streams"
+            },
+            "url": "https://live.fosdem.org/"
+        }
+    ],
+    "instances": [
+        {
+            "venueIds": [
+                "ulb",
+                "live"
+            ]
+        }
+    ]
+}
