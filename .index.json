@@ -2,16 +2,8 @@
   "repository": "deniz-blue/events-data",
   "events": [
     {
-      "path": "2026/gamejams/invalid-test.json",
-      "url": "https://deniz-blue.github.io/events-data/events/2026/gamejams/invalid-test.json"
-    },
-    {
       "path": "2026/gamejams/ltgamejam26.json",
       "url": "https://deniz-blue.github.io/events-data/events/2026/gamejams/ltgamejam26.json"
-    },
-    {
-      "path": "2026/gamejams/schema-error-test.json",
-      "url": "https://deniz-blue.github.io/events-data/events/2026/gamejams/schema-error-test.json"
     },
     {
       "path": "2026/foss/fosdem26.json",
