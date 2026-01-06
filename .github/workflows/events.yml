@@ -5,6 +5,9 @@ on:
 jobs:
     events:
         runs-on: ubuntu-latest
+        permissions:
+            contents: write
         steps:
             - uses: actions/checkout@v3
             - uses: deniz-blue/action-events-repo@main
+            - uses: stefanzweifel/git-auto-commit-action@v7

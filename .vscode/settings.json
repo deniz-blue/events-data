@@ -2,7 +2,7 @@
     "json.schemas": [
         {
             "fileMatch": [
-                "data/**/*.json"
+                "events/**/*.json"
             ],
             "url": "https://raw.githubusercontent.com/deniz-blue/events-format/refs/heads/main/event-data.schema.json"
         }
