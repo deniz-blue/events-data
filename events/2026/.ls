@@ -1,0 +1,5 @@
+[
+  "conventions",
+  "foss",
+  "gamejams"
+]
