@@ -1,0 +1,17 @@
+{
+  "repository": "deniz-blue/events-data",
+  "events": [
+    {
+      "path": "events/2026/gamejams/ltgamejam26.json",
+      "url": "https://deniz-blue.github.io/events-data/events/events/2026/gamejams/ltgamejam26.json"
+    },
+    {
+      "path": "events/2026/foss/fosdem26.json",
+      "url": "https://deniz-blue.github.io/events-data/events/events/2026/foss/fosdem26.json"
+    },
+    {
+      "path": "events/2026/conventions/ccb26.json",
+      "url": "https://deniz-blue.github.io/events-data/events/events/2026/conventions/ccb26.json"
+    }
+  ]
+}
