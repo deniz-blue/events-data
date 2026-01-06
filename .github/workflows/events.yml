@@ -1,0 +1,10 @@
+on:
+    push:
+    pull_request:
+
+jobs:
+    events:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - uses: deniz-blue/action-events-repo@main

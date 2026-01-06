@@ -1,0 +1,6 @@
+<script>
+    window.location = `https://event.nya.bar/?${new URLSearchParams({
+        action: "view_list",
+        ls: window.location.hostname + window.location.pathname + (window.location.pathname.endsWith("/") ? "index.json" : "/index.json"),
+    })}`;
+</script>
