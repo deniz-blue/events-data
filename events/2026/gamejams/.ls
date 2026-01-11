@@ -1,3 +1,0 @@
-[
-  "ltgamejam26.json"
-]

@@ -1,3 +1,0 @@
-[
-  "fosdem26.json"
-]
