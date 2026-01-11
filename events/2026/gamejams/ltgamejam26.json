@@ -5,6 +5,14 @@
     },
     "venues": [
         {
+            "venueId": "Online",
+            "venueType": "online",
+            "venueName": {
+                "en": "LT GameJam"
+            },
+			"url": "https://discord.com/invite/a9HNHQGhA4"
+        },
+        {
             "venueId": "VilniusLibrary",
             "venueType": "physical",
             "venueName": {
@@ -14,13 +22,6 @@
                 "addr": "Gedimino pr. 51, Vilnius, 01109 Vilniaus m. sav.",
                 "countryCode": "LT",
                 "postalCode": "01109"
-            }
-        },
-        {
-            "venueId": "Online",
-            "venueType": "online",
-            "venueName": {
-                "en": "Online"
             }
         },
         {

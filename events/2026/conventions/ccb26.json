@@ -40,5 +40,17 @@
             "start": "2026-05-24T10:00",
             "end": "2026-05-24T18:00"
         }
-    ]
+    ],
+	"components": [
+		{
+			"type": "link",
+			"data": {
+				"url": "https://ccbaltics.com/",
+				"name": {
+					"en": "Homepage"
+				},
+				"disabled": false
+			}
+		}
+	]
 }
