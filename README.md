@@ -25,3 +25,11 @@ events/
 - `<category>` is a generic category for the event; doesn't matter that much
 - `<abbr>` is an abbreviation of the event; if possible, use a distinguishing identifier (i.e `fosdem26` instead of `fosdem`); if the abbreviation is too generic, you may spell out the entire name of the event
 - Use kebab-case if neccesary
+
+## Events
+
+This section is auto-generated
+
+<!-- EVENTS LIST START -->
+if you see this deniz fucked up
+<!-- EVENTS LIST END -->
