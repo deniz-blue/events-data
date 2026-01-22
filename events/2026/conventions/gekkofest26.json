@@ -1,0 +1,42 @@
+{
+	"v": 0,
+	"name": {
+		"en": "GekkoFest 2026"
+	},
+	"description": {
+		"en": "[More information at @gekkofest_lt](https://www.instagram.com/gekkofest_lt)"
+	},
+	"venues": [
+		{
+			"venueId": "v",
+			"venueType": "physical",
+			"address": {
+				"addr": "Kalvarijų g. 137E, Vilnius, 08211 Vilniaus m. sav.",
+				"countryCode": "LT"
+			},
+			"venueName": {
+				"en": "SMK College of Applied Sciences",
+				"lt": "SMK Aukštoji mokykla"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": ["v"],
+			"start": "2026-01-23T13:00",
+			"end": "2026-01-23T16:30"
+		}
+	],
+	"components": [
+		{
+			"type": "link",
+			"data": {
+				"name": {
+					"en": "Instagram Page"
+				},
+				"disabled": false,
+				"url": "https://www.instagram.com/gekkofest_lt"
+			}
+		}
+	]
+}
