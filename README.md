@@ -35,5 +35,6 @@ This section is auto-generated
 - [chaosscon26.json](https://event.nya.pub/?action=view-event&url=https%3A%2F%2Fdeniz.blue%2Fevents-data%2Fevents%2F2026%2Ffoss%2Fchaosscon26.json)
 - [fosdem26.json](https://event.nya.pub/?action=view-event&url=https%3A%2F%2Fdeniz.blue%2Fevents-data%2Fevents%2F2026%2Ffoss%2Ffosdem26.json)
 - [ccb26.json](https://event.nya.pub/?action=view-event&url=https%3A%2F%2Fdeniz.blue%2Fevents-data%2Fevents%2F2026%2Fconventions%2Fccb26.json)
+- [gekkofest26.json](https://event.nya.pub/?action=view-event&url=https%3A%2F%2Fdeniz.blue%2Fevents-data%2Fevents%2F2026%2Fconventions%2Fgekkofest26.json)
 - [pyrkon26.json](https://event.nya.pub/?action=view-event&url=https%3A%2F%2Fdeniz.blue%2Fevents-data%2Fevents%2F2026%2Fconventions%2Fpyrkon26.json)
 <!-- EVENTS LIST END -->
