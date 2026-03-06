@@ -5,9 +5,9 @@
 	},
 	"venues": [
 		{
-			"venueId": "ulb",
-			"venueType": "physical",
-			"venueName": {
+			"id": "ulb",
+			"type": "physical",
+			"name": {
 				"en": "ULB University",
 				"be": "Université Libre de Bruxelles"
 			},
@@ -18,9 +18,9 @@
 			}
 		},
 		{
-			"venueId": "live",
-			"venueType": "online",
-			"venueName": {
+			"id": "live",
+			"type": "online",
+			"name": {
 				"en": "Live Streams"
 			},
 			"url": "https://live.fosdem.org/"

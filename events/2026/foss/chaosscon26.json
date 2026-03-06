@@ -1,58 +1,58 @@
 {
-    "v": 0,
-    "name": {
-        "en": "CHAOSScon 2026"
-    },
-    "venues": [
-        {
-            "venueId": "csc",
-            "venueType": "physical",
-            "venueName": {
-                "en": "Common Hub Brussels"
-            },
-            "address": {
-                "countryCode": "BE",
-                "addr": "Rue de la Madeleine 51, Bruxelles",
-                "postalCode": "1000"
-            }
-        },
-        {
-            "venueId": "live",
-            "venueType": "online",
-            "venueName": {
-                "en": "Common Hub Brussels"
-            },
-            "url": "https://www.youtube.com/playlist?list=PL60k37cxI-HT4eJrJd1LJcLfhjeQ8zT-o"
-        }
-    ],
-    "instances": [
-        {
-            "venueIds": [
-                "csc",
-                "live"
-            ],
-            "start": "2026-01-29T08:00",
-            "end": "2026-01-29T16:00"
-        },
-        {
-            "venueIds": [
-                "csc",
-                "live"
-            ],
-            "start": "2026-01-29T16:00",
-            "end": "2026-01-29T18:00"
-        }
-    ],
-    "components": [
-        {
-            "type": "link",
-            "data": {
-                "url": "https://chaoss.community/chaosscon-2026-eu/",
-                "name": {
-                    "en": "CHAOSSCon 2026 Homepage"
-                },
-                "disabled": false
-            }
-        }        
-    ]
+	"v": 0,
+	"name": {
+		"en": "CHAOSScon 2026"
+	},
+	"venues": [
+		{
+			"id": "csc",
+			"type": "physical",
+			"name": {
+				"en": "Common Hub Brussels"
+			},
+			"address": {
+				"countryCode": "BE",
+				"addr": "Rue de la Madeleine 51, Bruxelles",
+				"postalCode": "1000"
+			}
+		},
+		{
+			"id": "live",
+			"type": "online",
+			"name": {
+				"en": "Common Hub Brussels"
+			},
+			"url": "https://www.youtube.com/playlist?list=PL60k37cxI-HT4eJrJd1LJcLfhjeQ8zT-o"
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"csc",
+				"live"
+			],
+			"start": "2026-01-29T08:00",
+			"end": "2026-01-29T16:00"
+		},
+		{
+			"venueIds": [
+				"csc",
+				"live"
+			],
+			"start": "2026-01-29T16:00",
+			"end": "2026-01-29T18:00"
+		}
+	],
+	"components": [
+		{
+			"type": "link",
+			"data": {
+				"url": "https://chaoss.community/chaosscon-2026-eu/",
+				"name": {
+					"en": "CHAOSSCon 2026 Homepage"
+				},
+				"disabled": false
+			}
+		}
+	]
 }

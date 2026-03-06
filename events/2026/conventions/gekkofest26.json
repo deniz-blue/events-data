@@ -8,13 +8,13 @@
 	},
 	"venues": [
 		{
-			"venueId": "v",
-			"venueType": "physical",
+			"id": "v",
+			"type": "physical",
 			"address": {
 				"addr": "Kalvarijų g. 137E, Vilnius, 08211 Vilniaus m. sav.",
 				"countryCode": "LT"
 			},
-			"venueName": {
+			"name": {
 				"en": "SMK College of Applied Sciences",
 				"lt": "SMK Aukštoji mokykla"
 			}
@@ -22,7 +22,9 @@
 	],
 	"instances": [
 		{
-			"venueIds": ["v"],
+			"venueIds": [
+				"v"
+			],
 			"start": "2026-01-23T13:00",
 			"end": "2026-01-23T16:30"
 		}

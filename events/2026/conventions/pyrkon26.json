@@ -5,9 +5,9 @@
     },
     "venues": [
         {
-            "venueId": "pyrkon",
-            "venueType": "physical",
-            "venueName": {
+            "id": "pyrkon",
+            "type": "physical",
+            "name": {
                 "en": "Poznań International Fair",
                 "pl": "Międzynarodowe Targi Poznańskie"
             },

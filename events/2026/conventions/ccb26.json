@@ -5,9 +5,9 @@
     },
     "venues": [
         {
-            "venueId": "litexpo",
-            "venueType": "physical",
-            "venueName": {
+            "id": "litexpo",
+            "type": "physical",
+            "name": {
                 "en": "Litexpo Exhibition and Congress Centre",
                 "lt": "Parodų ir kongresų centras LITEXPO"
             },
