@@ -1,0 +1,166 @@
+{
+	"v": 0,
+	"name": {
+		"tr": "METUCON: Weird West",
+		"en": ""
+	},
+	"status": "cancelled",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "ÖDTÜ Kültür ve Kongre Merkezi",
+				"en": ""
+			},
+			"address": {
+				"addr": "ÖDTÜ KKM Çankaya Ankara"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-04-05"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-04-06"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.imgur.com/WY69E8U.jpeg"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:pricing",
+			"data": {
+				"price": 0,
+				"label": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLScRv9wzGRb10neLs6XZ-_mWbEvmahjp1TNqvEHSHkF-MYpUzg/viewform",
+				"disabled": true,
+				"name": {
+					"tr": "Dış Katılım",
+					"en": ""
+				},
+				"description": {
+					"tr": "Kampüs dışından katılanlar doldurmalı",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://forms.gle/nU6rxjnoza4UsnuS8",
+				"disabled": true,
+				"name": {
+					"tr": "GM Kayıtları",
+					"en": ""
+				},
+				"description": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://forms.gle/SvVdhoXTSk5xj1hr7",
+				"disabled": true,
+				"name": {
+					"tr": "Stand Başvuru",
+					"en": ""
+				},
+				"description": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://metucon.org",
+				"disabled": false,
+				"name": {
+					"tr": "",
+					"en": ""
+				},
+				"description": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "679dcf70aee686087f034926",
+				"eventId": "679dcf70aee686087f034925",
+				"organizationId": "679dcf12aee686087f034924",
+				"organization": {
+					"id": "679dcf12aee686087f034924",
+					"name": {
+						"tr": "ÖDTÜ BKFT",
+						"en": ""
+					},
+					"subtitle": {
+						"tr": "ÖDTÜ Bilim Kurgu Fantastik Topluluğu",
+						"en": ""
+					},
+					"avatarURL": "https://i.imgur.com/qc5J8XO.png",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "odtubkft"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,116 @@
+{
+	"v": 0,
+	"name": {
+		"tr": "DotCon",
+		"en": ""
+	},
+	"label": {
+		"tr": "Yılbaşı temalı E-Spor Turnuvası ve Cosplay Partisi",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "İstanbul Kent Üni. Kağıthane",
+				"en": ""
+			},
+			"address": {
+				"addr": "İstanbul Kent Üni. Kağıthane Merkez Kağıthane İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2024-12-22T11:00"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2024-12-20T14:00"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2024-12-21T11:00"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.imgur.com/6oJ2eM8.jpeg"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:pricing",
+			"data": {
+				"price": 0,
+				"label": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "67892a3fa69aca0847bfcfb1",
+				"eventId": "675423692476197849d7f5f8",
+				"organizationId": "675421962476197849d7f5f6",
+				"organization": {
+					"id": "675421962476197849d7f5f6",
+					"name": {
+						"tr": "DotLab",
+						"en": ""
+					},
+					"description": {
+						"tr": "",
+						"en": ""
+					},
+					"avatarURL": "https://i.imgur.com/3Ag1TRh.png",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "d0tlab"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}
