@@ -1,1 +1,113 @@
-{"v":0,"name":{"tr":"DPÜ BKFTCON","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"Kütahya Dumlupınar Üniversitesi","en":""},"address":{"addr":"Kütahya Merkez Kütahya","countryCode":"TR"},"coordinates":{"lat":39.4842268,"lng":29.8968364}}],"instances":[{"venueIds":["0"],"start":"2025-05-27"}],"components":[{"type":"blue.deniz.events:description","data":{}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay","frp","boardgame","workshop"]}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/93fzj3gh/bcae1601cae0.png"}]}}},{"type":"blue.deniz.events:pricing","data":{"price":0,"label":{"tr":"","en":""}}},{"type":"link","data":{"url":"https://www.instagram.com/p/DJ38rhUsuIP/?igsh=MnUybW9kaGNqYzVr","disabled":false,"name":{"tr":"Instagram Postu","en":""},"description":{"tr":"","en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"68307a3a8cbee98e9e7a2a23","eventId":"68307a3a8cbee98e9e7a2a21","organizationId":"6830793c8cbee98e9e7a2a1f","organization":{"id":"6830793c8cbee98e9e7a2a1f","name":{"tr":"DPU BKFT","en":""},"userIds":["67531fec365c75460909de70"],"contacts":[],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "DPÜ BKFTCON",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "Kütahya Dumlupınar Üniversitesi",
+				"en": ""
+			},
+			"address": {
+				"addr": "Kütahya Merkez Kütahya",
+				"countryCode": "TR"
+			},
+			"coordinates": {
+				"lat": 39.4842268,
+				"lng": 29.8968364
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-05-27"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay",
+					"frp",
+					"boardgame",
+					"workshop"
+				]
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/93fzj3gh/bcae1601cae0.png"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:pricing",
+			"data": {
+				"price": 0,
+				"label": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://www.instagram.com/p/DJ38rhUsuIP/?igsh=MnUybW9kaGNqYzVr",
+				"disabled": false,
+				"name": {
+					"tr": "Instagram Postu",
+					"en": ""
+				},
+				"description": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "68307a3a8cbee98e9e7a2a23",
+				"eventId": "68307a3a8cbee98e9e7a2a21",
+				"organizationId": "6830793c8cbee98e9e7a2a1f",
+				"organization": {
+					"id": "6830793c8cbee98e9e7a2a1f",
+					"name": {
+						"tr": "DPU BKFT",
+						"en": ""
+					},
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

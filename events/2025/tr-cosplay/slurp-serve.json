@@ -1,1 +1,115 @@
-{"v":0,"name":{"tr":"Slurp & Serve","en":""},"label":{"tr":"Mikado Ramen Cosplay Yarışması 1.0","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"Mikado Ramen","en":""},"address":{"addr":"Çankaya Ankara","countryCode":"TR"},"coordinates":{"lat":39.9281217,"lng":32.82480750000001}}],"instances":[{"venueIds":["0"],"start":"2025-06-01T11:00"}],"components":[{"type":"blue.deniz.events:description","data":{"description":{"tr":"Mikado Ramen'in ilk cosplay yarışması için geri sayım başladı!\nKayıt yok, kostüm sınırlaması yok, sadece yaratıcılığını getirmen yeterli!\nJüri+izleyici oylaması ile günün en iyi cosplayi seçilecek!\nBirinciye 1000 tl değerinde Mikado Ramen hediye kartı \nİlk üçe süpriz hediyeler\nKatılan herkese %10 indirim\nTarih: 01.06.2025 \nSaat: 11.00","en":""}}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay"]}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/mrfRLWGZ/eddb7c21a16e.png"}]}}},{"type":"link","data":{"url":"https://www.instagram.com/p/DJ-KMjCMvuI/","disabled":false,"name":{"tr":"Instagram Postu","en":""},"description":{"tr":"","en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"6835ad24be41e10563088450","eventId":"6835ad24be41e1056308844e","organizationId":"6835ac5dbe41e1056308844c","organization":{"id":"6835ac5dbe41e1056308844c","name":{"tr":"Mikado Ramen","en":""},"avatarURL":"https://i.ibb.co/fdbFCvCq/996ad7502bf5.jpg","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"mikadoramen"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "Slurp & Serve",
+		"en": ""
+	},
+	"label": {
+		"tr": "Mikado Ramen Cosplay Yarışması 1.0",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "Mikado Ramen",
+				"en": ""
+			},
+			"address": {
+				"addr": "Çankaya Ankara",
+				"countryCode": "TR"
+			},
+			"coordinates": {
+				"lat": 39.9281217,
+				"lng": 32.82480750000001
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-06-01T11:00"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {
+				"description": {
+					"tr": "Mikado Ramen'in ilk cosplay yarışması için geri sayım başladı!\nKayıt yok, kostüm sınırlaması yok, sadece yaratıcılığını getirmen yeterli!\nJüri+izleyici oylaması ile günün en iyi cosplayi seçilecek!\nBirinciye 1000 tl değerinde Mikado Ramen hediye kartı \nİlk üçe süpriz hediyeler\nKatılan herkese %10 indirim\nTarih: 01.06.2025 \nSaat: 11.00",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/mrfRLWGZ/eddb7c21a16e.png"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://www.instagram.com/p/DJ-KMjCMvuI/",
+				"disabled": false,
+				"name": {
+					"tr": "Instagram Postu",
+					"en": ""
+				},
+				"description": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "6835ad24be41e10563088450",
+				"eventId": "6835ad24be41e1056308844e",
+				"organizationId": "6835ac5dbe41e1056308844c",
+				"organization": {
+					"id": "6835ac5dbe41e1056308844c",
+					"name": {
+						"tr": "Mikado Ramen",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/fdbFCvCq/996ad7502bf5.jpg",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "mikadoramen"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

@@ -1,1 +1,144 @@
-{"v":0,"name":{"tr":"Cosplay & Board Game","en":""},"label":{"tr":"","en":""},"status":"cancelled","venues":[{"id":"0","type":"physical","name":{"tr":"BAU Beşiktaş Güney Kampüsü","en":""},"address":{"addr":"Bahçeşehir Üniversitesi Beşiktaş Yıldız Beşiktaş İstanbul"}}],"instances":[{"venueIds":["0"],"start":"2025-03-23"}],"components":[{"type":"blue.deniz.events:description","data":{"description":{"tr":"En sevdiğiniz kurgusal karakterlerin kıyafetlerine bürünüp beraber favori kutu oyunlarınızı oynayabileceğiniz Cosplay ile Kutu Oyunu etkinliğimize hepiniz davetlisiniz.\n\n📆Tarih: 23 Mart Pazar / 13.00-20.00\n🏛Mekan: D Blok D406 Sınıfı\n\nKatılmak için cosplay yapmak ve katılım formunu doldurmanız zorunludur\n\n🎲🦹🏻‍♂️🦹🏼‍♀️\n\nYou’re all invited to our Cosplay & Board Game event, where you can dress up as your favorite fictional characters and enjoy playing your favorite board games together.\n\n📆Date: Sunday, March 23 / 1:00 PM – 8:00 PM\n🏛Place: D Block, Room D406\n\nTo participate, it is mandatory to wear a cosplay and fill out the participation form","en":""}}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay","boardgame"]}},{"type":"blue.deniz.events:age_restriction","data":{}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/1wptr9J/483307174-18299380495208060-8859125694918773173-n-jpg-stp-dst-jpg-e35-p1080x1080-sh0-08-tt6-nc-ht-in.jpg"}]}}},{"type":"blue.deniz.events:pricing","data":{"price":0,"label":{"tr":"","en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLSffE_uwyWPNpy_e7dmPo5_KpwFQO8Ypa5WyYvO8nVDg9lIPOw/viewform","disabled":true,"name":{"tr":"Katılım Formu","en":""},"description":{"tr":"KONTENJAN DOLDU","en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLSeBjYMQa8KeYt1nv_7zrKcOtt9gpkdKiLNBl1T9ZGZUdEYD0g/viewform","disabled":true,"name":{"tr":"BAU BFKK Üye Bilgi Formu","en":""},"description":{"tr":"Daha önce BAU BFKK etkinliğine katılmamış kişiler doldurmalıdır","en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"67cebbfd6eb77cc49a145abc","eventId":"67cebbfd6eb77cc49a145abb","organizationId":"67b0a19dd1acaba82903cd20","organization":{"id":"67b0a19dd1acaba82903cd20","name":{"tr":"BAUBFKK","en":""},"subtitle":{"tr":"Bahçeşehir Üniversitesi Bilim ve Fantastik Kurgu Kulübü","en":""},"avatarURL":"https://i.ibb.co/8g0c7V7S/image.png","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"baubfkk"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "Cosplay & Board Game",
+		"en": ""
+	},
+	"label": {
+		"tr": "",
+		"en": ""
+	},
+	"status": "cancelled",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "BAU Beşiktaş Güney Kampüsü",
+				"en": ""
+			},
+			"address": {
+				"addr": "Bahçeşehir Üniversitesi Beşiktaş Yıldız Beşiktaş İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-03-23"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {
+				"description": {
+					"tr": "En sevdiğiniz kurgusal karakterlerin kıyafetlerine bürünüp beraber favori kutu oyunlarınızı oynayabileceğiniz Cosplay ile Kutu Oyunu etkinliğimize hepiniz davetlisiniz.\n\n📆Tarih: 23 Mart Pazar / 13.00-20.00\n🏛Mekan: D Blok D406 Sınıfı\n\nKatılmak için cosplay yapmak ve katılım formunu doldurmanız zorunludur\n\n🎲🦹🏻‍♂️🦹🏼‍♀️\n\nYou’re all invited to our Cosplay & Board Game event, where you can dress up as your favorite fictional characters and enjoy playing your favorite board games together.\n\n📆Date: Sunday, March 23 / 1:00 PM – 8:00 PM\n🏛Place: D Block, Room D406\n\nTo participate, it is mandatory to wear a cosplay and fill out the participation form",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay",
+					"boardgame"
+				]
+			}
+		},
+		{
+			"type": "blue.deniz.events:age_restriction",
+			"data": {}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/1wptr9J/483307174-18299380495208060-8859125694918773173-n-jpg-stp-dst-jpg-e35-p1080x1080-sh0-08-tt6-nc-ht-in.jpg"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:pricing",
+			"data": {
+				"price": 0,
+				"label": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLSffE_uwyWPNpy_e7dmPo5_KpwFQO8Ypa5WyYvO8nVDg9lIPOw/viewform",
+				"disabled": true,
+				"name": {
+					"tr": "Katılım Formu",
+					"en": ""
+				},
+				"description": {
+					"tr": "KONTENJAN DOLDU",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLSeBjYMQa8KeYt1nv_7zrKcOtt9gpkdKiLNBl1T9ZGZUdEYD0g/viewform",
+				"disabled": true,
+				"name": {
+					"tr": "BAU BFKK Üye Bilgi Formu",
+					"en": ""
+				},
+				"description": {
+					"tr": "Daha önce BAU BFKK etkinliğine katılmamış kişiler doldurmalıdır",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "67cebbfd6eb77cc49a145abc",
+				"eventId": "67cebbfd6eb77cc49a145abb",
+				"organizationId": "67b0a19dd1acaba82903cd20",
+				"organization": {
+					"id": "67b0a19dd1acaba82903cd20",
+					"name": {
+						"tr": "BAUBFKK",
+						"en": ""
+					},
+					"subtitle": {
+						"tr": "Bahçeşehir Üniversitesi Bilim ve Fantastik Kurgu Kulübü",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/8g0c7V7S/image.png",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "baubfkk"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

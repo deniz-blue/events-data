@@ -1,1 +1,124 @@
-{"v":0,"name":{"tr":"Ants Fusion","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"İstanbul Kültür Üniversitesi","en":""},"address":{"addr":"İstanbul Kültür Üniversitesi Bakırköy İstanbul"}}],"instances":[{"venueIds":["0"],"start":"2025-05-08"}],"components":[{"type":"blue.deniz.events:description","data":{}},{"type":"blue.deniz.events:categories","data":{"categories":["tech","cosplay"]}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/3y9wbCzS/54a9cd8f8204.jpg"}]}}},{"type":"blue.deniz.events:pricing","data":{"price":0,"label":{"tr":"","en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"67dbe40a211373c16bd6aabf","eventId":"67dbe409211373c16bd6aabd","organizationId":"67dbe1be211373c16bd6aabb","organization":{"id":"67dbe1be211373c16bd6aabb","name":{"tr":"İKÜ Tasarım Fabrikası","en":""},"avatarURL":"https://i.ibb.co/JWpnbsy5/9b16e8f80fda.jpg","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"ikutasarimfabrikasi"}],"verified":false,"system":false}}},{"type":"blue.deniz.events:organizer","data":{"id":"67dbe40a211373c16bd6aabe","eventId":"67dbe409211373c16bd6aabd","organizationId":"67dbdee7211373c16bd6aaba","organization":{"id":"67dbdee7211373c16bd6aaba","name":{"tr":"Ants","en":""},"avatarURL":"https://i.ibb.co/c77LQKZ/465461578-863823825568657-8049399909352938912-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"antsplayzone"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "Ants Fusion",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "İstanbul Kültür Üniversitesi",
+				"en": ""
+			},
+			"address": {
+				"addr": "İstanbul Kültür Üniversitesi Bakırköy İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-05-08"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"tech",
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/3y9wbCzS/54a9cd8f8204.jpg"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:pricing",
+			"data": {
+				"price": 0,
+				"label": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "67dbe40a211373c16bd6aabf",
+				"eventId": "67dbe409211373c16bd6aabd",
+				"organizationId": "67dbe1be211373c16bd6aabb",
+				"organization": {
+					"id": "67dbe1be211373c16bd6aabb",
+					"name": {
+						"tr": "İKÜ Tasarım Fabrikası",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/JWpnbsy5/9b16e8f80fda.jpg",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "ikutasarimfabrikasi"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "67dbe40a211373c16bd6aabe",
+				"eventId": "67dbe409211373c16bd6aabd",
+				"organizationId": "67dbdee7211373c16bd6aaba",
+				"organization": {
+					"id": "67dbdee7211373c16bd6aaba",
+					"name": {
+						"tr": "Ants",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/c77LQKZ/465461578-863823825568657-8049399909352938912-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "antsplayzone"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

@@ -1,1 +1,116 @@
-{"v":0,"name":{"tr":"TROYCON Once Upon A Time","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"Çanakkale Onsekiz Mart Üniversitesi","en":""},"address":{"addr":"Çanakkale Merkez Çanakkale","countryCode":"TR"},"coordinates":{"lat":40.113443,"lng":26.4204704}}],"instances":[{"venueIds":["0"],"start":"2025-05-17T11:00"}],"components":[{"type":"blue.deniz.events:description","data":{}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay"]}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/xtmN44sB/491417006-18019146680694890-5186001593858056459-n-jpg-stp-dst-jpg-e15-fr-s1080x1080-tt6-nc-ht-instag.jpg"}]}}},{"type":"blue.deniz.events:pricing","data":{"price":0,"label":{"tr":"","en":""}}},{"type":"link","data":{"url":"https://www.instagram.com/p/DIj3RjuIbgj/","disabled":false,"name":{"tr":"Instagram Postu","en":""},"description":{"tr":"","en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"6818b22f66618a500ae7acae","eventId":"6818b22f66618a500ae7acac","organizationId":"6818b14e66618a500ae7acab","organization":{"id":"6818b14e66618a500ae7acab","name":{"tr":"ÇÖMÜ BİKFET","en":""},"avatarURL":"https://i.ibb.co/0pC7qFMS/279183556-1617382601971542-352093543264646121-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"comu_bikfet"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "TROYCON Once Upon A Time",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "Çanakkale Onsekiz Mart Üniversitesi",
+				"en": ""
+			},
+			"address": {
+				"addr": "Çanakkale Merkez Çanakkale",
+				"countryCode": "TR"
+			},
+			"coordinates": {
+				"lat": 40.113443,
+				"lng": 26.4204704
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-05-17T11:00"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/xtmN44sB/491417006-18019146680694890-5186001593858056459-n-jpg-stp-dst-jpg-e15-fr-s1080x1080-tt6-nc-ht-instag.jpg"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:pricing",
+			"data": {
+				"price": 0,
+				"label": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://www.instagram.com/p/DIj3RjuIbgj/",
+				"disabled": false,
+				"name": {
+					"tr": "Instagram Postu",
+					"en": ""
+				},
+				"description": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "6818b22f66618a500ae7acae",
+				"eventId": "6818b22f66618a500ae7acac",
+				"organizationId": "6818b14e66618a500ae7acab",
+				"organization": {
+					"id": "6818b14e66618a500ae7acab",
+					"name": {
+						"tr": "ÇÖMÜ BİKFET",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/0pC7qFMS/279183556-1617382601971542-352093543264646121-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "comu_bikfet"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

@@ -1,1 +1,188 @@
-{"v":0,"name":{"tr":"SailCon","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"Küçük Prens Gezi Yatları","en":""},"address":{"addr":"Beşiktaş İstanbul - Avrupa","countryCode":"TR"},"coordinates":{"lat":41.0645149,"lng":29.0411956}}],"instances":[{"venueIds":["0"],"start":"2025-07-05T11:00"}],"components":[{"type":"blue.deniz.events:description","data":{"description":{"tr":"Etkinlik Kuralları\n\n- Etkinliğimize 12 yaş ve üzeri katılımcılar alınıcaktır.\n\n- Etkinlikte sınırlı sayıda kontenjan vardır.\n\n- Etkinlikte kapıda bilet satışı olmayacaktır.\n\n- Etkinliğe giriş için online katılımcı formu doldurmak zorunludur.\n\n- Etkinlik alanı teknede olucağı için denize izmarit vb. çöp atmak yasaktır.\n\n- Gemide sigara içilmesi yasaktır.\n\n- Denize atlamak, denize karşı tehlikeli hareketlerde bulunmak (ittirmek vb.) davranışlarda bulunmayınız aksi takdirde sorumluluk bize ait değildir.\n\n- Etkinliğe insanlara zarar verilebilecek kesici,delici alet sokulması yasaktır.\n\n- Etkinlik alanında rahatsızlık veren, rahatsızlığa sebep olacak davranışlarda bulunanlar etkinliklikten atılacaktır.","en":""}}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay"]}},{"type":"blue.deniz.events:extra","data":{"cosplay:scope":"primary","cosplay:cloakroom":true}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/Z6MG2YcS/50226d11fa81.png"}]}}},{"type":"blue.deniz.events:pricing","data":{"price":300,"label":{"tr":"Etkinlik Bileti (Online)","en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLSefX_cJVzfAzekrsRSCEujsRwod3jaSF6ZY9wuZXw9dvB07LQ/viewform","disabled":false,"name":{"tr":"Katılımcı Formu","en":""},"description":{"en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLSd0wtHHLCEUCMujhJR1R8lrCK1gGjE8Nvq_wlt6ayB6nc1Xww/viewform","disabled":false,"name":{"tr":"Cosplay Yarışması Başvuru Formu","en":""},"description":{"en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLScbE4jAt9nxHKnZ-Y-1oOu2yRs-qsuhpl8lGfMw8r02lrmc1Q/viewform","disabled":true,"name":{"tr":"Stand Başvuru Formu","en":""},"description":{"tr":"1200 TL","en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLSdk-InaMWgGMX7SX1PUwToHnaK56CpQkEU-hOTRov5gSQ4WlQ/viewform","disabled":false,"name":{"tr":"After party kayıt formu","en":""},"description":{"en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"683afd75af1e8415ab696ddc","eventId":"683afd75af1e8415ab696dda","organizationId":"683afd2faf1e8415ab696dd8","organization":{"id":"683afd2faf1e8415ab696dd8","name":{"tr":"SailCon","en":""},"avatarURL":"https://i.ibb.co/VpCxBZ11/c7ff8aceb57b.jpg","userIds":["67531fec365c75460909de70","6851c2a3fd526f2d0520ae92"],"contacts":[{"type":"instagram","data":"sail.con"}],"verified":false,"system":false}}},{"type":"blue.deniz.events:announcement","data":{"id":"68679231e1316f6a42fbac36","eventId":"683afd75af1e8415ab696dda","title":{"tr":"AfterParty Biletleri","en":""},"message":{"tr":"AfterParty başvuru formu açılmıştır!\n18:00 - 20:00 | 50 kişi kontenjan | +18\n[Başvuru Formu](https://docs.google.com/forms/d/e/1FAIpQLSdk-InaMWgGMX7SX1PUwToHnaK56CpQkEU-hOTRov5gSQ4WlQ/viewform)","en":""},"hidden":false,"updatedAt":"2025-07-04T08:34:57.444Z"}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "SailCon",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "Küçük Prens Gezi Yatları",
+				"en": ""
+			},
+			"address": {
+				"addr": "Beşiktaş İstanbul - Avrupa",
+				"countryCode": "TR"
+			},
+			"coordinates": {
+				"lat": 41.0645149,
+				"lng": 29.0411956
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-07-05T11:00"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {
+				"description": {
+					"tr": "Etkinlik Kuralları\n\n- Etkinliğimize 12 yaş ve üzeri katılımcılar alınıcaktır.\n\n- Etkinlikte sınırlı sayıda kontenjan vardır.\n\n- Etkinlikte kapıda bilet satışı olmayacaktır.\n\n- Etkinliğe giriş için online katılımcı formu doldurmak zorunludur.\n\n- Etkinlik alanı teknede olucağı için denize izmarit vb. çöp atmak yasaktır.\n\n- Gemide sigara içilmesi yasaktır.\n\n- Denize atlamak, denize karşı tehlikeli hareketlerde bulunmak (ittirmek vb.) davranışlarda bulunmayınız aksi takdirde sorumluluk bize ait değildir.\n\n- Etkinliğe insanlara zarar verilebilecek kesici,delici alet sokulması yasaktır.\n\n- Etkinlik alanında rahatsızlık veren, rahatsızlığa sebep olacak davranışlarda bulunanlar etkinliklikten atılacaktır.",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "blue.deniz.events:extra",
+			"data": {
+				"cosplay:scope": "primary",
+				"cosplay:cloakroom": true
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/Z6MG2YcS/50226d11fa81.png"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:pricing",
+			"data": {
+				"price": 300,
+				"label": {
+					"tr": "Etkinlik Bileti (Online)",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLSefX_cJVzfAzekrsRSCEujsRwod3jaSF6ZY9wuZXw9dvB07LQ/viewform",
+				"disabled": false,
+				"name": {
+					"tr": "Katılımcı Formu",
+					"en": ""
+				},
+				"description": {
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLSd0wtHHLCEUCMujhJR1R8lrCK1gGjE8Nvq_wlt6ayB6nc1Xww/viewform",
+				"disabled": false,
+				"name": {
+					"tr": "Cosplay Yarışması Başvuru Formu",
+					"en": ""
+				},
+				"description": {
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLScbE4jAt9nxHKnZ-Y-1oOu2yRs-qsuhpl8lGfMw8r02lrmc1Q/viewform",
+				"disabled": true,
+				"name": {
+					"tr": "Stand Başvuru Formu",
+					"en": ""
+				},
+				"description": {
+					"tr": "1200 TL",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLSdk-InaMWgGMX7SX1PUwToHnaK56CpQkEU-hOTRov5gSQ4WlQ/viewform",
+				"disabled": false,
+				"name": {
+					"tr": "After party kayıt formu",
+					"en": ""
+				},
+				"description": {
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "683afd75af1e8415ab696ddc",
+				"eventId": "683afd75af1e8415ab696dda",
+				"organizationId": "683afd2faf1e8415ab696dd8",
+				"organization": {
+					"id": "683afd2faf1e8415ab696dd8",
+					"name": {
+						"tr": "SailCon",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/VpCxBZ11/c7ff8aceb57b.jpg",
+					"userIds": [
+						"67531fec365c75460909de70",
+						"6851c2a3fd526f2d0520ae92"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "sail.con"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:announcement",
+			"data": {
+				"id": "68679231e1316f6a42fbac36",
+				"eventId": "683afd75af1e8415ab696dda",
+				"title": {
+					"tr": "AfterParty Biletleri",
+					"en": ""
+				},
+				"message": {
+					"tr": "AfterParty başvuru formu açılmıştır!\n18:00 - 20:00 | 50 kişi kontenjan | +18\n[Başvuru Formu](https://docs.google.com/forms/d/e/1FAIpQLSdk-InaMWgGMX7SX1PUwToHnaK56CpQkEU-hOTRov5gSQ4WlQ/viewform)",
+					"en": ""
+				},
+				"hidden": false,
+				"updatedAt": "2025-07-04T08:34:57.444Z"
+			}
+		}
+	]
+}

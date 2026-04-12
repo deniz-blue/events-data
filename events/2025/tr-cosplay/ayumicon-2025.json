@@ -1,1 +1,97 @@
-{"v":0,"name":{"tr":"AyumiCon 2025","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"AYUMİ SUSHİ BAR","en":""},"address":{"addr":"Maltepe İstanbul","countryCode":"TR"},"coordinates":{"lat":40.9220672,"lng":29.1594093}}],"instances":[{"venueIds":["0"],"start":"2025-09-14T11:30"}],"components":[{"type":"blue.deniz.events:description","data":{}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay"]}},{"type":"blue.deniz.events:extra","data":{"cosplay:scope":"primary"}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/NnmnV7g7/9d476fa152f2.png"}]}}},{"type":"blue.deniz.events:organizer","data":{"id":"68b401cee1316f6a42fbac54","eventId":"68b401cee1316f6a42fbac52","organizationId":"68b40184e1316f6a42fbac50","organization":{"id":"68b40184e1316f6a42fbac50","name":{"tr":"Ayumi Sushi","en":""},"avatarURL":"https://i.ibb.co/0ygv315M/cd2de294748e.png","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"ayumisushi"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "AyumiCon 2025",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "AYUMİ SUSHİ BAR",
+				"en": ""
+			},
+			"address": {
+				"addr": "Maltepe İstanbul",
+				"countryCode": "TR"
+			},
+			"coordinates": {
+				"lat": 40.9220672,
+				"lng": 29.1594093
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-09-14T11:30"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "blue.deniz.events:extra",
+			"data": {
+				"cosplay:scope": "primary"
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/NnmnV7g7/9d476fa152f2.png"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "68b401cee1316f6a42fbac54",
+				"eventId": "68b401cee1316f6a42fbac52",
+				"organizationId": "68b40184e1316f6a42fbac50",
+				"organization": {
+					"id": "68b40184e1316f6a42fbac50",
+					"name": {
+						"tr": "Ayumi Sushi",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/0ygv315M/cd2de294748e.png",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "ayumisushi"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

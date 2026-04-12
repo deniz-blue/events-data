@@ -1,1 +1,139 @@
-{"v":0,"name":{"tr":"GUA FEST","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"BlackSwan Coffee Maltepe","en":""},"address":{"addr":"Maltepe İstanbul","countryCode":"TR"},"coordinates":{"lat":40.9150593,"lng":29.1583507}}],"instances":[{"venueIds":["0"],"start":"2025-09-20T10:00"}],"components":[{"type":"blue.deniz.events:description","data":{}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay"]}},{"type":"blue.deniz.events:extra","data":{"cosplay:scope":"primary"}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/N6zp78X7/f1df0d1fb408.png"}]}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLSfR2ESj_YPo7t6TGFDp8-d645seiJTmbIi8qg3Ui78D2JJv1w/viewform","disabled":false,"name":{"tr":"Katılımcı Formu","en":""},"description":{"en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLScT1AYhZbuxsSPcj0uRB6DthpnBD1Wyg3Pjnj-XWzN9XQi6Cw/viewform","disabled":false,"name":{"tr":"COSPLAY YARIŞMASI","en":""},"description":{"en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLSdXpEMfWLcUMndmEEkmtfkq1PrtmjipkE1qXMLfyNIiahjvqw/viewform","disabled":false,"name":{"tr":"Stant Formu","en":""},"description":{"tr":"1000 TL","en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"68b3f86de1316f6a42fbac47","eventId":"68b3f86de1316f6a42fbac45","organizationId":"68b3f7c3e1316f6a42fbac43","organization":{"id":"68b3f7c3e1316f6a42fbac43","name":{"tr":"GUA FEST","en":""},"userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"gua_fest"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "GUA FEST",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "BlackSwan Coffee Maltepe",
+				"en": ""
+			},
+			"address": {
+				"addr": "Maltepe İstanbul",
+				"countryCode": "TR"
+			},
+			"coordinates": {
+				"lat": 40.9150593,
+				"lng": 29.1583507
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-09-20T10:00"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "blue.deniz.events:extra",
+			"data": {
+				"cosplay:scope": "primary"
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/N6zp78X7/f1df0d1fb408.png"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLSfR2ESj_YPo7t6TGFDp8-d645seiJTmbIi8qg3Ui78D2JJv1w/viewform",
+				"disabled": false,
+				"name": {
+					"tr": "Katılımcı Formu",
+					"en": ""
+				},
+				"description": {
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLScT1AYhZbuxsSPcj0uRB6DthpnBD1Wyg3Pjnj-XWzN9XQi6Cw/viewform",
+				"disabled": false,
+				"name": {
+					"tr": "COSPLAY YARIŞMASI",
+					"en": ""
+				},
+				"description": {
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLSdXpEMfWLcUMndmEEkmtfkq1PrtmjipkE1qXMLfyNIiahjvqw/viewform",
+				"disabled": false,
+				"name": {
+					"tr": "Stant Formu",
+					"en": ""
+				},
+				"description": {
+					"tr": "1000 TL",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "68b3f86de1316f6a42fbac47",
+				"eventId": "68b3f86de1316f6a42fbac45",
+				"organizationId": "68b3f7c3e1316f6a42fbac43",
+				"organization": {
+					"id": "68b3f7c3e1316f6a42fbac43",
+					"name": {
+						"tr": "GUA FEST",
+						"en": ""
+					},
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "gua_fest"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

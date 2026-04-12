@@ -1,1 +1,167 @@
-{"v":0,"name":{"tr":"Sakura Festival","en":""},"label":{"tr":"","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"Sabancı Üniversitesi","en":""},"address":{"addr":"Sabancı Üniversitesi Tuzla İstanbul"}}],"instances":[{"venueIds":["0"],"start":"2025-04-12T15:00"}],"components":[{"type":"blue.deniz.events:description","data":{"description":{"tr":"## 🌸 Sakura Festivali\n\n⚠️ Cosplay yarışması iptal edilmiştir. Cosplay ile etkinliğimize katılabilirsiniz.\n\n---\n\nSabancı Üniversitesi olarak geçtiğimiz yıl ilkini düzenlediğimiz Sakura Festivali'nin ikincisini bu yıl 12 Nisan Cumartesi günü Tuzla Kampüsümüzde\ngerçekleştiriyoruz. Türkiye’nin en büyük Sakura ağacı popülasyonuna sahip olan Tuzla Kampüsümüzde bulunan yaklaşık 2.000 Sakura ağacının\nçiçeklerini izleme ve bu güzelliği kutlamak için sizlerle bir araya gelecek olmaktan mutluluk duyuyoruz.\n\nJapon kültüründe yeniden doğuşu simgeleyen Sakura ağaçlarının çiçekleriyle süslendiği festival “Geleceğe Söz Ver” Burs Programı kapsamında\nSabancı Üniversitesi’nde eğitim gören başarılı ve ihtiyaç sahibi gençlere başarılarını sürdürme konusunda destek sağlayacak bir kaynak da yaratmış olacak.\n\n### Etkinlik Programı\n\n**GÜN BOYU**\n15:00 - 19:00 Cosplay Performansı \n15:00 - 19:00 Yeme-içme/Satış ve tanıtım stantları\n15:00 - 19:00 Oyunlar\n\n**KART OYUNU TURNUVASI**\nDüzenleyen: [@pokot.tr](https://instagram.com/pokot.tr)\n14:00 - Pokemon TCG Turnuvası\n17:00 - One Piece TCG Turnuvası\n[Katılım formu ve daha fazla bilgi](https://docs.google.com/forms/d/e/1FAIpQLSdm6sMo-3tGk0qxXfWI_OPLhrYWaOJJUoksX6AEgndlJUxauA/viewform?usp=send_form)\n\n**WORKSHOPLAR**\n15:00 - 16:00 Manga Atölyesi\n15:00 - 16:00 Sumi-e Atölyesi (Japon resim sanatı)\n15:30-16:30 Sushi Atölyesi\n16:00-17:00 Parfüm/Esans Atölyesi\n16:15 -17:15 Shodo Atölyesi (Japon kaligrafi sanatı)\n16:15 -17:15 Manga Atölyesi\n17:30 - 18:30 Manga Atölyesi\n17:30 - 18:30 Sumi-e Atölyesi (Japon resim sanatı)\n15:00 - 19:00 Test Sürüşü\n\n**AÇIK HAVA KONSERLERİ**\n17:00 - 18:00 Canlı Müzik Performansı\n18:00 - 19:00 DJ Hey Douglas & Bir Adım Var Vakfı & Koto Konseri \n\n## Kampüse Ulaşım\n\n**Standart Dışı Shuttle - Gidiş (70 TL)**\n| Shuttle | Saat | Kalkış |\n| --- | --- | --- |\n| 4. Levent | 13:30 | Büyükdere Caddesi üzerindeki İstanbul Sapphire AVM girişinin 150 metre önündeki [4. Levent İETT durağı](https://maps.app.goo.gl/SAegAKq5kgtx2iGC7) - Kavacık köprüsü bağlantılıdır, ilk duraktan hareket ettikten 5-10 dk sonra Kavacık durağından hareket etmektedir. FSM köprüsünü kullanmaktadır|\n| Kadıköy | 13:30 | Rıhtım Otel'in yanında bulunan kitapçının önü - yaklaşık 20 dakika sonra; Kozyatağı Carrefour otopark çıkışının karşısında bulunan GADA CAFE'den (eski Smit Sarayı) hareket etmektedir |\n| Marmaray İçmeler | 14:30 | İçmeler istasyon camii'nin yanındaki merdivenlerden Ankara Caddesi yönünde yukarı çıktıktan sonra yolun karşısındaki binanın otopark girişi |\n\n**Standart Dışı Shuttle - Geliş (70TL)**\n\n| Saat | Gittiği Yer |\n| --- | --- |\n| 21:30 | Marmaray İçmeler |\n| 21:30 | Kurtköy Metro |\n\n**İETT**\n- **KM18** - Kurtköy Metro - Sabancı Üni. (Pendik)\n- **133Ü** - Gazi Bulvarı - Pendik (Pendik/Tuzla)\n- **132B** - Akfırat Evleri - Kartal Metro (Kartal/Pendik/Tuzla)\n\n**Standart Shuttle (70TL)**\n[Standart Kampüs Shuttle seferleri](https://www.sabanciuniv.edu/tr/kampus-shuttle-seferleri)\n\n---\n\nGörüşmek üzere!\n\n\n","en":""}}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay","workshop","festival"]}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/WN22zRCz/6d69f1cac463.png"}]}}},{"type":"blue.deniz.events:pricing","data":{"price":0,"label":{"tr":"","en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/162Ln67wYzbva5fydLKsrPTW_fI2g7UrcaY-rEIRrBa8/viewform?edit_requested=true","disabled":false,"name":{"tr":"Katılım Formu","en":""},"description":{"tr":"Etkinliğe katılmak için doldurulmalıdır","en":""}}},{"type":"link","data":{"url":"https://docs.google.com/forms/d/e/1FAIpQLSdjpj7zG59EuKRHAChA8Q_Jji-8KEIrYk48XNAjAN0bqPw6RQ/viewform","disabled":false,"name":{"tr":"Yarışma Katılım Formu","en":""},"description":{"tr":"","en":""}}},{"type":"link","data":{"url":"https://gelecegesozver.sabanciuniv.edu/tr/ulasim","disabled":false,"name":{"tr":"Mekana Ulaşım Bilgisi","en":""},"description":{"tr":"4. Levent / Kadıköy / İçmeler Shuttle vb.","en":""}}},{"type":"link","data":{"url":"https://www.biletix.com/performance/4FUAA/001/TURKIYE/tr","disabled":false,"name":{"tr":"Fazıl Say Konser Bileti","en":""},"description":{"tr":"2600~ TL / Biletix","en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"67d45aedc82172eae2c8cd25","eventId":"67d45aedc82172eae2c8cd24","organizationId":"67d455f6c82172eae2c8cd21","organization":{"id":"67d455f6c82172eae2c8cd21","name":{"tr":"SUTJEK","en":""},"avatarURL":"https://i.ibb.co/LXL0DKSG/41579859-2005917072834346-5362415386593591296-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-1.jpg","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"sutjek"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "Sakura Festival",
+		"en": ""
+	},
+	"label": {
+		"tr": "",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "Sabancı Üniversitesi",
+				"en": ""
+			},
+			"address": {
+				"addr": "Sabancı Üniversitesi Tuzla İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-04-12T15:00"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {
+				"description": {
+					"tr": "## 🌸 Sakura Festivali\n\n⚠️ Cosplay yarışması iptal edilmiştir. Cosplay ile etkinliğimize katılabilirsiniz.\n\n---\n\nSabancı Üniversitesi olarak geçtiğimiz yıl ilkini düzenlediğimiz Sakura Festivali'nin ikincisini bu yıl 12 Nisan Cumartesi günü Tuzla Kampüsümüzde\ngerçekleştiriyoruz. Türkiye’nin en büyük Sakura ağacı popülasyonuna sahip olan Tuzla Kampüsümüzde bulunan yaklaşık 2.000 Sakura ağacının\nçiçeklerini izleme ve bu güzelliği kutlamak için sizlerle bir araya gelecek olmaktan mutluluk duyuyoruz.\n\nJapon kültüründe yeniden doğuşu simgeleyen Sakura ağaçlarının çiçekleriyle süslendiği festival “Geleceğe Söz Ver” Burs Programı kapsamında\nSabancı Üniversitesi’nde eğitim gören başarılı ve ihtiyaç sahibi gençlere başarılarını sürdürme konusunda destek sağlayacak bir kaynak da yaratmış olacak.\n\n### Etkinlik Programı\n\n**GÜN BOYU**\n15:00 - 19:00 Cosplay Performansı \n15:00 - 19:00 Yeme-içme/Satış ve tanıtım stantları\n15:00 - 19:00 Oyunlar\n\n**KART OYUNU TURNUVASI**\nDüzenleyen: [@pokot.tr](https://instagram.com/pokot.tr)\n14:00 - Pokemon TCG Turnuvası\n17:00 - One Piece TCG Turnuvası\n[Katılım formu ve daha fazla bilgi](https://docs.google.com/forms/d/e/1FAIpQLSdm6sMo-3tGk0qxXfWI_OPLhrYWaOJJUoksX6AEgndlJUxauA/viewform?usp=send_form)\n\n**WORKSHOPLAR**\n15:00 - 16:00 Manga Atölyesi\n15:00 - 16:00 Sumi-e Atölyesi (Japon resim sanatı)\n15:30-16:30 Sushi Atölyesi\n16:00-17:00 Parfüm/Esans Atölyesi\n16:15 -17:15 Shodo Atölyesi (Japon kaligrafi sanatı)\n16:15 -17:15 Manga Atölyesi\n17:30 - 18:30 Manga Atölyesi\n17:30 - 18:30 Sumi-e Atölyesi (Japon resim sanatı)\n15:00 - 19:00 Test Sürüşü\n\n**AÇIK HAVA KONSERLERİ**\n17:00 - 18:00 Canlı Müzik Performansı\n18:00 - 19:00 DJ Hey Douglas & Bir Adım Var Vakfı & Koto Konseri \n\n## Kampüse Ulaşım\n\n**Standart Dışı Shuttle - Gidiş (70 TL)**\n| Shuttle | Saat | Kalkış |\n| --- | --- | --- |\n| 4. Levent | 13:30 | Büyükdere Caddesi üzerindeki İstanbul Sapphire AVM girişinin 150 metre önündeki [4. Levent İETT durağı](https://maps.app.goo.gl/SAegAKq5kgtx2iGC7) - Kavacık köprüsü bağlantılıdır, ilk duraktan hareket ettikten 5-10 dk sonra Kavacık durağından hareket etmektedir. FSM köprüsünü kullanmaktadır|\n| Kadıköy | 13:30 | Rıhtım Otel'in yanında bulunan kitapçının önü - yaklaşık 20 dakika sonra; Kozyatağı Carrefour otopark çıkışının karşısında bulunan GADA CAFE'den (eski Smit Sarayı) hareket etmektedir |\n| Marmaray İçmeler | 14:30 | İçmeler istasyon camii'nin yanındaki merdivenlerden Ankara Caddesi yönünde yukarı çıktıktan sonra yolun karşısındaki binanın otopark girişi |\n\n**Standart Dışı Shuttle - Geliş (70TL)**\n\n| Saat | Gittiği Yer |\n| --- | --- |\n| 21:30 | Marmaray İçmeler |\n| 21:30 | Kurtköy Metro |\n\n**İETT**\n- **KM18** - Kurtköy Metro - Sabancı Üni. (Pendik)\n- **133Ü** - Gazi Bulvarı - Pendik (Pendik/Tuzla)\n- **132B** - Akfırat Evleri - Kartal Metro (Kartal/Pendik/Tuzla)\n\n**Standart Shuttle (70TL)**\n[Standart Kampüs Shuttle seferleri](https://www.sabanciuniv.edu/tr/kampus-shuttle-seferleri)\n\n---\n\nGörüşmek üzere!\n\n\n",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay",
+					"workshop",
+					"festival"
+				]
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/WN22zRCz/6d69f1cac463.png"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:pricing",
+			"data": {
+				"price": 0,
+				"label": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/162Ln67wYzbva5fydLKsrPTW_fI2g7UrcaY-rEIRrBa8/viewform?edit_requested=true",
+				"disabled": false,
+				"name": {
+					"tr": "Katılım Formu",
+					"en": ""
+				},
+				"description": {
+					"tr": "Etkinliğe katılmak için doldurulmalıdır",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://docs.google.com/forms/d/e/1FAIpQLSdjpj7zG59EuKRHAChA8Q_Jji-8KEIrYk48XNAjAN0bqPw6RQ/viewform",
+				"disabled": false,
+				"name": {
+					"tr": "Yarışma Katılım Formu",
+					"en": ""
+				},
+				"description": {
+					"tr": "",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://gelecegesozver.sabanciuniv.edu/tr/ulasim",
+				"disabled": false,
+				"name": {
+					"tr": "Mekana Ulaşım Bilgisi",
+					"en": ""
+				},
+				"description": {
+					"tr": "4. Levent / Kadıköy / İçmeler Shuttle vb.",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://www.biletix.com/performance/4FUAA/001/TURKIYE/tr",
+				"disabled": false,
+				"name": {
+					"tr": "Fazıl Say Konser Bileti",
+					"en": ""
+				},
+				"description": {
+					"tr": "2600~ TL / Biletix",
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "67d45aedc82172eae2c8cd25",
+				"eventId": "67d45aedc82172eae2c8cd24",
+				"organizationId": "67d455f6c82172eae2c8cd21",
+				"organization": {
+					"id": "67d455f6c82172eae2c8cd21",
+					"name": {
+						"tr": "SUTJEK",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/LXL0DKSG/41579859-2005917072834346-5362415386593591296-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-1.jpg",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "sutjek"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

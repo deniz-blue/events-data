@@ -1,1 +1,103 @@
-{"v":0,"name":{"tr":"Vibe Festival","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"Kamelya Kır Bahçesi","en":""},"address":{"addr":"Keçiören Ankara","countryCode":"TR"},"coordinates":{"lat":40.0723127,"lng":32.8277153}}],"instances":[{"venueIds":["0"],"start":"2025-09-06T13:00"},{"venueIds":["0"],"start":"2025-09-06T20:00"}],"components":[{"type":"blue.deniz.events:description","data":{}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay"]}},{"type":"blue.deniz.events:extra","data":{"cosplay:scope":"primary"}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/7d8CXVc3/3359a89a2338.png"}]}}},{"type":"blue.deniz.events:organizer","data":{"id":"68b4012ce1316f6a42fbac4e","eventId":"68b4012ce1316f6a42fbac4b","organizationId":"68b4004ee1316f6a42fbac49","organization":{"id":"68b4004ee1316f6a42fbac49","name":{"tr":"Vibe Festival","en":""},"avatarURL":"https://i.ibb.co/d0ZpXbsv/520230544-17844392793531983-1183001696885958183-n-jpg-stp-dst-jpg-s150x150-tt6-efg-ey-J2-ZW5jb2-Rl-X.jpg","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"agencyofvibe"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "Vibe Festival",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "Kamelya Kır Bahçesi",
+				"en": ""
+			},
+			"address": {
+				"addr": "Keçiören Ankara",
+				"countryCode": "TR"
+			},
+			"coordinates": {
+				"lat": 40.0723127,
+				"lng": 32.8277153
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-09-06T13:00"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-09-06T20:00"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "blue.deniz.events:extra",
+			"data": {
+				"cosplay:scope": "primary"
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/7d8CXVc3/3359a89a2338.png"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "68b4012ce1316f6a42fbac4e",
+				"eventId": "68b4012ce1316f6a42fbac4b",
+				"organizationId": "68b4004ee1316f6a42fbac49",
+				"organization": {
+					"id": "68b4004ee1316f6a42fbac49",
+					"name": {
+						"tr": "Vibe Festival",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/d0ZpXbsv/520230544-17844392793531983-1183001696885958183-n-jpg-stp-dst-jpg-s150x150-tt6-efg-ey-J2-ZW5jb2-Rl-X.jpg",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "agencyofvibe"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}

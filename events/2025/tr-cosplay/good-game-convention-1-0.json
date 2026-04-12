@@ -1,1 +1,127 @@
-{"v":0,"name":{"tr":"Good Game Convention 1.0","en":""},"status":"planned","venues":[{"id":"0","type":"physical","name":{"tr":"Yenikapı Kadir Topbaş Gösteri Merkezi","en":""},"address":{"addr":"Fatih İstanbul","countryCode":"TR"},"coordinates":{"lat":40.9993464,"lng":28.9435425}}],"instances":[{"venueIds":["0"],"start":"2026-01-30"},{"venueIds":["0"],"start":"2026-01-31"},{"venueIds":["0"],"start":"2026-02-01"}],"components":[{"type":"blue.deniz.events:description","data":{}},{"type":"blue.deniz.events:categories","data":{"categories":["cosplay"]}},{"type":"blue.deniz.events:extra","data":{"cosplay:cloakroom":true}},{"type":"splashMedia","data":{"roles":["background","poster"],"media":{"sources":[{"url":"https://i.ibb.co/9mcst0qF/2567926ef433.png"}]}}},{"type":"link","data":{"url":"https://ggconvention.com","disabled":false,"name":{"tr":"Websitesi","en":""},"description":{"en":""}}},{"type":"blue.deniz.events:organizer","data":{"id":"68593ffceae332820a31074e","eventId":"68593ffceae332820a31074a","organizationId":"68593ef3eae332820a310748","organization":{"id":"68593ef3eae332820a310748","name":{"tr":"GG Convention","en":""},"avatarURL":"https://i.ibb.co/k6J38Kp3/add231bce5b7.png","userIds":["67531fec365c75460909de70"],"contacts":[{"type":"instagram","data":"gg.convention"},{"type":"website","data":"https://ggconvention.com"}],"verified":false,"system":false}}}]}
+{
+	"v": 0,
+	"name": {
+		"tr": "Good Game Convention 1.0",
+		"en": ""
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"id": "0",
+			"type": "physical",
+			"name": {
+				"tr": "Yenikapı Kadir Topbaş Gösteri Merkezi",
+				"en": ""
+			},
+			"address": {
+				"addr": "Fatih İstanbul",
+				"countryCode": "TR"
+			},
+			"coordinates": {
+				"lat": 40.9993464,
+				"lng": 28.9435425
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2026-01-30"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2026-01-31"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2026-02-01"
+		}
+	],
+	"components": [
+		{
+			"type": "blue.deniz.events:description",
+			"data": {}
+		},
+		{
+			"type": "blue.deniz.events:categories",
+			"data": {
+				"categories": [
+					"cosplay"
+				]
+			}
+		},
+		{
+			"type": "blue.deniz.events:extra",
+			"data": {
+				"cosplay:cloakroom": true
+			}
+		},
+		{
+			"type": "splashMedia",
+			"data": {
+				"roles": [
+					"background",
+					"poster"
+				],
+				"media": {
+					"sources": [
+						{
+							"url": "https://i.ibb.co/9mcst0qF/2567926ef433.png"
+						}
+					]
+				}
+			}
+		},
+		{
+			"type": "link",
+			"data": {
+				"url": "https://ggconvention.com",
+				"disabled": false,
+				"name": {
+					"tr": "Websitesi",
+					"en": ""
+				},
+				"description": {
+					"en": ""
+				}
+			}
+		},
+		{
+			"type": "blue.deniz.events:organizer",
+			"data": {
+				"id": "68593ffceae332820a31074e",
+				"eventId": "68593ffceae332820a31074a",
+				"organizationId": "68593ef3eae332820a310748",
+				"organization": {
+					"id": "68593ef3eae332820a310748",
+					"name": {
+						"tr": "GG Convention",
+						"en": ""
+					},
+					"avatarURL": "https://i.ibb.co/k6J38Kp3/add231bce5b7.png",
+					"userIds": [
+						"67531fec365c75460909de70"
+					],
+					"contacts": [
+						{
+							"type": "instagram",
+							"data": "gg.convention"
+						},
+						{
+							"type": "website",
+							"data": "https://ggconvention.com"
+						}
+					],
+					"verified": false,
+					"system": false
+				}
+			}
+		}
+	]
+}
