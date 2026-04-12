@@ -1,103 +1,101 @@
 {
-	"v": 0,
-	"name": {
-		"en": "LT Game Jam 2026"
-	},
-	"venues": [
-		{
-			"id": "Online",
-			"type": "online",
-			"name": {
-				"en": "LT GameJam"
-			},
-			"url": "https://discord.com/invite/a9HNHQGhA4"
-		},
-		{
-			"id": "VilniusLibrary",
-			"type": "physical",
-			"name": {
-				"en": "Martynas Mažvydas National Library of Lithuania"
-			},
-			"address": {
-				"addr": "Gedimino pr. 51, Vilnius, 01109 Vilniaus m. sav.",
-				"countryCode": "LT",
-				"postalCode": "01109"
-			}
-		},
-		{
-			"id": "KulturosFabrikas",
-			"type": "physical",
-			"name": {
-				"en": "Culture Factory",
-				"lt": "Kultūros Fabrikas"
-			},
-			"address": {
-				"addr": "Bangų g. 5A, Klaipėda, 91250 Klaipėdos m. sav.",
-				"countryCode": "LT",
-				"postalCode": "91250"
-			}
-		},
-		{
-			"id": "SiauliuValstybineKolegija",
-			"type": "physical",
-			"name": {
-				"lt": "Šiaulių valstybinė kolegija"
-			},
-			"address": {
-				"addr": "Aušros al. 40, Šiauliai, 76241 Šiaulių m. sav.",
-				"countryCode": "LT",
-				"postalCode": "76241"
-			}
-		},
-		{
-			"id": "KaunoTechnologijuUniversitetas",
-			"type": "physical",
-			"name": {
-				"lt": "Kauno Technologijos Universitetas"
-			},
-			"address": {
-				"addr": "K. Baršausko g. 59, Kaunas, 51423 Kauno m. sav.",
-				"countryCode": "LT",
-				"postalCode": "51423"
-			}
-		},
-		{
-			"id": "RoboLabas",
-			"type": "physical",
-			"name": {
-				"lt": "Robotikos centras \"RoboLabas\""
-			},
-			"address": {
-				"addr": "Kniaudiškių g. 40, Panevėžys, 37119 Panevėžio m. sav.",
-				"countryCode": "LT",
-				"postalCode": "37119"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"VilniusLibrary",
-				"Online",
-				"KulturosFabrikas",
-				"SiauliuValstybineKolegija",
-				"KaunoTechnologijuUniversitetas",
-				"RoboLabas"
-			],
-			"start": "2026-01-30T16:00",
-			"end": "2026-02-01T17:00"
-		}
-	],
-	"components": [
-		{
-			"type": "link",
-			"data": {
-				"url": "https://www.gamejam.lt/",
-				"name": {
-					"en": "Homepage"
-				},
-				"disabled": false
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "en": "LT Game Jam 2026"
+  },
+  "venues": [
+    {
+      "id": "Online",
+      "name": {
+        "en": "LT GameJam"
+      },
+      "url": "https://discord.com/invite/a9HNHQGhA4",
+      "$type": "directory.evnt.venue.online"
+    },
+    {
+      "id": "VilniusLibrary",
+      "name": {
+        "en": "Martynas Mažvydas National Library of Lithuania"
+      },
+      "address": {
+        "addr": "Gedimino pr. 51, Vilnius, 01109 Vilniaus m. sav.",
+        "countryCode": "LT",
+        "postalCode": "01109"
+      },
+      "$type": "directory.evnt.venue.physical"
+    },
+    {
+      "id": "KulturosFabrikas",
+      "name": {
+        "en": "Culture Factory",
+        "lt": "Kultūros Fabrikas"
+      },
+      "address": {
+        "addr": "Bangų g. 5A, Klaipėda, 91250 Klaipėdos m. sav.",
+        "countryCode": "LT",
+        "postalCode": "91250"
+      },
+      "$type": "directory.evnt.venue.physical"
+    },
+    {
+      "id": "SiauliuValstybineKolegija",
+      "name": {
+        "lt": "Šiaulių valstybinė kolegija"
+      },
+      "address": {
+        "addr": "Aušros al. 40, Šiauliai, 76241 Šiaulių m. sav.",
+        "countryCode": "LT",
+        "postalCode": "76241"
+      },
+      "$type": "directory.evnt.venue.physical"
+    },
+    {
+      "id": "KaunoTechnologijuUniversitetas",
+      "name": {
+        "lt": "Kauno Technologijos Universitetas"
+      },
+      "address": {
+        "addr": "K. Baršausko g. 59, Kaunas, 51423 Kauno m. sav.",
+        "countryCode": "LT",
+        "postalCode": "51423"
+      },
+      "$type": "directory.evnt.venue.physical"
+    },
+    {
+      "id": "RoboLabas",
+      "name": {
+        "lt": "Robotikos centras \"RoboLabas\""
+      },
+      "address": {
+        "addr": "Kniaudiškių g. 40, Panevėžys, 37119 Panevėžio m. sav.",
+        "countryCode": "LT",
+        "postalCode": "37119"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "VilniusLibrary",
+        "Online",
+        "KulturosFabrikas",
+        "SiauliuValstybineKolegija",
+        "KaunoTechnologijuUniversitetas",
+        "RoboLabas"
+      ],
+      "start": "2026-01-30T18:00[Europe/Vilnius]",
+      "end": "2026-02-01T19:00[Europe/Vilnius]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://www.gamejam.lt/",
+      "name": {
+        "en": "Homepage"
+      },
+      "disabled": false
+    }
+  ]
 }

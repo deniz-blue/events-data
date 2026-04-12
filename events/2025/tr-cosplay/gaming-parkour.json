@@ -1,93 +1,69 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "Gaming Parkour",
-		"en": ""
-	},
-	"label": {
-		"tr": "",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "ESA Arena",
-				"en": ""
-			},
-			"address": {
-				"addr": "ESA Espor Arena Maslak Sarıyer İstanbul"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2024-11-23T14:00"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 0,
-				"label": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "67892a5ba69aca0847bfcfb2",
-				"eventId": "6756a5a12bf5c55499b37875",
-				"organizationId": "6756a4d42bf5c55499b37873",
-				"organization": {
-					"id": "6756a4d42bf5c55499b37873",
-					"name": {
-						"tr": "Deniz'in Etkinlik Sitesi",
-						"en": ""
-					},
-					"subtitle": {
-						"tr": "Sistem",
-						"en": ""
-					},
-					"description": {
-						"tr": "",
-						"en": ""
-					},
-					"avatarURL": "https://events.deniz.blue/favicon.ico",
-					"userIds": [
-						"67531fec365c75460909de70",
-						"67925c94c7e6b1dc652db050"
-					],
-					"contacts": [],
-					"verified": false,
-					"system": true
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "Gaming Parkour"
+  },
+  "label": {},
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "ESA Arena"
+      },
+      "address": {
+        "addr": "ESA Espor Arena Maslak Sarıyer İstanbul"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2024-11-23T17:00[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description",
+      "description": {}
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 0,
+      "label": {}
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "67892a5ba69aca0847bfcfb2",
+      "eventId": "6756a5a12bf5c55499b37875",
+      "organizationId": "6756a4d42bf5c55499b37873",
+      "organization": {
+        "id": "6756a4d42bf5c55499b37873",
+        "name": {
+          "tr": "Deniz'in Etkinlik Sitesi"
+        },
+        "subtitle": {
+          "tr": "Sistem"
+        },
+        "description": {},
+        "avatarURL": "https://events.deniz.blue/favicon.ico",
+        "userIds": [
+          "67531fec365c75460909de70",
+          "67925c94c7e6b1dc652db050"
+        ],
+        "contacts": [],
+        "verified": false,
+        "system": true
+      }
+    }
+  ]
 }

@@ -1,113 +1,85 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "Mini-YUCON: Apocolyapse",
-		"en": ""
-	},
-	"label": {
-		"tr": "",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Yeditepe Üniversitesi",
-				"en": ""
-			},
-			"address": {
-				"addr": "Ataşehir İstanbul"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2024-12-14T10:00"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://scontent-cph2-1.cdninstagram.com/v/t51.29350-15/469595689_1382347432729091_4870362017387604213_n.heic?stp=c288.0.864.864a_dst-jpg_s640x640_tt6&_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=55oJWKQ5lRUQ7kNvgHcS6mJ&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=AkmFkWp9lGwfaTOTHh6n-Ob&oh=00_AYDGbm12xbhNU_TZRWn0GIk1uVoGpX3AX1Myu_rUxeSAwQ&oe=675DFE52"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 0,
-				"label": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "67892a12a69aca0847bfcfae",
-				"eventId": "6756e3876150dc57244e1238",
-				"organizationId": "6756c2f7c1a962e2a669fc77",
-				"organization": {
-					"id": "6756c2f7c1a962e2a669fc77",
-					"name": {
-						"tr": "Yeditepe Üni. Bilim Kurgu Kulübü",
-						"en": ""
-					},
-					"subtitle": {
-						"tr": "",
-						"en": ""
-					},
-					"description": {
-						"tr": "",
-						"en": ""
-					},
-					"avatarURL": "https://i.imgur.com/GfLVEIa.png",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "yeditepebilimkurgu"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "Mini-YUCON: Apocolyapse"
+  },
+  "label": {},
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Yeditepe Üniversitesi"
+      },
+      "address": {
+        "addr": "Ataşehir İstanbul"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2024-12-14T13:00[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description",
+      "description": {}
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://scontent-cph2-1.cdninstagram.com/v/t51.29350-15/469595689_1382347432729091_4870362017387604213_n.heic?stp=c288.0.864.864a_dst-jpg_s640x640_tt6&_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=55oJWKQ5lRUQ7kNvgHcS6mJ&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=AkmFkWp9lGwfaTOTHh6n-Ob&oh=00_AYDGbm12xbhNU_TZRWn0GIk1uVoGpX3AX1Myu_rUxeSAwQ&oe=675DFE52"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 0,
+      "label": {}
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "67892a12a69aca0847bfcfae",
+      "eventId": "6756e3876150dc57244e1238",
+      "organizationId": "6756c2f7c1a962e2a669fc77",
+      "organization": {
+        "id": "6756c2f7c1a962e2a669fc77",
+        "name": {
+          "tr": "Yeditepe Üni. Bilim Kurgu Kulübü"
+        },
+        "subtitle": {},
+        "description": {},
+        "avatarURL": "https://i.imgur.com/GfLVEIa.png",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "yeditepebilimkurgu"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

@@ -1,131 +1,107 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "YUCON: Federation",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Yeditepe Üniversitesi",
-				"en": ""
-			},
-			"address": {
-				"addr": "Ataşehir İstanbul",
-				"countryCode": "TR"
-			},
-			"coordinates": {
-				"lat": 40.9719767,
-				"lng": 29.1522123
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-08-16"
-		},
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-08-17"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {
-				"description": {
-					"tr": "**YUCON Federation**‘da cosplay tutkunları buluşuyor!\n\n16-17 Ağustos’ta [Yeditepe Üniversitesi kampüsünde](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) en sevdiğiniz karakterlerin kostümünü giyip büyülü bir atmosferin parçası olun!\n\nBilim Kurgu, FRP, MTG, Kutu Oyunları ve daha fazlası! Kostüm yarışmaları, fotoğraf çekimleri, yeni arkadaşlıklar ve unutulmaz anılar sizi bekliyor. Hem deneyimli cosplayerlar hem de ilk kez deneyecekler için mükemmel bir ortam! ✨\n\nKarakterinizi seçin, kostümünüzü hazırlayın ve bu eşsiz deneyimin parçası olun! 🚀",
-					"en": "Cosplay enthusiasts unite at **YUCON Federation**!\n\nJoin us on August 16-17 at [Yeditepe University campus](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) and become part of a magical atmosphere wearing your favorite character costumes!\n\nSci-Fi, RPG, MTG, Board Games and much more! Costume contests, photo shoots, new friendships and unforgettable memories await you. Perfect environment for both experienced cosplayers and first-timers! ✨\n\nChoose your character, prepare your costume and be part of this unique experience! 🚀"
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "blue.deniz.events:extra",
-			"data": {
-				"cosplay:scope": "primary",
-				"cosplay:cloakroom": true
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.ibb.co/gZL4PvxR/f30765e3495d.png"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://www.instagram.com/p/DKuuZBKIjX5/",
-				"disabled": false,
-				"name": {
-					"tr": "Instagram Postu",
-					"en": ""
-				},
-				"description": {
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "684c62c71e05527d40a589b1",
-				"eventId": "684c62c71e05527d40a589ae",
-				"organizationId": "6756c2f7c1a962e2a669fc77",
-				"organization": {
-					"id": "6756c2f7c1a962e2a669fc77",
-					"name": {
-						"tr": "Yeditepe Üni. Bilim Kurgu Kulübü",
-						"en": ""
-					},
-					"subtitle": {
-						"tr": "",
-						"en": ""
-					},
-					"description": {
-						"tr": "",
-						"en": ""
-					},
-					"avatarURL": "https://i.imgur.com/GfLVEIa.png",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "yeditepebilimkurgu"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "YUCON: Federation"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Yeditepe Üniversitesi"
+      },
+      "address": {
+        "addr": "Ataşehir İstanbul",
+        "countryCode": "TR"
+      },
+      "coordinates": {
+        "lat": 40.9719767,
+        "lng": 29.1522123
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-08-16[Europe/Istanbul]"
+    },
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-08-17[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description",
+      "description": {
+        "tr": "**YUCON Federation**‘da cosplay tutkunları buluşuyor!\n\n16-17 Ağustos’ta [Yeditepe Üniversitesi kampüsünde](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) en sevdiğiniz karakterlerin kostümünü giyip büyülü bir atmosferin parçası olun!\n\nBilim Kurgu, FRP, MTG, Kutu Oyunları ve daha fazlası! Kostüm yarışmaları, fotoğraf çekimleri, yeni arkadaşlıklar ve unutulmaz anılar sizi bekliyor. Hem deneyimli cosplayerlar hem de ilk kez deneyecekler için mükemmel bir ortam! ✨\n\nKarakterinizi seçin, kostümünüzü hazırlayın ve bu eşsiz deneyimin parçası olun! 🚀",
+        "en": "Cosplay enthusiasts unite at **YUCON Federation**!\n\nJoin us on August 16-17 at [Yeditepe University campus](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) and become part of a magical atmosphere wearing your favorite character costumes!\n\nSci-Fi, RPG, MTG, Board Games and much more! Costume contests, photo shoots, new friendships and unforgettable memories await you. Perfect environment for both experienced cosplayers and first-timers! ✨\n\nChoose your character, prepare your costume and be part of this unique experience! 🚀"
+      }
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "blue.deniz.events:extra",
+      "cosplay:scope": "primary",
+      "cosplay:cloakroom": true
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.ibb.co/gZL4PvxR/f30765e3495d.png"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://www.instagram.com/p/DKuuZBKIjX5/",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram Postu"
+      },
+      "description": {}
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "684c62c71e05527d40a589b1",
+      "eventId": "684c62c71e05527d40a589ae",
+      "organizationId": "6756c2f7c1a962e2a669fc77",
+      "organization": {
+        "id": "6756c2f7c1a962e2a669fc77",
+        "name": {
+          "tr": "Yeditepe Üni. Bilim Kurgu Kulübü"
+        },
+        "subtitle": {},
+        "description": {},
+        "avatarURL": "https://i.imgur.com/GfLVEIa.png",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "yeditepebilimkurgu"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

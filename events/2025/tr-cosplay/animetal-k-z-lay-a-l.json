@@ -1,116 +1,97 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "Animetal Kızılay Açılışı",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Animetal Shop Etlik",
-				"en": ""
-			},
-			"address": {
-				"addr": "Kocatepe Çankaya Ankara",
-				"countryCode": "TR"
-			},
-			"coordinates": {
-				"lat": 39.9169013,
-				"lng": 32.8587504
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-06-28T14:00"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {
-				"description": {
-					"tr": "28 Haziran Cumartesi günü Animetalin 5. cosplay partili etkinliğini yeni açılan Kızılay mağazamızın önünde gerçekleştireceğiz.\n\nEtkinlik hakkında küçük hatırlatmalar,\nHerhangi bir askeri kamuflaj içeren kostümler yasaktır.\nAirsoft ve benzeri silahlar yasaktır. Plastik olanlara izin vardır.\nMüstehcen kostümler yasaktır.\nBu kurallar sizlerin iyiliği içindir ve etkinliğin merkezi konumu sebebiyle kimsenin başına bir problem açılmaması içindir. Anlayışınız için teşekkürler 🤍\n\nPlanlarınızı ayarlayın hepinizi bekliyoruz.💥🔥🤘\nKocatepe Mahallesi Kızılırmak Caddesi No 39 Kızılay Çankaya ",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.ibb.co/0yjvYLD8/c707e155da99.png"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 0
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://www.instagram.com/p/DLAGDdUoOKB/",
-				"disabled": false,
-				"name": {
-					"tr": "Instagram Postu",
-					"en": ""
-				},
-				"description": {
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "6851bee2fd526f2d0520ae90",
-				"eventId": "6851bee2fd526f2d0520ae8e",
-				"organizationId": "6851bd07fd526f2d0520ae8c",
-				"organization": {
-					"id": "6851bd07fd526f2d0520ae8c",
-					"name": {
-						"tr": "Çelebi Müzik & Organizasyon",
-						"en": ""
-					},
-					"avatarURL": "https://i.ibb.co/35kygQGV/31e4032cb27a.jpg",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "celebimuzikorganizasyon"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "Animetal Kızılay Açılışı"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Animetal Shop Etlik"
+      },
+      "address": {
+        "addr": "Kocatepe Çankaya Ankara",
+        "countryCode": "TR"
+      },
+      "coordinates": {
+        "lat": 39.9169013,
+        "lng": 32.8587504
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-06-28T17:00[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description",
+      "description": {
+        "tr": "28 Haziran Cumartesi günü Animetalin 5. cosplay partili etkinliğini yeni açılan Kızılay mağazamızın önünde gerçekleştireceğiz.\n\nEtkinlik hakkında küçük hatırlatmalar,\nHerhangi bir askeri kamuflaj içeren kostümler yasaktır.\nAirsoft ve benzeri silahlar yasaktır. Plastik olanlara izin vardır.\nMüstehcen kostümler yasaktır.\nBu kurallar sizlerin iyiliği içindir ve etkinliğin merkezi konumu sebebiyle kimsenin başına bir problem açılmaması içindir. Anlayışınız için teşekkürler 🤍\n\nPlanlarınızı ayarlayın hepinizi bekliyoruz.💥🔥🤘\nKocatepe Mahallesi Kızılırmak Caddesi No 39 Kızılay Çankaya "
+      }
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.ibb.co/0yjvYLD8/c707e155da99.png"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 0
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://www.instagram.com/p/DLAGDdUoOKB/",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram Postu"
+      },
+      "description": {}
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "6851bee2fd526f2d0520ae90",
+      "eventId": "6851bee2fd526f2d0520ae8e",
+      "organizationId": "6851bd07fd526f2d0520ae8c",
+      "organization": {
+        "id": "6851bd07fd526f2d0520ae8c",
+        "name": {
+          "tr": "Çelebi Müzik & Organizasyon"
+        },
+        "avatarURL": "https://i.ibb.co/35kygQGV/31e4032cb27a.jpg",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "celebimuzikorganizasyon"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

@@ -1,115 +1,95 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "The Con Must Go On",
-		"en": ""
-	},
-	"label": {
-		"tr": "Müzikal temalı cosplay etkinliği",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Black Chocolate Cafe",
-				"en": ""
-			},
-			"address": {
-				"addr": "Black Chocolate Cafe Haznedar Bahçelievler İstanbul"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2024-12-15T10:00"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.imgur.com/K16hEEk.png"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 200,
-				"label": {
-					"tr": "Online",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 220,
-				"label": {
-					"tr": "Kapıda",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "67892a2da69aca0847bfcfb0",
-				"eventId": "67543ff23ad6cce548bcbc4a",
-				"organizationId": "67543f703ad6cce548bcbc49",
-				"organization": {
-					"id": "67543f703ad6cce548bcbc49",
-					"name": {
-						"tr": "The Cosiety",
-						"en": ""
-					},
-					"description": {
-						"tr": "",
-						"en": ""
-					},
-					"avatarURL": "https://i.imgur.com/qrAtbDv.jpeg",
-					"userIds": [
-						"67531fec365c75460909de70",
-						"678d046caeec0fe88c5971ef"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "thecosiety"
-						}
-					],
-					"verified": true,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "The Con Must Go On"
+  },
+  "label": {
+    "tr": "Müzikal temalı cosplay etkinliği"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Black Chocolate Cafe"
+      },
+      "address": {
+        "addr": "Black Chocolate Cafe Haznedar Bahçelievler İstanbul"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2024-12-15T13:00[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description"
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.imgur.com/K16hEEk.png"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 200,
+      "label": {
+        "tr": "Online"
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 220,
+      "label": {
+        "tr": "Kapıda"
+      }
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "67892a2da69aca0847bfcfb0",
+      "eventId": "67543ff23ad6cce548bcbc4a",
+      "organizationId": "67543f703ad6cce548bcbc49",
+      "organization": {
+        "id": "67543f703ad6cce548bcbc49",
+        "name": {
+          "tr": "The Cosiety"
+        },
+        "description": {},
+        "avatarURL": "https://i.imgur.com/qrAtbDv.jpeg",
+        "userIds": [
+          "67531fec365c75460909de70",
+          "678d046caeec0fe88c5971ef"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "thecosiety"
+          }
+        ],
+        "verified": true,
+        "system": false
+      }
+    }
+  ]
 }

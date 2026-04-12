@@ -1,150 +1,123 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "Cos & Play Fest",
-		"en": ""
-	},
-	"label": {
-		"tr": "Video oyunu temalı cosplay etkinliği",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Kurtuluş ESpor",
-				"en": ""
-			},
-			"address": {
-				"addr": "Kurtuluş Espor Koşuyolu Kadıköy İstanbul"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-03-08T11:00"
-		},
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-03-09T11:00"
-		},
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-03-08T20:00"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {
-				"description": {
-					"tr": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır.",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.imgur.com/gxWrpYL.jpeg"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 400,
-				"label": {
-					"tr": "Kombine (İki Gün)",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 250,
-				"label": "Tek Gün"
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 250,
-				"label": "Tek Gün"
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 100,
-				"label": "+ Soft İçecek"
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://docs.google.com/forms/d/e/1FAIpQLSfBXK5YZYldr3Hm7JixDbM5ceW9HjmlT_Vn-m2BuTHPx4FUPg/viewform?usp=send_form",
-				"disabled": false
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "67892b52a69aca0847bfcfb6",
-				"eventId": "6774029561ae23b3389ca9a3",
-				"organizationId": "67543f703ad6cce548bcbc49",
-				"organization": {
-					"id": "67543f703ad6cce548bcbc49",
-					"name": {
-						"tr": "The Cosiety",
-						"en": ""
-					},
-					"description": {
-						"tr": "",
-						"en": ""
-					},
-					"avatarURL": "https://i.imgur.com/qrAtbDv.jpeg",
-					"userIds": [
-						"67531fec365c75460909de70",
-						"678d046caeec0fe88c5971ef"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "thecosiety"
-						}
-					],
-					"verified": true,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "Cos & Play Fest"
+  },
+  "label": {
+    "tr": "Video oyunu temalı cosplay etkinliği"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Kurtuluş ESpor"
+      },
+      "address": {
+        "addr": "Kurtuluş Espor Koşuyolu Kadıköy İstanbul"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-03-08T14:00[Europe/Istanbul]"
+    },
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-03-09T14:00[Europe/Istanbul]"
+    },
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-03-08T23:00[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description",
+      "description": {
+        "tr": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır."
+      }
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.imgur.com/gxWrpYL.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 400,
+      "label": {
+        "tr": "Kombine (İki Gün)"
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 250,
+      "label": "Tek Gün"
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 250,
+      "label": "Tek Gün"
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 100,
+      "label": "+ Soft İçecek"
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfBXK5YZYldr3Hm7JixDbM5ceW9HjmlT_Vn-m2BuTHPx4FUPg/viewform?usp=send_form",
+      "disabled": false
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "67892b52a69aca0847bfcfb6",
+      "eventId": "6774029561ae23b3389ca9a3",
+      "organizationId": "67543f703ad6cce548bcbc49",
+      "organization": {
+        "id": "67543f703ad6cce548bcbc49",
+        "name": {
+          "tr": "The Cosiety"
+        },
+        "description": {},
+        "avatarURL": "https://i.imgur.com/qrAtbDv.jpeg",
+        "userIds": [
+          "67531fec365c75460909de70",
+          "678d046caeec0fe88c5971ef"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "thecosiety"
+          }
+        ],
+        "verified": true,
+        "system": false
+      }
+    }
+  ]
 }

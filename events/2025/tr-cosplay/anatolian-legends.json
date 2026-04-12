@@ -1,74 +1,66 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "Anatolian Legends",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Duyurulmadı",
-				"en": ""
-			},
-			"address": {
-				"addr": "Eskişehir"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-07-19T12:00"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "685e2a0f448ed35bc3f636a8",
-				"eventId": "685e2a0f448ed35bc3f636a6",
-				"organizationId": "685e29f8448ed35bc3f636a4",
-				"organization": {
-					"id": "685e29f8448ed35bc3f636a4",
-					"name": {
-						"tr": "Anatolian Legends",
-						"en": ""
-					},
-					"avatarURL": "https://i.ibb.co/MDVznk0s/854fe4a40399.png",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "anatolianlegends"
-						},
-						{
-							"type": "linktree",
-							"data": "anatolianlegends"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "Anatolian Legends"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Duyurulmadı"
+      },
+      "address": {
+        "addr": "Eskişehir"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-07-19T15:00[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description"
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "685e2a0f448ed35bc3f636a8",
+      "eventId": "685e2a0f448ed35bc3f636a6",
+      "organizationId": "685e29f8448ed35bc3f636a4",
+      "organization": {
+        "id": "685e29f8448ed35bc3f636a4",
+        "name": {
+          "tr": "Anatolian Legends"
+        },
+        "avatarURL": "https://i.ibb.co/MDVznk0s/854fe4a40399.png",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "anatolianlegends"
+          },
+          {
+            "type": "linktree",
+            "data": "anatolianlegends"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

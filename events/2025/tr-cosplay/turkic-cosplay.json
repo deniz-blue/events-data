@@ -1,81 +1,71 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "Turkic Cosplay",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Ankara Hacı Bayram Veli Üniversitesi Itri Kongre ve Kültür Merkezi",
-				"en": ""
-			},
-			"address": {
-				"addr": "Yenimahalle Ankara",
-				"countryCode": "TR"
-			},
-			"coordinates": {
-				"lat": 39.9427944,
-				"lng": 32.8178955
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-10-14"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "blue.deniz.events:extra",
-			"data": {
-				"cosplay:scope": "primary"
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "68b40295e1316f6a42fbac5a",
-				"eventId": "68b40295e1316f6a42fbac58",
-				"organizationId": "68b40237e1316f6a42fbac56",
-				"organization": {
-					"id": "68b40237e1316f6a42fbac56",
-					"name": {
-						"tr": "HBV Türk Töresi ve Harsı Topluluğu",
-						"en": ""
-					},
-					"avatarURL": "https://i0.wp.com/cospier.com/wp-content/uploads/2025/07/Turkic-Cosplay.jpg?fit=300%2C300&ssl=1",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "ahbvturktoresi"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "Turkic Cosplay"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Ankara Hacı Bayram Veli Üniversitesi Itri Kongre ve Kültür Merkezi"
+      },
+      "address": {
+        "addr": "Yenimahalle Ankara",
+        "countryCode": "TR"
+      },
+      "coordinates": {
+        "lat": 39.9427944,
+        "lng": 32.8178955
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-10-14[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description"
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "blue.deniz.events:extra",
+      "cosplay:scope": "primary"
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "68b40295e1316f6a42fbac5a",
+      "eventId": "68b40295e1316f6a42fbac58",
+      "organizationId": "68b40237e1316f6a42fbac56",
+      "organization": {
+        "id": "68b40237e1316f6a42fbac56",
+        "name": {
+          "tr": "HBV Türk Töresi ve Harsı Topluluğu"
+        },
+        "avatarURL": "https://i0.wp.com/cospier.com/wp-content/uploads/2025/07/Turkic-Cosplay.jpg?fit=300%2C300&ssl=1",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "ahbvturktoresi"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

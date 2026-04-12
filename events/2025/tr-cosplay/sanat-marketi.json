@@ -1,135 +1,113 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "Sanatçı Marketi",
-		"en": ""
-	},
-	"label": {
-		"tr": "Sanatçı Marketi 2025!",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Başak Cafe",
-				"en": ""
-			},
-			"address": {
-				"addr": "Başak Cafe Kartaltepe Bakırköy İstanbul"
-			},
-			"coordinates": {
-				"lat": 40.98112769999999,
-				"lng": 28.8753953
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-06-13T11:00",
-			"end": "2025-06-13T17:00"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {
-				"description": {
-					"tr": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.\n\nBu etkinlikte en sevdiğiniz küçük işletmenizin arkasında emek veren kişiyle tanışma şansınız olacak, ürünleri görebilecek ve kargo ücreti ödemeden alabileceksiniz! ✨ Ayrıca küçük ikramlarımız, samimi sohbet ortamımızla size güzel vakit vadediyoruz!\n\nEtkinlik mekanımız Başak Kafe, tüm ziyaretçilerimiz ve katılımcılarımıza çay, kahve alımlarında %10 indirim veriyor🙏🏼💗 @basakcafeofficial",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"fair",
-					"festival",
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.ibb.co/ymk3nBJ1/a645dc78eabd.png"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 0,
-				"label": {
-					"tr": "Ziyaretçi Katılımı",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://l.instagram.com/?u=https%3A%2F%2Fforms.gle%2FwbJQHde4wWJcu73XA%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAadMXNS8XzEOTl8Afa2Os0IkTq3i6ad1Vxqj-QnBhtBSq5y8GLlIWF_9igCW_w_aem_-a_wNZ3WS5rj-fcxzZMcaw&e=AT0oy0X51c0fs52ew-vFfe91viZc729mQO1t_UqpKYaWwlKi137bVlcY9cpVa2dtOcWNj7NzoA4n6fRy45u6jCIyIQqxUtL5_RAb1Rgih64muZYlIcdDYFM",
-				"disabled": false,
-				"name": {
-					"tr": "Ziyaretçi Formu",
-					"en": ""
-				},
-				"description": {
-					"tr": "Doldurulması Gereklidir",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "67f42bb0ee46a50b18a21e23",
-				"eventId": "67f42bb0ee46a50b18a21e22",
-				"organizationId": "67f42ba1ee46a50b18a21e21",
-				"organization": {
-					"id": "67f42ba1ee46a50b18a21e21",
-					"name": {
-						"tr": "Sanatçı Marketi",
-						"en": ""
-					},
-					"subtitle": {
-						"tr": "2025 yılında ilkini yapacağımız ''Sanatçı Marketi'' bir küçük işletme sanatçıları etkinliğidir.",
-						"en": ""
-					},
-					"description": {
-						"tr": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.",
-						"en": ""
-					},
-					"avatarURL": "https://i.ibb.co/rfkS7mK4/c7270da424ce.png",
-					"userIds": [
-						"67f425dfee46a50b18a21e20"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "artistsmarket2025"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "Sanatçı Marketi"
+  },
+  "label": {
+    "tr": "Sanatçı Marketi 2025!"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Başak Cafe"
+      },
+      "address": {
+        "addr": "Başak Cafe Kartaltepe Bakırköy İstanbul"
+      },
+      "coordinates": {
+        "lat": 40.98112769999999,
+        "lng": 28.8753953
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-06-13T14:00[Europe/Istanbul]",
+      "end": "2025-06-13T20:00[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description",
+      "description": {
+        "tr": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.\n\nBu etkinlikte en sevdiğiniz küçük işletmenizin arkasında emek veren kişiyle tanışma şansınız olacak, ürünleri görebilecek ve kargo ücreti ödemeden alabileceksiniz! ✨ Ayrıca küçük ikramlarımız, samimi sohbet ortamımızla size güzel vakit vadediyoruz!\n\nEtkinlik mekanımız Başak Kafe, tüm ziyaretçilerimiz ve katılımcılarımıza çay, kahve alımlarında %10 indirim veriyor🙏🏼💗 @basakcafeofficial"
+      }
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "fair",
+        "festival",
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.ibb.co/ymk3nBJ1/a645dc78eabd.png"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 0,
+      "label": {
+        "tr": "Ziyaretçi Katılımı"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://l.instagram.com/?u=https%3A%2F%2Fforms.gle%2FwbJQHde4wWJcu73XA%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAadMXNS8XzEOTl8Afa2Os0IkTq3i6ad1Vxqj-QnBhtBSq5y8GLlIWF_9igCW_w_aem_-a_wNZ3WS5rj-fcxzZMcaw&e=AT0oy0X51c0fs52ew-vFfe91viZc729mQO1t_UqpKYaWwlKi137bVlcY9cpVa2dtOcWNj7NzoA4n6fRy45u6jCIyIQqxUtL5_RAb1Rgih64muZYlIcdDYFM",
+      "disabled": false,
+      "name": {
+        "tr": "Ziyaretçi Formu"
+      },
+      "description": {
+        "tr": "Doldurulması Gereklidir"
+      }
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "67f42bb0ee46a50b18a21e23",
+      "eventId": "67f42bb0ee46a50b18a21e22",
+      "organizationId": "67f42ba1ee46a50b18a21e21",
+      "organization": {
+        "id": "67f42ba1ee46a50b18a21e21",
+        "name": {
+          "tr": "Sanatçı Marketi"
+        },
+        "subtitle": {
+          "tr": "2025 yılında ilkini yapacağımız ''Sanatçı Marketi'' bir küçük işletme sanatçıları etkinliğidir."
+        },
+        "description": {
+          "tr": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak."
+        },
+        "avatarURL": "https://i.ibb.co/rfkS7mK4/c7270da424ce.png",
+        "userIds": [
+          "67f425dfee46a50b18a21e20"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "artistsmarket2025"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

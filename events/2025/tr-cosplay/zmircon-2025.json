@@ -1,186 +1,137 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "İzmirCon 2025",
-		"en": ""
-	},
-	"label": {
-		"tr": "Gothic Fantasy",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Tepekule Kongre Merkezi",
-				"en": ""
-			},
-			"address": {
-				"addr": "Tepekule Kongre Merkezi Adalet Bayraklı İzmir"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-05-03"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay",
-					"frp"
-				]
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.ibb.co/MkCqmWSb/480896795-18399125527096984-4466659238653614849-n-jpg-stp-dst-jpg-e15-fr-s1080x1080-tt6-nc-ht-instag.jpg"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 450,
-				"label": {
-					"tr": "Ziyaretçi",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 500,
-				"label": {
-					"tr": "Ziyaretçi + FRP",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://kommunity.com/izmircon/events/izmircon25-e543429f",
-				"disabled": false,
-				"name": {
-					"tr": "",
-					"en": ""
-				},
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://docs.google.com/forms/d/e/1FAIpQLScQNKhnLVghMSs2g8yx57C9hZ6N2tm4VSDV0UWqWsPknE9Scg/viewform",
-				"disabled": false,
-				"name": {
-					"tr": "Stand Başvuru ",
-					"en": ""
-				},
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://docs.google.com/forms/d/e/1FAIpQLSddbN2Lybgam5bT2oYjMNv4W0oce3H_ES8IHA9MupNFOALlvw/viewform",
-				"disabled": false,
-				"name": {
-					"tr": "Staff Başvuru",
-					"en": ""
-				},
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://docs.google.com/forms/d/e/1FAIpQLSclks2YTsR1mcIPhigKKbaS_QFs8OWsR-1EHtDkj-6mGm2wPw/viewform",
-				"disabled": false,
-				"name": {
-					"tr": "Atölye Başvuru",
-					"en": ""
-				},
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://docs.google.com/forms/d/e/1FAIpQLScXvXDLEYQQZK43ovzAKG-nhKLcnS9XCZ7pnBqPlNBjpxDwPA/viewform",
-				"disabled": false,
-				"name": {
-					"tr": "GM Başvuru",
-					"en": ""
-				},
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "67b82523d39f789da51f39c5",
-				"eventId": "67b82523d39f789da51f39c4",
-				"organizationId": "67b8241ed39f789da51f39c2",
-				"organization": {
-					"id": "67b8241ed39f789da51f39c2",
-					"name": {
-						"tr": "İzmirCon",
-						"en": ""
-					},
-					"avatarURL": "https://i.ibb.co/ZzsVcHVG/368839449-676189954410126-1491022498865789246-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "izmircon"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "İzmirCon 2025"
+  },
+  "label": {
+    "tr": "Gothic Fantasy"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Tepekule Kongre Merkezi"
+      },
+      "address": {
+        "addr": "Tepekule Kongre Merkezi Adalet Bayraklı İzmir"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-05-03[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description"
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay",
+        "frp"
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.ibb.co/MkCqmWSb/480896795-18399125527096984-4466659238653614849-n-jpg-stp-dst-jpg-e15-fr-s1080x1080-tt6-nc-ht-instag.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 450,
+      "label": {
+        "tr": "Ziyaretçi"
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 500,
+      "label": {
+        "tr": "Ziyaretçi + FRP"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://kommunity.com/izmircon/events/izmircon25-e543429f",
+      "disabled": false,
+      "name": {},
+      "description": {}
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScQNKhnLVghMSs2g8yx57C9hZ6N2tm4VSDV0UWqWsPknE9Scg/viewform",
+      "disabled": false,
+      "name": {
+        "tr": "Stand Başvuru "
+      },
+      "description": {}
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSddbN2Lybgam5bT2oYjMNv4W0oce3H_ES8IHA9MupNFOALlvw/viewform",
+      "disabled": false,
+      "name": {
+        "tr": "Staff Başvuru"
+      },
+      "description": {}
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSclks2YTsR1mcIPhigKKbaS_QFs8OWsR-1EHtDkj-6mGm2wPw/viewform",
+      "disabled": false,
+      "name": {
+        "tr": "Atölye Başvuru"
+      },
+      "description": {}
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLScXvXDLEYQQZK43ovzAKG-nhKLcnS9XCZ7pnBqPlNBjpxDwPA/viewform",
+      "disabled": false,
+      "name": {
+        "tr": "GM Başvuru"
+      },
+      "description": {}
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "67b82523d39f789da51f39c5",
+      "eventId": "67b82523d39f789da51f39c4",
+      "organizationId": "67b8241ed39f789da51f39c2",
+      "organization": {
+        "id": "67b8241ed39f789da51f39c2",
+        "name": {
+          "tr": "İzmirCon"
+        },
+        "avatarURL": "https://i.ibb.co/ZzsVcHVG/368839449-676189954410126-1491022498865789246-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "izmircon"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

@@ -1,97 +1,85 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "KimiCon 2025",
-		"en": ""
-	},
-	"status": "planned",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Merinos Atatürk Kongre ve Kültür Merkezi",
-				"en": ""
-			},
-			"address": {
-				"addr": "Osmangazi̇ Bursa",
-				"countryCode": "TR"
-			},
-			"coordinates": {
-				"lat": 40.1994781,
-				"lng": 29.0524234
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-08-23"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "blue.deniz.events:extra",
-			"data": {
-				"cosplay:scope": "primary"
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.ibb.co/WWyxZHK1/Screenshot-20250628-112626-Instagram.png"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "685fa7d0448ed35bc3f636b5",
-				"eventId": "685fa7d0448ed35bc3f636b3",
-				"organizationId": "685420d1fd526f2d0520ae9d",
-				"organization": {
-					"id": "685420d1fd526f2d0520ae9d",
-					"name": {
-						"tr": "KimiCon",
-						"en": ""
-					},
-					"avatarURL": "https://i.ibb.co/hxbBWw6s/41125fa92a43.jpg",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "kimi.com.tr"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "KimiCon 2025"
+  },
+  "status": "planned",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Merinos Atatürk Kongre ve Kültür Merkezi"
+      },
+      "address": {
+        "addr": "Osmangazi̇ Bursa",
+        "countryCode": "TR"
+      },
+      "coordinates": {
+        "lat": 40.1994781,
+        "lng": 29.0524234
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-08-23[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description"
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "blue.deniz.events:extra",
+      "cosplay:scope": "primary"
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.ibb.co/WWyxZHK1/Screenshot-20250628-112626-Instagram.png"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "685fa7d0448ed35bc3f636b5",
+      "eventId": "685fa7d0448ed35bc3f636b3",
+      "organizationId": "685420d1fd526f2d0520ae9d",
+      "organization": {
+        "id": "685420d1fd526f2d0520ae9d",
+        "name": {
+          "tr": "KimiCon"
+        },
+        "avatarURL": "https://i.ibb.co/hxbBWw6s/41125fa92a43.jpg",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "kimi.com.tr"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

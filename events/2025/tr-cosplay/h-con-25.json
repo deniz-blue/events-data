@@ -1,125 +1,101 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "HÜCON'25",
-		"en": ""
-	},
-	"label": {
-		"tr": "",
-		"en": ""
-	},
-	"status": "cancelled",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Hacettepe Üni. Beykent Kampüsü",
-				"en": ""
-			},
-			"address": {
-				"addr": "Hacettepe Beytepe Kampüsü, Tunçalp Özgen Kongre ve Kültür Merkezi Çankaya Ankara"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-04-26"
-		},
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-04-27"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.ibb.co/S7cv2z4y/484166623-18058937759013434-1054868328010349653-n-webp-stp-dst-jpg-e35-p1080x1080-sh0-08-tt6-nc-ht-i.jpg"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 0,
-				"label": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://docs.google.com/forms/d/e/1FAIpQLSdZGhvhj_wS1UUMP0_VYfS1VVg2jca0X-j8yG2K7y_xgSfbcw/viewform?usp=header",
-				"disabled": false,
-				"name": {
-					"tr": "Stant Başvurusu",
-					"en": ""
-				},
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "67892b71a69aca0847bfcfb8",
-				"eventId": "6777a356afada8c9bab424e7",
-				"organizationId": "6777a30fafada8c9bab424e6",
-				"organization": {
-					"id": "6777a30fafada8c9bab424e6",
-					"name": {
-						"tr": "Hacettepe Üni. BKFT",
-						"en": ""
-					},
-					"avatarURL": "https://i.imgur.com/Osgn9YI.jpeg",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "hubkft"
-						},
-						{
-							"type": "instagram",
-							"data": "hucon_25"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "HÜCON'25"
+  },
+  "label": {},
+  "status": "cancelled",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Hacettepe Üni. Beykent Kampüsü"
+      },
+      "address": {
+        "addr": "Hacettepe Beytepe Kampüsü, Tunçalp Özgen Kongre ve Kültür Merkezi Çankaya Ankara"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-04-26[Europe/Istanbul]"
+    },
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-04-27[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description"
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.ibb.co/S7cv2z4y/484166623-18058937759013434-1054868328010349653-n-webp-stp-dst-jpg-e35-p1080x1080-sh0-08-tt6-nc-ht-i.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 0,
+      "label": {}
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSdZGhvhj_wS1UUMP0_VYfS1VVg2jca0X-j8yG2K7y_xgSfbcw/viewform?usp=header",
+      "disabled": false,
+      "name": {
+        "tr": "Stant Başvurusu"
+      },
+      "description": {}
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "67892b71a69aca0847bfcfb8",
+      "eventId": "6777a356afada8c9bab424e7",
+      "organizationId": "6777a30fafada8c9bab424e6",
+      "organization": {
+        "id": "6777a30fafada8c9bab424e6",
+        "name": {
+          "tr": "Hacettepe Üni. BKFT"
+        },
+        "avatarURL": "https://i.imgur.com/Osgn9YI.jpeg",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "hubkft"
+          },
+          {
+            "type": "instagram",
+            "data": "hucon_25"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }

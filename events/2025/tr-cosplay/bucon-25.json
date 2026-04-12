@@ -1,131 +1,102 @@
 {
-	"v": 0,
-	"name": {
-		"tr": "BUCON'25",
-		"en": ""
-	},
-	"label": {
-		"tr": "",
-		"en": ""
-	},
-	"status": "cancelled",
-	"venues": [
-		{
-			"id": "0",
-			"type": "physical",
-			"name": {
-				"tr": "Boğaziçi Üniversitesi Güney Kampüsü",
-				"en": ""
-			},
-			"address": {
-				"addr": "Boğaziçi Üniversitesi Güney Kampüsü Bebek Beşiktaş İstanbul"
-			}
-		}
-	],
-	"instances": [
-		{
-			"venueIds": [
-				"0"
-			],
-			"start": "2025-03-01"
-		}
-	],
-	"components": [
-		{
-			"type": "blue.deniz.events:description",
-			"data": {
-				"description": {
-					"tr": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır.",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:categories",
-			"data": {
-				"categories": [
-					"cosplay"
-				]
-			}
-		},
-		{
-			"type": "splashMedia",
-			"data": {
-				"roles": [
-					"background",
-					"poster"
-				],
-				"media": {
-					"sources": [
-						{
-							"url": "https://i.imgur.com/GEbyE68.jpeg"
-						}
-					]
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:pricing",
-			"data": {
-				"price": 0,
-				"label": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://forms.gle/Wr3wMMgs79arSnfr9",
-				"disabled": false,
-				"name": {
-					"tr": "Okul Dışı Kayıt",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "link",
-			"data": {
-				"url": "https://tr.ee/Nm7CIjb6zD",
-				"disabled": false,
-				"name": {
-					"tr": "GM Kayıt Formu",
-					"en": ""
-				},
-				"description": {
-					"tr": "",
-					"en": ""
-				}
-			}
-		},
-		{
-			"type": "blue.deniz.events:organizer",
-			"data": {
-				"id": "6794f5f3c7e6b1dc652db05e",
-				"eventId": "6794f5f3c7e6b1dc652db05d",
-				"organizationId": "6794f536c7e6b1dc652db05b",
-				"organization": {
-					"id": "6794f536c7e6b1dc652db05b",
-					"name": {
-						"tr": "Boğaziçi Üni. Oyun Kulübü",
-						"en": ""
-					},
-					"avatarURL": "https://i.imgur.com/KhJQcn4.png",
-					"userIds": [
-						"67531fec365c75460909de70"
-					],
-					"contacts": [
-						{
-							"type": "instagram",
-							"data": "boun_buok"
-						}
-					],
-					"verified": false,
-					"system": false
-				}
-			}
-		}
-	]
+  "v": "0.1",
+  "name": {
+    "tr": "BUCON'25"
+  },
+  "label": {},
+  "status": "cancelled",
+  "venues": [
+    {
+      "id": "0",
+      "name": {
+        "tr": "Boğaziçi Üniversitesi Güney Kampüsü"
+      },
+      "address": {
+        "addr": "Boğaziçi Üniversitesi Güney Kampüsü Bebek Beşiktaş İstanbul"
+      },
+      "$type": "directory.evnt.venue.physical"
+    }
+  ],
+  "instances": [
+    {
+      "venueIds": [
+        "0"
+      ],
+      "start": "2025-03-01[Europe/Istanbul]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "blue.deniz.events:description",
+      "description": {
+        "tr": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır."
+      }
+    },
+    {
+      "$type": "blue.deniz.events:categories",
+      "categories": [
+        "cosplay"
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia",
+      "roles": [
+        "background",
+        "poster"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://i.imgur.com/GEbyE68.jpeg"
+          }
+        ]
+      }
+    },
+    {
+      "$type": "blue.deniz.events:pricing",
+      "price": 0,
+      "label": {}
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://forms.gle/Wr3wMMgs79arSnfr9",
+      "disabled": false,
+      "name": {
+        "tr": "Okul Dışı Kayıt"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://tr.ee/Nm7CIjb6zD",
+      "disabled": false,
+      "name": {
+        "tr": "GM Kayıt Formu"
+      },
+      "description": {}
+    },
+    {
+      "$type": "blue.deniz.events:organizer",
+      "id": "6794f5f3c7e6b1dc652db05e",
+      "eventId": "6794f5f3c7e6b1dc652db05d",
+      "organizationId": "6794f536c7e6b1dc652db05b",
+      "organization": {
+        "id": "6794f536c7e6b1dc652db05b",
+        "name": {
+          "tr": "Boğaziçi Üni. Oyun Kulübü"
+        },
+        "avatarURL": "https://i.imgur.com/KhJQcn4.png",
+        "userIds": [
+          "67531fec365c75460909de70"
+        ],
+        "contacts": [
+          {
+            "type": "instagram",
+            "data": "boun_buok"
+          }
+        ],
+        "verified": false,
+        "system": false
+      }
+    }
+  ]
 }
