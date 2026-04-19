@@ -29,9 +29,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "- 10:00 - Etkinlik kapı açılışı\n- 12:00\n  - FRP oyunları başlıyor\n  - Kutu oyunu sektörü paneli\n- 12:30 - Catan Turnuvası (NeoTroy)\n- 13:00\n  - Halk efsaneleri pop quizi\n  - RedParry Turnuvaları\n- 14:00 - Oyun/FRP içeriği üretme/pazarlama paneli\n- 14:30 - Treasure hunt başlıyor\n- 15:00 - FRP Oynuyoruz ile söyleşi\n- 16:00 - Cosplay defilesi\n- 17:00 - Just Dance!\n- 19:00 - Alan kapanışı\n\n\n\n"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "- 10:00 - Etkinlik kapı açılışı\n- 12:00\n  - FRP oyunları başlıyor\n  - Kutu oyunu sektörü paneli\n- 12:30 - Catan Turnuvası (NeoTroy)\n- 13:00\n  - Halk efsaneleri pop quizi\n  - RedParry Turnuvaları\n- 14:00 - Oyun/FRP içeriği üretme/pazarlama paneli\n- 14:30 - Treasure hunt başlıyor\n- 15:00 - FRP Oynuyoruz ile söyleşi\n- 16:00 - Cosplay defilesi\n- 17:00 - Just Dance!\n- 19:00 - Alan kapanışı\n\n\n\n"
       }
     },
     {
@@ -65,9 +65,6 @@
       "disabled": false,
       "name": {
         "tr": "Dış Katılımcı Formu"
-      },
-      "description": {
-        "tr": "Okul dışı katılımcılar için zorunludur"
       }
     },
     {
@@ -76,8 +73,7 @@
       "disabled": false,
       "name": {
         "tr": "Araç Bilgi Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -85,8 +81,7 @@
       "disabled": false,
       "name": {
         "tr": "Stant Başvuru Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -94,8 +89,7 @@
       "disabled": false,
       "name": {
         "tr": "FRP Oyuncu Kaydı"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -103,15 +97,13 @@
       "disabled": false,
       "name": {
         "tr": "Catan Turnuvası Kayıt Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
       "url": "https://linktr.ee/yildizbkfk",
       "disabled": false,
-      "name": {},
-      "description": {}
+      "name": {}
     },
     {
       "$type": "directory.evnt.component.link",
@@ -119,9 +111,6 @@
       "disabled": false,
       "name": {
         "tr": "Oyun Turnuvaları Katılım & Bilgi"
-      },
-      "description": {
-        "tr": "RedParry"
       }
     },
     {
@@ -130,8 +119,7 @@
       "disabled": false,
       "name": {
         "tr": "Cosplay Defilesi Katılımcı Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

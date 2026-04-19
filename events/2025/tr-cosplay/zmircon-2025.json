@@ -29,9 +29,6 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description"
-    },
-    {
       "$type": "blue.deniz.events:categories",
       "categories": [
         "cosplay",
@@ -70,8 +67,7 @@
       "$type": "directory.evnt.component.link",
       "url": "https://kommunity.com/izmircon/events/izmircon25-e543429f",
       "disabled": false,
-      "name": {},
-      "description": {}
+      "name": {}
     },
     {
       "$type": "directory.evnt.component.link",
@@ -79,8 +75,7 @@
       "disabled": false,
       "name": {
         "tr": "Stand Başvuru "
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -88,8 +83,7 @@
       "disabled": false,
       "name": {
         "tr": "Staff Başvuru"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -97,8 +91,7 @@
       "disabled": false,
       "name": {
         "tr": "Atölye Başvuru"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -106,8 +99,7 @@
       "disabled": false,
       "name": {
         "tr": "GM Başvuru"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

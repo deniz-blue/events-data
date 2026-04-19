@@ -34,9 +34,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.\n\nBu etkinlikte en sevdiğiniz küçük işletmenizin arkasında emek veren kişiyle tanışma şansınız olacak, ürünleri görebilecek ve kargo ücreti ödemeden alabileceksiniz! ✨ Ayrıca küçük ikramlarımız, samimi sohbet ortamımızla size güzel vakit vadediyoruz!\n\nEtkinlik mekanımız Başak Kafe, tüm ziyaretçilerimiz ve katılımcılarımıza çay, kahve alımlarında %10 indirim veriyor🙏🏼💗 @basakcafeofficial"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.\n\nBu etkinlikte en sevdiğiniz küçük işletmenizin arkasında emek veren kişiyle tanışma şansınız olacak, ürünleri görebilecek ve kargo ücreti ödemeden alabileceksiniz! ✨ Ayrıca küçük ikramlarımız, samimi sohbet ortamımızla size güzel vakit vadediyoruz!\n\nEtkinlik mekanımız Başak Kafe, tüm ziyaretçilerimiz ve katılımcılarımıza çay, kahve alımlarında %10 indirim veriyor🙏🏼💗 @basakcafeofficial"
       }
     },
     {
@@ -74,9 +74,6 @@
       "disabled": false,
       "name": {
         "tr": "Ziyaretçi Formu"
-      },
-      "description": {
-        "tr": "Doldurulması Gereklidir"
       }
     },
     {

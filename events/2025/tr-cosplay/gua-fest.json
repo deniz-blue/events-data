@@ -31,9 +31,6 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description"
-    },
-    {
       "$type": "blue.deniz.events:categories",
       "categories": [
         "cosplay"
@@ -63,8 +60,7 @@
       "disabled": false,
       "name": {
         "tr": "Katılımcı Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -72,8 +68,7 @@
       "disabled": false,
       "name": {
         "tr": "COSPLAY YARIŞMASI"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -81,9 +76,6 @@
       "disabled": false,
       "name": {
         "tr": "Stant Formu"
-      },
-      "description": {
-        "tr": "1000 TL"
       }
     },
     {

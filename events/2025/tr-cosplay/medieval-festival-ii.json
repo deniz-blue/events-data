@@ -32,9 +32,6 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description"
-    },
-    {
       "$type": "blue.deniz.events:categories",
       "categories": [
         "fair",

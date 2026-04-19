@@ -33,9 +33,6 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description"
-    },
-    {
       "$type": "blue.deniz.events:categories",
       "categories": [
         "cosplay"
@@ -66,8 +63,7 @@
       "disabled": false,
       "name": {
         "tr": "Stant Başvurusu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

@@ -32,9 +32,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "Antalya Bağımsız Sanatçılar Festivali maskotu Portakal hepinizi 24 Mayıs'ta gerçekleşecek etkinliklerimize davet ediyor! Profesyonel sanatçılar tarafından verilen ücretsiz workshoplar, sergi ve interaktif sanatçı pazarı ile rengarenk birgün sizi bekliyor!"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "Antalya Bağımsız Sanatçılar Festivali maskotu Portakal hepinizi 24 Mayıs'ta gerçekleşecek etkinliklerimize davet ediyor! Profesyonel sanatçılar tarafından verilen ücretsiz workshoplar, sergi ve interaktif sanatçı pazarı ile rengarenk birgün sizi bekliyor!"
       }
     },
     {
@@ -70,8 +70,7 @@
       "disabled": false,
       "name": {
         "tr": "Instagram Postu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -79,8 +78,7 @@
       "disabled": false,
       "name": {
         "tr": "Cosplayci Bilgilendirme"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -88,8 +86,7 @@
       "disabled": false,
       "name": {
         "tr": "WhatsApp Katılımcı Grubu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

@@ -27,10 +27,6 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {}
-    },
-    {
       "$type": "blue.deniz.events:categories",
       "categories": [
         "cosplay"

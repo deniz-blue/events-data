@@ -34,9 +34,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "Etkinlik Akışı\n\n- Cosplay Yarışması\n  - Birincilik: 6000 TL\n  - İkincilik: 4500 TL\n  - Üçüncülük: 3000 TL\n- Çizim Yarışması\n  - Birincilik: Tenda hediye kutusu\n  - İkincilik: Defter + Poster\n  - Üçüncülük: Kanatlı Kolye\n  - Yarışma kayıtları etkinlik alanında alınacaktır.\n  - Kara kalem çalışması şeklinde olacaktır.\n  - Materyaller tarafımızca verilecektir\n  - 45 dk çizim süresi olacaktır.\n  - Çizimler jüri tarafından değerlendirilecektir\n- Medieval Fantasy temalı Bilgi Yarışması\n- Okçuluk Yarışması\n  - Birincilik: Yay motifli pelerin, Lotr Okçuluk Sertifikası, Poster\n  - İkincilik: Kafatası Figür, Rozet\n  - Üçüncülük: Rozet, Sticker\n  - Yarışma öncesi 1 saatlik periyot içerisinde atış eğitimi verilecektir\n  - Yarışmada 3 ateş hakkı olacaktır\n  - Belirlenen hedefleri platformdan aşağıya düşüren tam puan, sadece hareket ettiren yarım puan alacaktır.\n  - Puan sıralamasına göre tur atlaması olacaktır.\n  - Ekipmanlara zarar verilmemelidir\n  - Yaya insanlara doğru tutmak, zarar verme ihtimali davranışlar yasaktır\n- Kraliyet Dövüşü\n  - Birincilik: Manga & Poster\n  - Kadınlar ve erkekler için sünger kılıçlarla iki ayrı dövüş turnuvası olacaktır\n  - Rakibini 2 kez daire dışına çıkarabilen veya rakibine 3 kez darbe indirebilen kişi müsabakayı kazanıp tur atlayacaktır\n  - Finalde kazananlar kral tarafından şövalye ilan edilecektir\n- Cosplay Defilesi\n- Hazine Avı\n- FRP & Kutu Oyunları\n- Müzik & Dans Şöleni\n- ...\n\n\n\n"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "Etkinlik Akışı\n\n- Cosplay Yarışması\n  - Birincilik: 6000 TL\n  - İkincilik: 4500 TL\n  - Üçüncülük: 3000 TL\n- Çizim Yarışması\n  - Birincilik: Tenda hediye kutusu\n  - İkincilik: Defter + Poster\n  - Üçüncülük: Kanatlı Kolye\n  - Yarışma kayıtları etkinlik alanında alınacaktır.\n  - Kara kalem çalışması şeklinde olacaktır.\n  - Materyaller tarafımızca verilecektir\n  - 45 dk çizim süresi olacaktır.\n  - Çizimler jüri tarafından değerlendirilecektir\n- Medieval Fantasy temalı Bilgi Yarışması\n- Okçuluk Yarışması\n  - Birincilik: Yay motifli pelerin, Lotr Okçuluk Sertifikası, Poster\n  - İkincilik: Kafatası Figür, Rozet\n  - Üçüncülük: Rozet, Sticker\n  - Yarışma öncesi 1 saatlik periyot içerisinde atış eğitimi verilecektir\n  - Yarışmada 3 ateş hakkı olacaktır\n  - Belirlenen hedefleri platformdan aşağıya düşüren tam puan, sadece hareket ettiren yarım puan alacaktır.\n  - Puan sıralamasına göre tur atlaması olacaktır.\n  - Ekipmanlara zarar verilmemelidir\n  - Yaya insanlara doğru tutmak, zarar verme ihtimali davranışlar yasaktır\n- Kraliyet Dövüşü\n  - Birincilik: Manga & Poster\n  - Kadınlar ve erkekler için sünger kılıçlarla iki ayrı dövüş turnuvası olacaktır\n  - Rakibini 2 kez daire dışına çıkarabilen veya rakibine 3 kez darbe indirebilen kişi müsabakayı kazanıp tur atlayacaktır\n  - Finalde kazananlar kral tarafından şövalye ilan edilecektir\n- Cosplay Defilesi\n- Hazine Avı\n- FRP & Kutu Oyunları\n- Müzik & Dans Şöleni\n- ...\n\n\n\n"
       }
     },
     {
@@ -98,8 +98,7 @@
       "disabled": false,
       "name": {
         "tr": "Bilet Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -107,8 +106,7 @@
       "disabled": false,
       "name": {
         "tr": "Cosplay Yarışması Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

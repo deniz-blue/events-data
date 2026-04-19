@@ -37,10 +37,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "**YUCON Federation**‘da cosplay tutkunları buluşuyor!\n\n16-17 Ağustos’ta [Yeditepe Üniversitesi kampüsünde](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) en sevdiğiniz karakterlerin kostümünü giyip büyülü bir atmosferin parçası olun!\n\nBilim Kurgu, FRP, MTG, Kutu Oyunları ve daha fazlası! Kostüm yarışmaları, fotoğraf çekimleri, yeni arkadaşlıklar ve unutulmaz anılar sizi bekliyor. Hem deneyimli cosplayerlar hem de ilk kez deneyecekler için mükemmel bir ortam! ✨\n\nKarakterinizi seçin, kostümünüzü hazırlayın ve bu eşsiz deneyimin parçası olun! 🚀",
-        "en": "Cosplay enthusiasts unite at **YUCON Federation**!\n\nJoin us on August 16-17 at [Yeditepe University campus](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) and become part of a magical atmosphere wearing your favorite character costumes!\n\nSci-Fi, RPG, MTG, Board Games and much more! Costume contests, photo shoots, new friendships and unforgettable memories await you. Perfect environment for both experienced cosplayers and first-timers! ✨\n\nChoose your character, prepare your costume and be part of this unique experience! 🚀"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "**YUCON Federation**‘da cosplay tutkunları buluşuyor!\n\n16-17 Ağustos’ta [Yeditepe Üniversitesi kampüsünde](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) en sevdiğiniz karakterlerin kostümünü giyip büyülü bir atmosferin parçası olun!\n\nBilim Kurgu, FRP, MTG, Kutu Oyunları ve daha fazlası! Kostüm yarışmaları, fotoğraf çekimleri, yeni arkadaşlıklar ve unutulmaz anılar sizi bekliyor. Hem deneyimli cosplayerlar hem de ilk kez deneyecekler için mükemmel bir ortam! ✨\n\nKarakterinizi seçin, kostümünüzü hazırlayın ve bu eşsiz deneyimin parçası olun! 🚀"
       }
     },
     {
@@ -74,8 +73,7 @@
       "disabled": false,
       "name": {
         "tr": "Instagram Postu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

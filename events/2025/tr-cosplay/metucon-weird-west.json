@@ -32,9 +32,6 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description"
-    },
-    {
       "$type": "blue.deniz.events:categories",
       "categories": [
         "cosplay"
@@ -65,9 +62,6 @@
       "disabled": true,
       "name": {
         "tr": "Dış Katılım"
-      },
-      "description": {
-        "tr": "Kampüs dışından katılanlar doldurmalı"
       }
     },
     {
@@ -76,8 +70,7 @@
       "disabled": true,
       "name": {
         "tr": "GM Kayıtları"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -85,15 +78,13 @@
       "disabled": true,
       "name": {
         "tr": "Stand Başvuru"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
       "url": "https://metucon.org",
       "disabled": false,
-      "name": {},
-      "description": {}
+      "name": {}
     },
     {
       "$type": "blue.deniz.events:organizer",

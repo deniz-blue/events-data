@@ -33,9 +33,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "### Etkinliklerimiz\n- FRP Masaları\n- Just Dance!\n- MTG Tanıtım\n- MTG\n- Yu-Gi-Oh!\n- One Piece TCG\n- Cosplay Yarışması ve Defilesi\n- Çeşitli Board Game Masaları\n- ..ve daha fazlası"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "### Etkinliklerimiz\n- FRP Masaları\n- Just Dance!\n- MTG Tanıtım\n- MTG\n- Yu-Gi-Oh!\n- One Piece TCG\n- Cosplay Yarışması ve Defilesi\n- Çeşitli Board Game Masaları\n- ..ve daha fazlası"
       }
     },
     {
@@ -69,8 +69,7 @@
       "disabled": false,
       "name": {
         "tr": "Kayıt Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

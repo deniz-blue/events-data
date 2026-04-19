@@ -34,9 +34,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "Mikado Ramen'in ilk cosplay yarışması için geri sayım başladı!\nKayıt yok, kostüm sınırlaması yok, sadece yaratıcılığını getirmen yeterli!\nJüri+izleyici oylaması ile günün en iyi cosplayi seçilecek!\nBirinciye 1000 tl değerinde Mikado Ramen hediye kartı \nİlk üçe süpriz hediyeler\nKatılan herkese %10 indirim\nTarih: 01.06.2025 \nSaat: 11.00"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "Mikado Ramen'in ilk cosplay yarışması için geri sayım başladı!\nKayıt yok, kostüm sınırlaması yok, sadece yaratıcılığını getirmen yeterli!\nJüri+izleyici oylaması ile günün en iyi cosplayi seçilecek!\nBirinciye 1000 tl değerinde Mikado Ramen hediye kartı \nİlk üçe süpriz hediyeler\nKatılan herkese %10 indirim\nTarih: 01.06.2025 \nSaat: 11.00"
       }
     },
     {
@@ -65,8 +65,7 @@
       "disabled": false,
       "name": {
         "tr": "Instagram Postu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

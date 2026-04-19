@@ -31,9 +31,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "Etkinlik Kuralları\n\n- Etkinliğimize 12 yaş ve üzeri katılımcılar alınıcaktır.\n\n- Etkinlikte sınırlı sayıda kontenjan vardır.\n\n- Etkinlikte kapıda bilet satışı olmayacaktır.\n\n- Etkinliğe giriş için online katılımcı formu doldurmak zorunludur.\n\n- Etkinlik alanı teknede olucağı için denize izmarit vb. çöp atmak yasaktır.\n\n- Gemide sigara içilmesi yasaktır.\n\n- Denize atlamak, denize karşı tehlikeli hareketlerde bulunmak (ittirmek vb.) davranışlarda bulunmayınız aksi takdirde sorumluluk bize ait değildir.\n\n- Etkinliğe insanlara zarar verilebilecek kesici,delici alet sokulması yasaktır.\n\n- Etkinlik alanında rahatsızlık veren, rahatsızlığa sebep olacak davranışlarda bulunanlar etkinliklikten atılacaktır."
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "Etkinlik Kuralları\n\n- Etkinliğimize 12 yaş ve üzeri katılımcılar alınıcaktır.\n\n- Etkinlikte sınırlı sayıda kontenjan vardır.\n\n- Etkinlikte kapıda bilet satışı olmayacaktır.\n\n- Etkinliğe giriş için online katılımcı formu doldurmak zorunludur.\n\n- Etkinlik alanı teknede olucağı için denize izmarit vb. çöp atmak yasaktır.\n\n- Gemide sigara içilmesi yasaktır.\n\n- Denize atlamak, denize karşı tehlikeli hareketlerde bulunmak (ittirmek vb.) davranışlarda bulunmayınız aksi takdirde sorumluluk bize ait değildir.\n\n- Etkinliğe insanlara zarar verilebilecek kesici,delici alet sokulması yasaktır.\n\n- Etkinlik alanında rahatsızlık veren, rahatsızlığa sebep olacak davranışlarda bulunanlar etkinliklikten atılacaktır."
       }
     },
     {
@@ -74,8 +74,7 @@
       "disabled": false,
       "name": {
         "tr": "Katılımcı Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -83,8 +82,7 @@
       "disabled": false,
       "name": {
         "tr": "Cosplay Yarışması Başvuru Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "directory.evnt.component.link",
@@ -92,9 +90,6 @@
       "disabled": true,
       "name": {
         "tr": "Stand Başvuru Formu"
-      },
-      "description": {
-        "tr": "1200 TL"
       }
     },
     {
@@ -103,8 +98,7 @@
       "disabled": false,
       "name": {
         "tr": "After party kayıt formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

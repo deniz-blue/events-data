@@ -41,9 +41,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır."
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır."
       }
     },
     {

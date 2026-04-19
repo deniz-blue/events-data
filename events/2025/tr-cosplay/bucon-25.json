@@ -27,9 +27,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır."
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır."
       }
     },
     {
@@ -71,8 +71,7 @@
       "disabled": false,
       "name": {
         "tr": "GM Kayıt Formu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

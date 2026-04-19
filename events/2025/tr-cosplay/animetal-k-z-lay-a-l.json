@@ -31,9 +31,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "28 Haziran Cumartesi günü Animetalin 5. cosplay partili etkinliğini yeni açılan Kızılay mağazamızın önünde gerçekleştireceğiz.\n\nEtkinlik hakkında küçük hatırlatmalar,\nHerhangi bir askeri kamuflaj içeren kostümler yasaktır.\nAirsoft ve benzeri silahlar yasaktır. Plastik olanlara izin vardır.\nMüstehcen kostümler yasaktır.\nBu kurallar sizlerin iyiliği içindir ve etkinliğin merkezi konumu sebebiyle kimsenin başına bir problem açılmaması içindir. Anlayışınız için teşekkürler 🤍\n\nPlanlarınızı ayarlayın hepinizi bekliyoruz.💥🔥🤘\nKocatepe Mahallesi Kızılırmak Caddesi No 39 Kızılay Çankaya "
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "28 Haziran Cumartesi günü Animetalin 5. cosplay partili etkinliğini yeni açılan Kızılay mağazamızın önünde gerçekleştireceğiz.\n\nEtkinlik hakkında küçük hatırlatmalar,\nHerhangi bir askeri kamuflaj içeren kostümler yasaktır.\nAirsoft ve benzeri silahlar yasaktır. Plastik olanlara izin vardır.\nMüstehcen kostümler yasaktır.\nBu kurallar sizlerin iyiliği içindir ve etkinliğin merkezi konumu sebebiyle kimsenin başına bir problem açılmaması içindir. Anlayışınız için teşekkürler 🤍\n\nPlanlarınızı ayarlayın hepinizi bekliyoruz.💥🔥🤘\nKocatepe Mahallesi Kızılırmak Caddesi No 39 Kızılay Çankaya "
       }
     },
     {
@@ -66,8 +66,7 @@
       "disabled": false,
       "name": {
         "tr": "Instagram Postu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

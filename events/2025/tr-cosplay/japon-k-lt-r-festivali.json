@@ -31,9 +31,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "Etkinlik halka açık olup, kayıt gerekmemektedir!\nBahçe saat 13:00'dan önce açık olmayacaktır.\nEtkinlik alanına cosplay kostümleri ile gelebilirsiniz.\nBahçede yiyecek/içecek standı bulunmaktadır.\nCosplay kostümü için giyinme kabini **bulunmamaktadır**.\n\n### Stand Etkinlikleri\n\n**13:00 - 16:00**\n- Sumi-e Atölyesi\n- Manga Atölyesi\n- Geleneksel Japon Oyunlarıyla Japonca\n\n**13:00 - 17:00**\n- Japonca Eğitimi Kitapları Tanıtımı\n- Origami Atölyesi\n- MEXT Bursu Danışma\n- Beyblade Oyunu\n- Japonca İsim Yazma\n- Yukata Giydirme\n- Hatıra Fotosu Panosu (maiko, samuray)\n\n### Mini Konserler\n\nHer biri 10-15 dk.\n\n**13:00** - Koto (Japon telli çalgısı)\n**13:30** - Kadın Korosu\n**14:00** - Wadaiko (Japon davulu)\n**14:30** - Koto\n**15:00** - Kadın Korosu\n**15:30** - Wadaiko\n**16:30** - Wadaiko\n\n### Fotoblok Sergisi\n\nJaponya'yı Keşfetmek\n\n### Destekleyen Kuruluşlar\n\n- Japon Kültür ve Enformasyon Merkezi\n- Japon Sanat Merkezi\n- Japon Kültür Evi\n- Suetomi Koto Topluluğu\n- Türk-Japon Kadınları Dostluk ve Kültür Derneği İstanbul Şubesi\n- Masa-Daiko İstanbul Şubesi\n- Boğaziçi Üniversitesi Nitto Türk-Japon Öğrenci Topluluğu\n- Sabancı Üniversitesi Türk-Japon Kültürel Etkileşim Kulübü\n\n\n"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "Etkinlik halka açık olup, kayıt gerekmemektedir!\nBahçe saat 13:00'dan önce açık olmayacaktır.\nEtkinlik alanına cosplay kostümleri ile gelebilirsiniz.\nBahçede yiyecek/içecek standı bulunmaktadır.\nCosplay kostümü için giyinme kabini **bulunmamaktadır**.\n\n### Stand Etkinlikleri\n\n**13:00 - 16:00**\n- Sumi-e Atölyesi\n- Manga Atölyesi\n- Geleneksel Japon Oyunlarıyla Japonca\n\n**13:00 - 17:00**\n- Japonca Eğitimi Kitapları Tanıtımı\n- Origami Atölyesi\n- MEXT Bursu Danışma\n- Beyblade Oyunu\n- Japonca İsim Yazma\n- Yukata Giydirme\n- Hatıra Fotosu Panosu (maiko, samuray)\n\n### Mini Konserler\n\nHer biri 10-15 dk.\n\n**13:00** - Koto (Japon telli çalgısı)\n**13:30** - Kadın Korosu\n**14:00** - Wadaiko (Japon davulu)\n**14:30** - Koto\n**15:00** - Kadın Korosu\n**15:30** - Wadaiko\n**16:30** - Wadaiko\n\n### Fotoblok Sergisi\n\nJaponya'yı Keşfetmek\n\n### Destekleyen Kuruluşlar\n\n- Japon Kültür ve Enformasyon Merkezi\n- Japon Sanat Merkezi\n- Japon Kültür Evi\n- Suetomi Koto Topluluğu\n- Türk-Japon Kadınları Dostluk ve Kültür Derneği İstanbul Şubesi\n- Masa-Daiko İstanbul Şubesi\n- Boğaziçi Üniversitesi Nitto Türk-Japon Öğrenci Topluluğu\n- Sabancı Üniversitesi Türk-Japon Kültürel Etkileşim Kulübü\n\n\n"
       }
     },
     {
@@ -68,8 +68,7 @@
       "disabled": false,
       "name": {
         "tr": "Instagram Postu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

@@ -31,9 +31,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "- 15 Yaş altı alınmayacaktır\n- Cosplay yapmak zorunludur, kostüm zorunluluğu yoktur\n- Uygunsuz davranışlarda bulunan kişiler ileride düzenleyebileceğimiz potansiyel etkinliklerden yasaklanacaktır\n- Daha fazla sorusu olan adminlere ulaşabilir "
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "- 15 Yaş altı alınmayacaktır\n- Cosplay yapmak zorunludur, kostüm zorunluluğu yoktur\n- Uygunsuz davranışlarda bulunan kişiler ileride düzenleyebileceğimiz potansiyel etkinliklerden yasaklanacaktır\n- Daha fazla sorusu olan adminlere ulaşabilir "
       }
     },
     {
@@ -74,8 +74,7 @@
       "disabled": false,
       "name": {
         "tr": "Instagram Postu"
-      },
-      "description": {}
+      }
     },
     {
       "$type": "blue.deniz.events:organizer",

@@ -27,9 +27,9 @@
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:description",
-      "description": {
-        "tr": "En sevdiğiniz kurgusal karakterlerin kıyafetlerine bürünüp beraber favori kutu oyunlarınızı oynayabileceğiniz Cosplay ile Kutu Oyunu etkinliğimize hepiniz davetlisiniz.\n\n📆Tarih: 23 Mart Pazar / 13.00-20.00\n🏛Mekan: D Blok D406 Sınıfı\n\nKatılmak için cosplay yapmak ve katılım formunu doldurmanız zorunludur\n\n🎲🦹🏻‍♂️🦹🏼‍♀️\n\nYou’re all invited to our Cosplay & Board Game event, where you can dress up as your favorite fictional characters and enjoy playing your favorite board games together.\n\n📆Date: Sunday, March 23 / 1:00 PM – 8:00 PM\n🏛Place: D Block, Room D406\n\nTo participate, it is mandatory to wear a cosplay and fill out the participation form"
+      "$type": "at.markpub.markdown",
+      "text": {
+        "markdown": "En sevdiğiniz kurgusal karakterlerin kıyafetlerine bürünüp beraber favori kutu oyunlarınızı oynayabileceğiniz Cosplay ile Kutu Oyunu etkinliğimize hepiniz davetlisiniz.\n\n📆Tarih: 23 Mart Pazar / 13.00-20.00\n🏛Mekan: D Blok D406 Sınıfı\n\nKatılmak için cosplay yapmak ve katılım formunu doldurmanız zorunludur\n\n🎲🦹🏻‍♂️🦹🏼‍♀️\n\nYou’re all invited to our Cosplay & Board Game event, where you can dress up as your favorite fictional characters and enjoy playing your favorite board games together.\n\n📆Date: Sunday, March 23 / 1:00 PM – 8:00 PM\n🏛Place: D Block, Room D406\n\nTo participate, it is mandatory to wear a cosplay and fill out the participation form"
       }
     },
     {
@@ -67,9 +67,6 @@
       "disabled": true,
       "name": {
         "tr": "Katılım Formu"
-      },
-      "description": {
-        "tr": "KONTENJAN DOLDU"
       }
     },
     {
@@ -78,9 +75,6 @@
       "disabled": true,
       "name": {
         "tr": "BAU BFKK Üye Bilgi Formu"
-      },
-      "description": {
-        "tr": "Daha önce BAU BFKK etkinliğine katılmamış kişiler doldurmalıdır"
       }
     },
     {
