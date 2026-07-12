@@ -19,31 +19,23 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-03-01[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır."
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır.",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -53,7 +45,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
@@ -74,27 +66,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "6794f5f3c7e6b1dc652db05e",
-      "eventId": "6794f5f3c7e6b1dc652db05d",
-      "organizationId": "6794f536c7e6b1dc652db05b",
-      "organization": {
-        "id": "6794f536c7e6b1dc652db05b",
-        "name": {
-          "tr": "Boğaziçi Üni. Oyun Kulübü"
-        },
-        "avatarURL": "https://i.imgur.com/KhJQcn4.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Boğaziçi Üni. Oyun Kulübü"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "boun_buok"
+            "url": "https://i.imgur.com/KhJQcn4.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/boun_buok",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

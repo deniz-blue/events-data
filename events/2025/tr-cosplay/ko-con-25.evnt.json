@@ -18,25 +18,18 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-05-12[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -46,7 +39,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
@@ -59,27 +52,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "6818af3e66618a500ae7aca8",
-      "eventId": "6818af3e66618a500ae7aca6",
-      "organizationId": "6818aebc66618a500ae7aca5",
-      "organization": {
-        "id": "6818aebc66618a500ae7aca5",
-        "name": {
-          "tr": "Kocaeli Üniversitesi Çizgi Roman ve Animasyon Kulübü"
-        },
-        "avatarURL": "https://i.ibb.co/5XLX2vgq/455920299-823083403283602-2793106471280258474-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-1.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Kocaeli Üniversitesi Çizgi Roman ve Animasyon Kulübü"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "koucrak"
+            "url": "https://i.ibb.co/5XLX2vgq/455920299-823083403283602-2793106471280258474-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-1.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/koucrak",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

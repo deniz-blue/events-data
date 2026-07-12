@@ -19,35 +19,26 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-03-23[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "En sevdiğiniz kurgusal karakterlerin kıyafetlerine bürünüp beraber favori kutu oyunlarınızı oynayabileceğiniz Cosplay ile Kutu Oyunu etkinliğimize hepiniz davetlisiniz.\n\n📆Tarih: 23 Mart Pazar / 13.00-20.00\n🏛Mekan: D Blok D406 Sınıfı\n\nKatılmak için cosplay yapmak ve katılım formunu doldurmanız zorunludur\n\n🎲🦹🏻‍♂️🦹🏼‍♀️\n\nYou’re all invited to our Cosplay & Board Game event, where you can dress up as your favorite fictional characters and enjoy playing your favorite board games together.\n\n📆Date: Sunday, March 23 / 1:00 PM – 8:00 PM\n🏛Place: D Block, Room D406\n\nTo participate, it is mandatory to wear a cosplay and fill out the participation form"
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "En sevdiğiniz kurgusal karakterlerin kıyafetlerine bürünüp beraber favori kutu oyunlarınızı oynayabileceğiniz Cosplay ile Kutu Oyunu etkinliğimize hepiniz davetlisiniz.\n\n📆Tarih: 23 Mart Pazar / 13.00-20.00\n🏛Mekan: D Blok D406 Sınıfı\n\nKatılmak için cosplay yapmak ve katılım formunu doldurmanız zorunludur\n\n🎲🦹🏻‍♂️🦹🏼‍♀️\n\nYou’re all invited to our Cosplay & Board Game event, where you can dress up as your favorite fictional characters and enjoy playing your favorite board games together.\n\n📆Date: Sunday, March 23 / 1:00 PM – 8:00 PM\n🏛Place: D Block, Room D406\n\nTo participate, it is mandatory to wear a cosplay and fill out the participation form",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay",
-        "boardgame"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay", "boardgame"]
     },
     {
-      "$type": "blue.deniz.events:age_restriction"
+      "$type": "blue.deniz.events.age_restriction"
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -57,7 +48,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
@@ -78,30 +69,27 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67cebbfd6eb77cc49a145abc",
-      "eventId": "67cebbfd6eb77cc49a145abb",
-      "organizationId": "67b0a19dd1acaba82903cd20",
-      "organization": {
-        "id": "67b0a19dd1acaba82903cd20",
-        "name": {
-          "tr": "BAUBFKK"
-        },
-        "subtitle": {
-          "tr": "Bahçeşehir Üniversitesi Bilim ve Fantastik Kurgu Kulübü"
-        },
-        "avatarURL": "https://i.ibb.co/8g0c7V7S/image.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "BAUBFKK"
+      },
+      "subtitle": {
+        "tr": "Bahçeşehir Üniversitesi Bilim ve Fantastik Kurgu Kulübü"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "baubfkk"
+            "url": "https://i.ibb.co/8g0c7V7S/image.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/baubfkk",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

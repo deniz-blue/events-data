@@ -19,25 +19,18 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2024-12-14T14:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -47,36 +40,29 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 200,
       "label": {}
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67892a23a69aca0847bfcfaf",
-      "eventId": "675567dec2d673f6e0c32cd9",
-      "organizationId": "67556746c2d673f6e0c32cd7",
-      "organization": {
-        "id": "67556746c2d673f6e0c32cd7",
-        "name": {
-          "tr": "Ourcon"
-        },
-        "subtitle": {},
-        "description": {
-          "tr": "🎭 Cosplay, oyun, anime ve daha fazlası\n👊 Birlikte yaşa, birlikte yaşat!"
-        },
-        "avatarURL": "https://i.imgur.com/OFYynwU.jpeg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Ourcon"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "ourconevent"
+            "url": "https://i.imgur.com/OFYynwU.jpeg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/ourconevent",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

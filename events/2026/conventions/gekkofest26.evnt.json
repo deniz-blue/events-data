@@ -19,9 +19,7 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "v"
-      ],
+      "venueIds": ["v"],
       "start": "2026-01-23T15:00[Europe/Vilnius]",
       "end": "2026-01-23T18:30[Europe/Vilnius]"
     }

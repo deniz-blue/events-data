@@ -23,29 +23,22 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-09-14T14:30[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:extra",
+      "$type": "blue.deniz.events.extra",
       "cosplay:scope": "primary"
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -55,27 +48,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "68b401cee1316f6a42fbac54",
-      "eventId": "68b401cee1316f6a42fbac52",
-      "organizationId": "68b40184e1316f6a42fbac50",
-      "organization": {
-        "id": "68b40184e1316f6a42fbac50",
-        "name": {
-          "tr": "Ayumi Sushi"
-        },
-        "avatarURL": "https://i.ibb.co/0ygv315M/cd2de294748e.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Ayumi Sushi"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "ayumisushi"
+            "url": "https://i.ibb.co/0ygv315M/cd2de294748e.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/ayumisushi",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

@@ -23,31 +23,23 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-28T17:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "28 Haziran Cumartesi günü Animetalin 5. cosplay partili etkinliğini yeni açılan Kızılay mağazamızın önünde gerçekleştireceğiz.\n\nEtkinlik hakkında küçük hatırlatmalar,\nHerhangi bir askeri kamuflaj içeren kostümler yasaktır.\nAirsoft ve benzeri silahlar yasaktır. Plastik olanlara izin vardır.\nMüstehcen kostümler yasaktır.\nBu kurallar sizlerin iyiliği içindir ve etkinliğin merkezi konumu sebebiyle kimsenin başına bir problem açılmaması içindir. Anlayışınız için teşekkürler 🤍\n\nPlanlarınızı ayarlayın hepinizi bekliyoruz.💥🔥🤘\nKocatepe Mahallesi Kızılırmak Caddesi No 39 Kızılay Çankaya "
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "28 Haziran Cumartesi günü Animetalin 5. cosplay partili etkinliğini yeni açılan Kızılay mağazamızın önünde gerçekleştireceğiz.\n\nEtkinlik hakkında küçük hatırlatmalar,\nHerhangi bir askeri kamuflaj içeren kostümler yasaktır.\nAirsoft ve benzeri silahlar yasaktır. Plastik olanlara izin vardır.\nMüstehcen kostümler yasaktır.\nBu kurallar sizlerin iyiliği içindir ve etkinliğin merkezi konumu sebebiyle kimsenin başına bir problem açılmaması içindir. Anlayışınız için teşekkürler 🤍\n\nPlanlarınızı ayarlayın hepinizi bekliyoruz.💥🔥🤘\nKocatepe Mahallesi Kızılırmak Caddesi No 39 Kızılay Çankaya ",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -57,7 +49,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0
     },
     {
@@ -69,27 +61,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "6851bee2fd526f2d0520ae90",
-      "eventId": "6851bee2fd526f2d0520ae8e",
-      "organizationId": "6851bd07fd526f2d0520ae8c",
-      "organization": {
-        "id": "6851bd07fd526f2d0520ae8c",
-        "name": {
-          "tr": "Çelebi Müzik & Organizasyon"
-        },
-        "avatarURL": "https://i.ibb.co/35kygQGV/31e4032cb27a.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Çelebi Müzik & Organizasyon"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "celebimuzikorganizasyon"
+            "url": "https://i.ibb.co/35kygQGV/31e4032cb27a.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/celebimuzikorganizasyon",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

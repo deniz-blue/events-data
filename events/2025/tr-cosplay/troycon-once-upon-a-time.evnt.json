@@ -23,25 +23,18 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-05-17T14:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -51,7 +44,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
@@ -64,27 +57,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "6818b22f66618a500ae7acae",
-      "eventId": "6818b22f66618a500ae7acac",
-      "organizationId": "6818b14e66618a500ae7acab",
-      "organization": {
-        "id": "6818b14e66618a500ae7acab",
-        "name": {
-          "tr": "ÇÖMÜ BİKFET"
-        },
-        "avatarURL": "https://i.ibb.co/0pC7qFMS/279183556-1617382601971542-352093543264646121-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "ÇÖMÜ BİKFET"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "comu_bikfet"
+            "url": "https://i.ibb.co/0pC7qFMS/279183556-1617382601971542-352093543264646121-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/comu_bikfet",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

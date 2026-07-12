@@ -23,28 +23,18 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-05-27[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay",
-        "frp",
-        "boardgame",
-        "workshop"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay", "frp", "boardgame", "workshop"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -54,7 +44,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
@@ -67,21 +57,9 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "68307a3a8cbee98e9e7a2a23",
-      "eventId": "68307a3a8cbee98e9e7a2a21",
-      "organizationId": "6830793c8cbee98e9e7a2a1f",
-      "organization": {
-        "id": "6830793c8cbee98e9e7a2a1f",
-        "name": {
-          "tr": "DPU BKFT"
-        },
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [],
-        "verified": false,
-        "system": false
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "DPU BKFT"
       }
     }
   ]

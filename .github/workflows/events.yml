@@ -1,31 +1,31 @@
 on:
-    push:
-    pull_request:
-    workflow_dispatch:
+  push:
+  pull_request:
+  workflow_dispatch:
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        permissions:
-            contents: write
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        steps:
-            - uses: actions/checkout@v3
-            - uses: openevnt/action-events-repo@main
-            - uses: stefanzweifel/git-auto-commit-action@v7
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: openevnt/action@main
+      - uses: stefanzweifel/git-auto-commit-action@v7
 
-    deploy:
-        needs: build
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        permissions:
-            pages: write
-            id-token: write
-        environment:
-            name: github-pages
-            url: ${{ steps.deployment.outputs.page_url }}
-        runs-on: ubuntu-latest
-        steps:
-            - name: Deploy to GitHub Pages
-              id: deployment
-              uses: actions/deploy-pages@v4
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

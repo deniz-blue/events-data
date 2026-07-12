@@ -26,31 +26,23 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-01T14:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "Mikado Ramen'in ilk cosplay yarışması için geri sayım başladı!\nKayıt yok, kostüm sınırlaması yok, sadece yaratıcılığını getirmen yeterli!\nJüri+izleyici oylaması ile günün en iyi cosplayi seçilecek!\nBirinciye 1000 tl değerinde Mikado Ramen hediye kartı \nİlk üçe süpriz hediyeler\nKatılan herkese %10 indirim\nTarih: 01.06.2025 \nSaat: 11.00"
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "Mikado Ramen'in ilk cosplay yarışması için geri sayım başladı!\nKayıt yok, kostüm sınırlaması yok, sadece yaratıcılığını getirmen yeterli!\nJüri+izleyici oylaması ile günün en iyi cosplayi seçilecek!\nBirinciye 1000 tl değerinde Mikado Ramen hediye kartı \nİlk üçe süpriz hediyeler\nKatılan herkese %10 indirim\nTarih: 01.06.2025 \nSaat: 11.00",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -68,27 +60,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "6835ad24be41e10563088450",
-      "eventId": "6835ad24be41e1056308844e",
-      "organizationId": "6835ac5dbe41e1056308844c",
-      "organization": {
-        "id": "6835ac5dbe41e1056308844c",
-        "name": {
-          "tr": "Mikado Ramen"
-        },
-        "avatarURL": "https://i.ibb.co/fdbFCvCq/996ad7502bf5.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Mikado Ramen"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "mikadoramen"
+            "url": "https://i.ibb.co/fdbFCvCq/996ad7502bf5.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/mikadoramen",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

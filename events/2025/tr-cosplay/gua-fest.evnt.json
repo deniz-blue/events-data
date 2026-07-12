@@ -23,29 +23,22 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-09-20T13:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:extra",
+      "$type": "blue.deniz.events.extra",
       "cosplay:scope": "primary"
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -79,26 +72,17 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "68b3f86de1316f6a42fbac47",
-      "eventId": "68b3f86de1316f6a42fbac45",
-      "organizationId": "68b3f7c3e1316f6a42fbac43",
-      "organization": {
-        "id": "68b3f7c3e1316f6a42fbac43",
-        "name": {
-          "tr": "GUA FEST"
-        },
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
-          {
-            "type": "instagram",
-            "data": "gua_fest"
-          }
-        ],
-        "verified": false,
-        "system": false
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "GUA FEST"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/gua_fest",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

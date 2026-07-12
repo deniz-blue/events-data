@@ -23,49 +23,35 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-27[Europe/Istanbul]"
     },
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-28[Europe/Istanbul]"
     },
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-29[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "[Bu posttan](https://www.instagram.com/p/DLP3rl7NXVf/) alıntı:\n\n> 👾 BtcTurk GameFest’te sahne senin olabilir!\n> 🎭 Cey Lazuli ve CosplayMila’nın jüriliğinde gerçekleşecek Cosplay Yarışması için kayıtlar başladı!\n> \n> 📅 Etkinlik: 29 Haziran - ESA Arena\n> ⏳ Son Başvuru: 28 Haziran Cumartesi, 18:00\n> 💰 Ödül Havuzu: 55.000 TL\n> 🥇 30.000 TL\n> 🥈 15.000 TL\n> 🥉 10.000 TL\n> \n> 🎟 Tüm katılımcılar, GameFest büyük finallerine davetli!\n> 🎭 Büyük Final günü Jüri ön elemesiyle seçilecek 10 finalist, sahnede kıyasıya yarışacak.\n> \n> ⏰ Katılımcılar etkinlik günü 15:00’te kostümleriyle hazır olmalı!\n"
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "[Bu posttan](https://www.instagram.com/p/DLP3rl7NXVf/) alıntı:\n\n> 👾 BtcTurk GameFest’te sahne senin olabilir!\n> 🎭 Cey Lazuli ve CosplayMila’nın jüriliğinde gerçekleşecek Cosplay Yarışması için kayıtlar başladı!\n> \n> 📅 Etkinlik: 29 Haziran - ESA Arena\n> ⏳ Son Başvuru: 28 Haziran Cumartesi, 18:00\n> 💰 Ödül Havuzu: 55.000 TL\n> 🥇 30.000 TL\n> 🥈 15.000 TL\n> 🥉 10.000 TL\n> \n> 🎟 Tüm katılımcılar, GameFest büyük finallerine davetli!\n> 🎭 Büyük Final günü Jüri ön elemesiyle seçilecek 10 finalist, sahnede kıyasıya yarışacak.\n> \n> ⏰ Katılımcılar etkinlik günü 15:00’te kostümleriyle hazır olmalı!\n",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay",
-        "esports",
-        "festival"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay", "esports", "festival"]
     },
     {
-      "$type": "blue.deniz.events:extra",
+      "$type": "blue.deniz.events.extra",
       "cosplay:scope": "allowed"
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -75,7 +61,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {
         "tr": "?"
@@ -98,27 +84,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "685a94e3eae332820a310756",
-      "eventId": "685a94e3eae332820a310752",
-      "organizationId": "685a9235eae332820a310750",
-      "organization": {
-        "id": "685a9235eae332820a310750",
-        "name": {
-          "tr": "BtcTurk GameFest"
-        },
-        "avatarURL": "https://i.ibb.co/JwxLyX9f/f6c3442869c9.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "BtcTurk GameFest"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "btcturkgamefest"
+            "url": "https://i.ibb.co/JwxLyX9f/f6c3442869c9.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/btcturkgamefest",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

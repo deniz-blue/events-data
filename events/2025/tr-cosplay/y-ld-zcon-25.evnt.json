@@ -21,31 +21,23 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-03-02T13:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "- 10:00 - Etkinlik kapı açılışı\n- 12:00\n  - FRP oyunları başlıyor\n  - Kutu oyunu sektörü paneli\n- 12:30 - Catan Turnuvası (NeoTroy)\n- 13:00\n  - Halk efsaneleri pop quizi\n  - RedParry Turnuvaları\n- 14:00 - Oyun/FRP içeriği üretme/pazarlama paneli\n- 14:30 - Treasure hunt başlıyor\n- 15:00 - FRP Oynuyoruz ile söyleşi\n- 16:00 - Cosplay defilesi\n- 17:00 - Just Dance!\n- 19:00 - Alan kapanışı\n\n\n\n"
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "- 10:00 - Etkinlik kapı açılışı\n- 12:00\n  - FRP oyunları başlıyor\n  - Kutu oyunu sektörü paneli\n- 12:30 - Catan Turnuvası (NeoTroy)\n- 13:00\n  - Halk efsaneleri pop quizi\n  - RedParry Turnuvaları\n- 14:00 - Oyun/FRP içeriği üretme/pazarlama paneli\n- 14:30 - Treasure hunt başlıyor\n- 15:00 - FRP Oynuyoruz ile söyleşi\n- 16:00 - Cosplay defilesi\n- 17:00 - Just Dance!\n- 19:00 - Alan kapanışı\n\n\n\n",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -55,7 +47,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
@@ -122,34 +114,27 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67892ee44542f0203caf087a",
-      "eventId": "6786c30444f7e6c28c71d969",
-      "organizationId": "6786c17744f7e6c28c71d967",
-      "organization": {
-        "id": "6786c17744f7e6c28c71d967",
-        "name": {
-          "tr": "Yıldız BKFK"
-        },
-        "subtitle": {
-          "tr": "Yıldız Teknik Üniversitesi Bilim Kurgu Fantastik Kulübü"
-        },
-        "avatarURL": "https://i.imgur.com/AnaRW4n.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Yıldız BKFK"
+      },
+      "subtitle": {
+        "tr": "Yıldız Teknik Üniversitesi Bilim Kurgu Fantastik Kulübü"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "yildizbkfk"
-          },
-          {
-            "type": "linktree",
-            "data": "yildizbkfk"
+            "url": "https://i.imgur.com/AnaRW4n.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/yildizbkfk",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

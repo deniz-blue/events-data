@@ -23,29 +23,22 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-08-23[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:extra",
+      "$type": "blue.deniz.events.extra",
       "cosplay:scope": "primary"
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -55,27 +48,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "685fa7d0448ed35bc3f636b5",
-      "eventId": "685fa7d0448ed35bc3f636b3",
-      "organizationId": "685420d1fd526f2d0520ae9d",
-      "organization": {
-        "id": "685420d1fd526f2d0520ae9d",
-        "name": {
-          "tr": "KimiCon"
-        },
-        "avatarURL": "https://i.ibb.co/hxbBWw6s/41125fa92a43.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "KimiCon"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "kimi.com.tr"
+            "url": "https://i.ibb.co/hxbBWw6s/41125fa92a43.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/kimi.com.tr",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

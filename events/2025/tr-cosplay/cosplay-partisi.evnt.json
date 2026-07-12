@@ -23,25 +23,18 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-15T13:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -51,21 +44,21 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 130,
       "label": {
         "tr": "1) Kahve veya Kokteyl"
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 200,
       "label": {
         "tr": "2) Tatlı"
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 250,
       "label": {
         "tr": "3) Kahve veya Kokteyl + Tatlı"
@@ -80,31 +73,28 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "684c5fd6e224ec53373a5f05",
-      "eventId": "684c5fd6e224ec53373a5f03",
-      "organizationId": "684c5eefe224ec53373a5f01",
-      "organization": {
-        "id": "684c5eefe224ec53373a5f01",
-        "name": {
-          "tr": "coffe5"
-        },
-        "avatarURL": "https://i.ibb.co/xtZr4wgL/0cb773390b51.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "coffe5"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "coffe5official"
+            "url": "https://i.ibb.co/xtZr4wgL/0cb773390b51.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
       }
     },
     {
-      "$type": "blue.deniz.events:announcement",
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/coffe5official",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.announcement",
       "id": "684c7739a93b8190bf59786a",
       "eventId": "684c5fd6e224ec53373a5f03",
       "title": {

@@ -23,36 +23,28 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-07-05T14:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "Etkinlik Kuralları\n\n- Etkinliğimize 12 yaş ve üzeri katılımcılar alınıcaktır.\n\n- Etkinlikte sınırlı sayıda kontenjan vardır.\n\n- Etkinlikte kapıda bilet satışı olmayacaktır.\n\n- Etkinliğe giriş için online katılımcı formu doldurmak zorunludur.\n\n- Etkinlik alanı teknede olucağı için denize izmarit vb. çöp atmak yasaktır.\n\n- Gemide sigara içilmesi yasaktır.\n\n- Denize atlamak, denize karşı tehlikeli hareketlerde bulunmak (ittirmek vb.) davranışlarda bulunmayınız aksi takdirde sorumluluk bize ait değildir.\n\n- Etkinliğe insanlara zarar verilebilecek kesici,delici alet sokulması yasaktır.\n\n- Etkinlik alanında rahatsızlık veren, rahatsızlığa sebep olacak davranışlarda bulunanlar etkinliklikten atılacaktır."
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "Etkinlik Kuralları\n\n- Etkinliğimize 12 yaş ve üzeri katılımcılar alınıcaktır.\n\n- Etkinlikte sınırlı sayıda kontenjan vardır.\n\n- Etkinlikte kapıda bilet satışı olmayacaktır.\n\n- Etkinliğe giriş için online katılımcı formu doldurmak zorunludur.\n\n- Etkinlik alanı teknede olucağı için denize izmarit vb. çöp atmak yasaktır.\n\n- Gemide sigara içilmesi yasaktır.\n\n- Denize atlamak, denize karşı tehlikeli hareketlerde bulunmak (ittirmek vb.) davranışlarda bulunmayınız aksi takdirde sorumluluk bize ait değildir.\n\n- Etkinliğe insanlara zarar verilebilecek kesici,delici alet sokulması yasaktır.\n\n- Etkinlik alanında rahatsızlık veren, rahatsızlığa sebep olacak davranışlarda bulunanlar etkinliklikten atılacaktır.",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:extra",
+      "$type": "blue.deniz.events.extra",
       "cosplay:scope": "primary",
       "cosplay:cloakroom": true
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -62,7 +54,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 300,
       "label": {
         "tr": "Etkinlik Bileti (Online)"
@@ -101,32 +93,28 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "683afd75af1e8415ab696ddc",
-      "eventId": "683afd75af1e8415ab696dda",
-      "organizationId": "683afd2faf1e8415ab696dd8",
-      "organization": {
-        "id": "683afd2faf1e8415ab696dd8",
-        "name": {
-          "tr": "SailCon"
-        },
-        "avatarURL": "https://i.ibb.co/VpCxBZ11/c7ff8aceb57b.jpg",
-        "userIds": [
-          "67531fec365c75460909de70",
-          "6851c2a3fd526f2d0520ae92"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "SailCon"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "sail.con"
+            "url": "https://i.ibb.co/VpCxBZ11/c7ff8aceb57b.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
       }
     },
     {
-      "$type": "blue.deniz.events:announcement",
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/sail.con",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.announcement",
       "id": "68679231e1316f6a42fbac36",
       "eventId": "683afd75af1e8415ab696dda",
       "title": {

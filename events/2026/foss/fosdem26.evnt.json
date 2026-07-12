@@ -28,18 +28,12 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "ulb",
-        "live"
-      ],
+      "venueIds": ["ulb", "live"],
       "start": "2026-01-31T09:30[Europe/Brussels]",
       "end": "2026-01-31T19:00[Europe/Brussels]"
     },
     {
-      "venueIds": [
-        "ulb",
-        "live"
-      ],
+      "venueIds": ["ulb", "live"],
       "start": "2026-02-01T09:30[Europe/Brussels]",
       "end": "2026-02-01T19:00[Europe/Brussels]"
     }

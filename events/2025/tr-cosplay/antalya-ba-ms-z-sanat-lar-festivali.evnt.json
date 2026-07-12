@@ -24,33 +24,23 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-05-24T16:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "Antalya Bağımsız Sanatçılar Festivali maskotu Portakal hepinizi 24 Mayıs'ta gerçekleşecek etkinliklerimize davet ediyor! Profesyonel sanatçılar tarafından verilen ücretsiz workshoplar, sergi ve interaktif sanatçı pazarı ile rengarenk birgün sizi bekliyor!"
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "Antalya Bağımsız Sanatçılar Festivali maskotu Portakal hepinizi 24 Mayıs'ta gerçekleşecek etkinliklerimize davet ediyor! Profesyonel sanatçılar tarafından verilen ücretsiz workshoplar, sergi ve interaktif sanatçı pazarı ile rengarenk birgün sizi bekliyor!",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "festival",
-        "workshop",
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["festival", "workshop", "cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -60,7 +50,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
@@ -89,51 +79,45 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "682c77e9fd791324a6747fc5",
-      "eventId": "682c77e9fd791324a6747fc2",
-      "organizationId": "682c764cfd791324a6747fc0",
-      "organization": {
-        "id": "682c764cfd791324a6747fc0",
-        "name": {
-          "tr": "I. Deniz Türk"
-        },
-        "avatarURL": "https://i.ibb.co/fzSSB6K9/c7c2c14346d3.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "I. Deniz Türk"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "idenizturk"
+            "url": "https://i.ibb.co/fzSSB6K9/c7c2c14346d3.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "682c77e9fd791324a6747fc4",
-      "eventId": "682c77e9fd791324a6747fc2",
-      "organizationId": "682c762efd791324a6747fbf",
-      "organization": {
-        "id": "682c762efd791324a6747fbf",
-        "name": {
-          "tr": "Deniz Işıkver"
-        },
-        "avatarURL": "https://i.ibb.co/9HcK4JbC/931598aaab59.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/idenizturk",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Deniz Işıkver"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "shinysealight"
+            "url": "https://i.ibb.co/9HcK4JbC/931598aaab59.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/shinysealight",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

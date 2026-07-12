@@ -27,18 +27,12 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "csc",
-        "live"
-      ],
+      "venueIds": ["csc", "live"],
       "start": "2026-01-29T09:00[Europe/Brussels]",
       "end": "2026-01-29T17:00[Europe/Brussels]"
     },
     {
-      "venueIds": [
-        "csc",
-        "live"
-      ],
+      "venueIds": ["csc", "live"],
       "start": "2026-01-29T17:00[Europe/Brussels]",
       "end": "2026-01-29T19:00[Europe/Brussels]"
     }

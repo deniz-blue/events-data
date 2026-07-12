@@ -26,36 +26,28 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-07-26T16:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "Etkinlik Akışı\n\n- Cosplay Yarışması\n  - Birincilik: 6000 TL\n  - İkincilik: 4500 TL\n  - Üçüncülük: 3000 TL\n- Çizim Yarışması\n  - Birincilik: Tenda hediye kutusu\n  - İkincilik: Defter + Poster\n  - Üçüncülük: Kanatlı Kolye\n  - Yarışma kayıtları etkinlik alanında alınacaktır.\n  - Kara kalem çalışması şeklinde olacaktır.\n  - Materyaller tarafımızca verilecektir\n  - 45 dk çizim süresi olacaktır.\n  - Çizimler jüri tarafından değerlendirilecektir\n- Medieval Fantasy temalı Bilgi Yarışması\n- Okçuluk Yarışması\n  - Birincilik: Yay motifli pelerin, Lotr Okçuluk Sertifikası, Poster\n  - İkincilik: Kafatası Figür, Rozet\n  - Üçüncülük: Rozet, Sticker\n  - Yarışma öncesi 1 saatlik periyot içerisinde atış eğitimi verilecektir\n  - Yarışmada 3 ateş hakkı olacaktır\n  - Belirlenen hedefleri platformdan aşağıya düşüren tam puan, sadece hareket ettiren yarım puan alacaktır.\n  - Puan sıralamasına göre tur atlaması olacaktır.\n  - Ekipmanlara zarar verilmemelidir\n  - Yaya insanlara doğru tutmak, zarar verme ihtimali davranışlar yasaktır\n- Kraliyet Dövüşü\n  - Birincilik: Manga & Poster\n  - Kadınlar ve erkekler için sünger kılıçlarla iki ayrı dövüş turnuvası olacaktır\n  - Rakibini 2 kez daire dışına çıkarabilen veya rakibine 3 kez darbe indirebilen kişi müsabakayı kazanıp tur atlayacaktır\n  - Finalde kazananlar kral tarafından şövalye ilan edilecektir\n- Cosplay Defilesi\n- Hazine Avı\n- FRP & Kutu Oyunları\n- Müzik & Dans Şöleni\n- ...\n\n\n\n"
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "Etkinlik Akışı\n\n- Cosplay Yarışması\n  - Birincilik: 6000 TL\n  - İkincilik: 4500 TL\n  - Üçüncülük: 3000 TL\n- Çizim Yarışması\n  - Birincilik: Tenda hediye kutusu\n  - İkincilik: Defter + Poster\n  - Üçüncülük: Kanatlı Kolye\n  - Yarışma kayıtları etkinlik alanında alınacaktır.\n  - Kara kalem çalışması şeklinde olacaktır.\n  - Materyaller tarafımızca verilecektir\n  - 45 dk çizim süresi olacaktır.\n  - Çizimler jüri tarafından değerlendirilecektir\n- Medieval Fantasy temalı Bilgi Yarışması\n- Okçuluk Yarışması\n  - Birincilik: Yay motifli pelerin, Lotr Okçuluk Sertifikası, Poster\n  - İkincilik: Kafatası Figür, Rozet\n  - Üçüncülük: Rozet, Sticker\n  - Yarışma öncesi 1 saatlik periyot içerisinde atış eğitimi verilecektir\n  - Yarışmada 3 ateş hakkı olacaktır\n  - Belirlenen hedefleri platformdan aşağıya düşüren tam puan, sadece hareket ettiren yarım puan alacaktır.\n  - Puan sıralamasına göre tur atlaması olacaktır.\n  - Ekipmanlara zarar verilmemelidir\n  - Yaya insanlara doğru tutmak, zarar verme ihtimali davranışlar yasaktır\n- Kraliyet Dövüşü\n  - Birincilik: Manga & Poster\n  - Kadınlar ve erkekler için sünger kılıçlarla iki ayrı dövüş turnuvası olacaktır\n  - Rakibini 2 kez daire dışına çıkarabilen veya rakibine 3 kez darbe indirebilen kişi müsabakayı kazanıp tur atlayacaktır\n  - Finalde kazananlar kral tarafından şövalye ilan edilecektir\n- Cosplay Defilesi\n- Hazine Avı\n- FRP & Kutu Oyunları\n- Müzik & Dans Şöleni\n- ...\n\n\n\n",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:extra",
+      "$type": "blue.deniz.events.extra",
       "cosplay:scope": "primary",
       "cosplay:cloakroom": true
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -65,28 +57,28 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 500,
       "label": {
         "tr": "👑 Kraliyet Mührü (Tüm Gün) [Online]"
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 350,
       "label": {
         "tr": "✨ Gündüz Şöleni (13.00–19.30) [Online]"
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 380,
       "label": {
         "tr": "✨ Gündüz Şöleni (13.00–19.30) [Kapıda]"
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 170,
       "label": {
         "tr": "🌙 Taverna Gecesi (20.00-22.00) [Kapıda]"
@@ -109,29 +101,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "682c74ddfd791324a6747fba",
-      "eventId": "682c74ddfd791324a6747fb8",
-      "organizationId": "67543f703ad6cce548bcbc49",
-      "organization": {
-        "id": "67543f703ad6cce548bcbc49",
-        "name": {
-          "tr": "The Cosiety"
-        },
-        "description": {},
-        "avatarURL": "https://i.imgur.com/qrAtbDv.jpeg",
-        "userIds": [
-          "67531fec365c75460909de70",
-          "678d046caeec0fe88c5971ef"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "The Cosiety"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "thecosiety"
+            "url": "https://i.imgur.com/qrAtbDv.jpeg"
           }
-        ],
-        "verified": true,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/thecosiety",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

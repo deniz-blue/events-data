@@ -23,36 +23,28 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-07-12T17:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "- 15 Yaş altı alınmayacaktır\n- Cosplay yapmak zorunludur, kostüm zorunluluğu yoktur\n- Uygunsuz davranışlarda bulunan kişiler ileride düzenleyebileceğimiz potansiyel etkinliklerden yasaklanacaktır\n- Daha fazla sorusu olan adminlere ulaşabilir "
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "- 15 Yaş altı alınmayacaktır\n- Cosplay yapmak zorunludur, kostüm zorunluluğu yoktur\n- Uygunsuz davranışlarda bulunan kişiler ileride düzenleyebileceğimiz potansiyel etkinliklerden yasaklanacaktır\n- Daha fazla sorusu olan adminlere ulaşabilir ",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:extra",
+      "$type": "blue.deniz.events.extra",
       "cosplay:scope": "primary",
       "cosplay:mandatory": true
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -62,7 +54,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {
         "tr": "Kahve/Tatlı alımı zorunludur"
@@ -77,51 +69,45 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "6864f156448ed35bc3f636bd",
-      "eventId": "6864f156448ed35bc3f636bb",
-      "organizationId": "6864efeb448ed35bc3f636b8",
-      "organization": {
-        "id": "6864efeb448ed35bc3f636b8",
-        "name": {
-          "tr": "tukoi1283"
-        },
-        "avatarURL": "https://i.ibb.co/5X1V0p8y/7a78ae0e4989.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "tukoi1283"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "tukoi1283"
+            "url": "https://i.ibb.co/5X1V0p8y/7a78ae0e4989.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "6864f156448ed35bc3f636be",
-      "eventId": "6864f156448ed35bc3f636bb",
-      "organizationId": "6864f011448ed35bc3f636b9",
-      "organization": {
-        "id": "6864f011448ed35bc3f636b9",
-        "name": {
-          "tr": "necrofncy"
-        },
-        "avatarURL": "https://i.ibb.co/mF5gz43g/4ce7bfbb9312.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/tukoi1283",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "necrofncy"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "necrofncy"
+            "url": "https://i.ibb.co/mF5gz43g/4ce7bfbb9312.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/necrofncy",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

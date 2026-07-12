@@ -23,32 +23,22 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-10-25T15:00[Asia/Nicosia]"
     },
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-10-26T14:00[Asia/Nicosia]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay",
-        "festival"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay", "festival"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -58,7 +48,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0
     },
     {
@@ -70,27 +60,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "682c87b1b3928ee04d284bdd",
-      "eventId": "682c87b1b3928ee04d284bda",
-      "organizationId": "682c8707b3928ee04d284bd8",
-      "organization": {
-        "id": "682c8707b3928ee04d284bd8",
-        "name": {
-          "tr": "Cyprus Geek Team"
-        },
-        "avatarURL": "https://i.ibb.co/NXmbT94/ac3acff16878.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Cyprus Geek Team"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "cyprusgeekteam"
+            "url": "https://i.ibb.co/NXmbT94/ac3acff16878.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/cyprusgeekteam",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

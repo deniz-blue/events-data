@@ -20,23 +20,17 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "litexpo"
-      ],
+      "venueIds": ["litexpo"],
       "start": "2026-05-22T13:00[Europe/Vilnius]",
       "end": "2026-05-22T21:00[Europe/Vilnius]"
     },
     {
-      "venueIds": [
-        "litexpo"
-      ],
+      "venueIds": ["litexpo"],
       "start": "2026-05-23T13:00[Europe/Vilnius]",
       "end": "2026-05-23T21:00[Europe/Vilnius]"
     },
     {
-      "venueIds": [
-        "litexpo"
-      ],
+      "venueIds": ["litexpo"],
       "start": "2026-05-24T13:00[Europe/Vilnius]",
       "end": "2026-05-24T21:00[Europe/Vilnius]"
     }
@@ -52,10 +46,7 @@
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "poster",
-        "background"
-      ],
+      "roles": ["poster", "background"],
       "media": {
         "sources": [
           {

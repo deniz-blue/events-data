@@ -23,36 +23,26 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-28T15:00[Europe/Istanbul]"
     },
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-29T15:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "festival",
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["festival", "cosplay"]
     },
     {
-      "$type": "blue.deniz.events:extra",
+      "$type": "blue.deniz.events.extra",
       "cosplay:scope": "allowed"
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -62,31 +52,28 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "6852f5d4fd526f2d0520ae9b",
-      "eventId": "6852f5d4fd526f2d0520ae98",
-      "organizationId": "6852f4d2fd526f2d0520ae96",
-      "organization": {
-        "id": "6852f4d2fd526f2d0520ae96",
-        "name": {
-          "tr": "İCAF"
-        },
-        "avatarURL": "https://i.ibb.co/rRKDD7jf/7f6895925b88.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "İCAF"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "istcaf"
+            "url": "https://i.ibb.co/rRKDD7jf/7f6895925b88.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/istcaf",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

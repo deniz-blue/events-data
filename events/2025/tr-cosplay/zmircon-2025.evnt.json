@@ -21,26 +21,18 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-05-03[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay",
-        "frp"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay", "frp"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -50,14 +42,14 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 450,
       "label": {
         "tr": "Ziyaretçi"
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 500,
       "label": {
         "tr": "Ziyaretçi + FRP"
@@ -102,27 +94,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67b82523d39f789da51f39c5",
-      "eventId": "67b82523d39f789da51f39c4",
-      "organizationId": "67b8241ed39f789da51f39c2",
-      "organization": {
-        "id": "67b8241ed39f789da51f39c2",
-        "name": {
-          "tr": "İzmirCon"
-        },
-        "avatarURL": "https://i.ibb.co/ZzsVcHVG/368839449-676189954410126-1491022498865789246-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "İzmirCon"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "izmircon"
+            "url": "https://i.ibb.co/ZzsVcHVG/368839449-676189954410126-1491022498865789246-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-3.jpg"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/izmircon",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

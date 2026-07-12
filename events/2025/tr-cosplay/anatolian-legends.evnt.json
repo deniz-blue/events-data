@@ -18,45 +18,42 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-07-19T15:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "685e2a0f448ed35bc3f636a8",
-      "eventId": "685e2a0f448ed35bc3f636a6",
-      "organizationId": "685e29f8448ed35bc3f636a4",
-      "organization": {
-        "id": "685e29f8448ed35bc3f636a4",
-        "name": {
-          "tr": "Anatolian Legends"
-        },
-        "avatarURL": "https://i.ibb.co/MDVznk0s/854fe4a40399.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Anatolian Legends"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "anatolianlegends"
-          },
-          {
-            "type": "linktree",
-            "data": "anatolianlegends"
+            "url": "https://i.ibb.co/MDVznk0s/854fe4a40399.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/anatolianlegends",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://linktr.ee/anatolianlegends",
+      "disabled": false,
+      "name": {
+        "tr": "Linktree"
       }
     }
   ]

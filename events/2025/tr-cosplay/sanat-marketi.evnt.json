@@ -25,34 +25,24 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-06-13T14:00[Europe/Istanbul]",
       "end": "2025-06-13T20:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.\n\nBu etkinlikte en sevdiğiniz küçük işletmenizin arkasında emek veren kişiyle tanışma şansınız olacak, ürünleri görebilecek ve kargo ücreti ödemeden alabileceksiniz! ✨ Ayrıca küçük ikramlarımız, samimi sohbet ortamımızla size güzel vakit vadediyoruz!\n\nEtkinlik mekanımız Başak Kafe, tüm ziyaretçilerimiz ve katılımcılarımıza çay, kahve alımlarında %10 indirim veriyor🙏🏼💗 @basakcafeofficial"
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.\n\nBu etkinlikte en sevdiğiniz küçük işletmenizin arkasında emek veren kişiyle tanışma şansınız olacak, ürünleri görebilecek ve kargo ücreti ödemeden alabileceksiniz! ✨ Ayrıca küçük ikramlarımız, samimi sohbet ortamımızla size güzel vakit vadediyoruz!\n\nEtkinlik mekanımız Başak Kafe, tüm ziyaretçilerimiz ve katılımcılarımıza çay, kahve alımlarında %10 indirim veriyor🙏🏼💗 @basakcafeofficial",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "fair",
-        "festival",
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["fair", "festival", "cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -62,7 +52,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {
         "tr": "Ziyaretçi Katılımı"
@@ -77,33 +67,27 @@
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67f42bb0ee46a50b18a21e23",
-      "eventId": "67f42bb0ee46a50b18a21e22",
-      "organizationId": "67f42ba1ee46a50b18a21e21",
-      "organization": {
-        "id": "67f42ba1ee46a50b18a21e21",
-        "name": {
-          "tr": "Sanatçı Marketi"
-        },
-        "subtitle": {
-          "tr": "2025 yılında ilkini yapacağımız ''Sanatçı Marketi'' bir küçük işletme sanatçıları etkinliğidir."
-        },
-        "description": {
-          "tr": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak."
-        },
-        "avatarURL": "https://i.ibb.co/rfkS7mK4/c7270da424ce.png",
-        "userIds": [
-          "67f425dfee46a50b18a21e20"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Sanatçı Marketi"
+      },
+      "subtitle": {
+        "tr": "2025 yılında ilkini yapacağımız ''Sanatçı Marketi'' bir küçük işletme sanatçıları etkinliğidir."
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "artistsmarket2025"
+            "url": "https://i.ibb.co/rfkS7mK4/c7270da424ce.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/artistsmarket2025",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

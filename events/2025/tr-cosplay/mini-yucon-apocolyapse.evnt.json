@@ -19,25 +19,18 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2024-12-14T13:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -47,34 +40,29 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67892a12a69aca0847bfcfae",
-      "eventId": "6756e3876150dc57244e1238",
-      "organizationId": "6756c2f7c1a962e2a669fc77",
-      "organization": {
-        "id": "6756c2f7c1a962e2a669fc77",
-        "name": {
-          "tr": "Yeditepe Üni. Bilim Kurgu Kulübü"
-        },
-        "subtitle": {},
-        "description": {},
-        "avatarURL": "https://i.imgur.com/GfLVEIa.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Yeditepe Üni. Bilim Kurgu Kulübü"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "yeditepebilimkurgu"
+            "url": "https://i.imgur.com/GfLVEIa.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/yeditepebilimkurgu",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

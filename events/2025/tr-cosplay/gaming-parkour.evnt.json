@@ -19,46 +19,34 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2024-11-23T17:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67892a5ba69aca0847bfcfb2",
-      "eventId": "6756a5a12bf5c55499b37875",
-      "organizationId": "6756a4d42bf5c55499b37873",
-      "organization": {
-        "id": "6756a4d42bf5c55499b37873",
-        "name": {
-          "tr": "Deniz'in Etkinlik Sitesi"
-        },
-        "subtitle": {
-          "tr": "Sistem"
-        },
-        "description": {},
-        "avatarURL": "https://events.deniz.blue/favicon.ico",
-        "userIds": [
-          "67531fec365c75460909de70",
-          "67925c94c7e6b1dc652db050"
-        ],
-        "contacts": [],
-        "verified": false,
-        "system": true
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Deniz'in Etkinlik Sitesi"
+      },
+      "subtitle": {
+        "tr": "Sistem"
+      },
+      "avatar": {
+        "sources": [
+          {
+            "url": "https://events.deniz.blue/favicon.ico"
+          }
+        ]
       }
     }
   ]

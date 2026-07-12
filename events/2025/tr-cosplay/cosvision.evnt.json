@@ -23,41 +23,34 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-08-02[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "687287a2e1316f6a42fbac3c",
-      "eventId": "687287a2e1316f6a42fbac3a",
-      "organizationId": "687286cfe1316f6a42fbac38",
-      "organization": {
-        "id": "687286cfe1316f6a42fbac38",
-        "name": {
-          "tr": "Hype Zone Festival"
-        },
-        "avatarURL": "https://i.ibb.co/mrySJ0KS/73402150d2d9.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Hype Zone Festival"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "hypezonefestival"
+            "url": "https://i.ibb.co/mrySJ0KS/73402150d2d9.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/hypezonefestival",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

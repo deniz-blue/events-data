@@ -24,29 +24,21 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-10-04[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "fair",
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["fair", "cosplay"]
     },
     {
-      "$type": "blue.deniz.events:age_restriction"
+      "$type": "blue.deniz.events.age_restriction"
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -56,7 +48,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 650,
       "label": {}
     },
@@ -66,51 +58,45 @@
       "disabled": false
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67a0f9bb7630c3fa6401aba8",
-      "eventId": "67a0f9bb7630c3fa6401aba7",
-      "organizationId": "67a0f8377630c3fa6401aba4",
-      "organization": {
-        "id": "67a0f8377630c3fa6401aba4",
-        "name": {
-          "tr": "Side Quest"
-        },
-        "avatarURL": "https://imgur.com/2zN9xXd.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Side Quest"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "sidequest.event"
+            "url": "https://imgur.com/2zN9xXd.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
       }
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67a0f9bb7630c3fa6401aba9",
-      "eventId": "67a0f9bb7630c3fa6401aba7",
-      "organizationId": "67a0f87e7630c3fa6401aba5",
-      "organization": {
-        "id": "67a0f87e7630c3fa6401aba5",
-        "name": {
-          "tr": "Heim"
-        },
-        "avatarURL": "https://imgur.com/W2ZR283.png",
-        "userIds": [
-          "67531fec365c75460909de70"
-        ],
-        "contacts": [
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/sidequest.event",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "Heim"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "heim.onstage"
+            "url": "https://imgur.com/W2ZR283.png"
           }
-        ],
-        "verified": false,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/heim.onstage",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]

@@ -21,43 +21,31 @@
   ],
   "instances": [
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-03-08T14:00[Europe/Istanbul]"
     },
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-03-09T14:00[Europe/Istanbul]"
     },
     {
-      "venueIds": [
-        "0"
-      ],
+      "venueIds": ["0"],
       "start": "2025-03-08T23:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "at.markpub.markdown",
-      "text": {
-        "markdown": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır."
-      }
+      "$type": "directory.evnt.richtext.markdown",
+      "content": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır.",
+      "language": "tr"
     },
     {
-      "$type": "blue.deniz.events:categories",
-      "categories": [
-        "cosplay"
-      ]
+      "$type": "blue.deniz.events.categories",
+      "categories": ["cosplay"]
     },
     {
       "$type": "directory.evnt.component.splashMedia",
-      "roles": [
-        "background",
-        "poster"
-      ],
+      "roles": ["background", "poster"],
       "media": {
         "sources": [
           {
@@ -67,24 +55,24 @@
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 400,
       "label": {
         "tr": "Kombine (İki Gün)"
       }
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 250,
       "label": "Tek Gün"
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 250,
       "label": "Tek Gün"
     },
     {
-      "$type": "blue.deniz.events:pricing",
+      "$type": "blue.deniz.events.pricing",
       "price": 100,
       "label": "+ Soft İçecek"
     },
@@ -94,29 +82,24 @@
       "disabled": false
     },
     {
-      "$type": "blue.deniz.events:organizer",
-      "id": "67892b52a69aca0847bfcfb6",
-      "eventId": "6774029561ae23b3389ca9a3",
-      "organizationId": "67543f703ad6cce548bcbc49",
-      "organization": {
-        "id": "67543f703ad6cce548bcbc49",
-        "name": {
-          "tr": "The Cosiety"
-        },
-        "description": {},
-        "avatarURL": "https://i.imgur.com/qrAtbDv.jpeg",
-        "userIds": [
-          "67531fec365c75460909de70",
-          "678d046caeec0fe88c5971ef"
-        ],
-        "contacts": [
+      "$type": "blue.deniz.events.organizer",
+      "name": {
+        "tr": "The Cosiety"
+      },
+      "avatar": {
+        "sources": [
           {
-            "type": "instagram",
-            "data": "thecosiety"
+            "url": "https://i.imgur.com/qrAtbDv.jpeg"
           }
-        ],
-        "verified": true,
-        "system": false
+        ]
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link",
+      "url": "https://instagram.com/thecosiety",
+      "disabled": false,
+      "name": {
+        "tr": "Instagram"
       }
     }
   ]
