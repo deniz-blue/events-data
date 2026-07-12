@@ -31,5 +31,7 @@ events/
 <!-- This section is auto-generated, do not edit manually -->
 
 <!-- EVENTS LIST START -->
+
 TODO: re-implement markdown list generation
+
 <!-- EVENTS LIST END -->
