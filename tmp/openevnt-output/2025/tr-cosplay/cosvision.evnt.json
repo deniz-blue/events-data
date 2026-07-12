@@ -1,0 +1,57 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "CosVision"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "İstanbul Festivali"
+			},
+			"address": {
+				"countryCode": "TR",
+				"addr": "Fatih İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-08-02[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Hype Zone Festival"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/mrySJ0KS/73402150d2d9.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/hypezonefestival",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

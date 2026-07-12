@@ -1,0 +1,56 @@
+{
+	"v": "0.1",
+	"name": {
+		"en": "CHAOSScon 2026"
+	},
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "csc",
+			"name": {
+				"en": "Common Hub Brussels"
+			},
+			"address": {
+				"countryCode": "BE",
+				"postalCode": "1000",
+				"addr": "Rue de la Madeleine 51, Bruxelles"
+			}
+		},
+		{
+			"$type": "directory.evnt.venue.online",
+			"id": "live",
+			"name": {
+				"en": "Common Hub Brussels"
+			},
+			"url": "https://www.youtube.com/playlist?list=PL60k37cxI-HT4eJrJd1LJcLfhjeQ8zT-o"
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"csc",
+				"live"
+			],
+			"start": "2026-01-29T09:00[Europe/Brussels]",
+			"end": "2026-01-29T17:00[Europe/Brussels]"
+		},
+		{
+			"venueIds": [
+				"csc",
+				"live"
+			],
+			"start": "2026-01-29T17:00[Europe/Brussels]",
+			"end": "2026-01-29T19:00[Europe/Brussels]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://chaoss.community/chaosscon-2026-eu/",
+			"name": {
+				"en": "CHAOSSCon 2026 Homepage"
+			},
+			"disabled": false
+		}
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "KOÜCON'25"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Kocaeli Üni. Umuttepe Kampüsü"
+			},
+			"address": {
+				"addr": "Kocaeli Üniversitesi Umuttepe İzmit Kocaeli"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-05-12[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/dwq9xHGy/eb2fe8792d38.jpg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 0,
+			"label": {}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/koucon25",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram Hesabı"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Kocaeli Üniversitesi Çizgi Roman ve Animasyon Kulübü"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/5XLX2vgq/455920299-823083403283602-2793106471280258474-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw2-1.jpg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/koucrak",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

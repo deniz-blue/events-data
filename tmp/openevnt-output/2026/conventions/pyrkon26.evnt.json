@@ -1,0 +1,40 @@
+{
+	"v": "0.1",
+	"name": {
+		"en": "Pyrkon 2026"
+	},
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "pyrkon",
+			"name": {
+				"en": "Poznań International Fair",
+				"pl": "Międzynarodowe Targi Poznańskie"
+			},
+			"address": {
+				"countryCode": "PL",
+				"postalCode": "60-734",
+				"addr": "Głogowska 14, Poznań"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"pyrkon"
+			],
+			"start": "2026-06-19T12:00[Europe/Warsaw]",
+			"end": "2026-06-21T15:00[Europe/Warsaw]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://pyrkon.pl/en",
+			"name": {
+				"en": "Homepage"
+			},
+			"disabled": false
+		}
+	]
+}

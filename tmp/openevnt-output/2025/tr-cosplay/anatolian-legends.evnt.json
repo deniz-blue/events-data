@@ -1,0 +1,64 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "Anatolian Legends"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Duyurulmadı"
+			},
+			"address": {
+				"addr": "Eskişehir"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-07-19T15:00[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Anatolian Legends"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/MDVznk0s/854fe4a40399.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/anatolianlegends",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://linktr.ee/anatolianlegends",
+			"disabled": false,
+			"name": {
+				"tr": "Linktree"
+			}
+		}
+	]
+}

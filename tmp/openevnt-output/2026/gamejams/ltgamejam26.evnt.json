@@ -1,0 +1,101 @@
+{
+	"v": "0.1",
+	"name": {
+		"en": "LT Game Jam 2026"
+	},
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.online",
+			"id": "Online",
+			"name": {
+				"en": "LT GameJam"
+			},
+			"url": "https://discord.com/invite/a9HNHQGhA4"
+		},
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "VilniusLibrary",
+			"name": {
+				"en": "Martynas Mažvydas National Library of Lithuania"
+			},
+			"address": {
+				"countryCode": "LT",
+				"postalCode": "01109",
+				"addr": "Gedimino pr. 51, Vilnius, 01109 Vilniaus m. sav."
+			}
+		},
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "KulturosFabrikas",
+			"name": {
+				"en": "Culture Factory",
+				"lt": "Kultūros Fabrikas"
+			},
+			"address": {
+				"countryCode": "LT",
+				"postalCode": "91250",
+				"addr": "Bangų g. 5A, Klaipėda, 91250 Klaipėdos m. sav."
+			}
+		},
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "SiauliuValstybineKolegija",
+			"name": {
+				"lt": "Šiaulių valstybinė kolegija"
+			},
+			"address": {
+				"countryCode": "LT",
+				"postalCode": "76241",
+				"addr": "Aušros al. 40, Šiauliai, 76241 Šiaulių m. sav."
+			}
+		},
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "KaunoTechnologijuUniversitetas",
+			"name": {
+				"lt": "Kauno Technologijos Universitetas"
+			},
+			"address": {
+				"countryCode": "LT",
+				"postalCode": "51423",
+				"addr": "K. Baršausko g. 59, Kaunas, 51423 Kauno m. sav."
+			}
+		},
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "RoboLabas",
+			"name": {
+				"lt": "Robotikos centras \"RoboLabas\""
+			},
+			"address": {
+				"countryCode": "LT",
+				"postalCode": "37119",
+				"addr": "Kniaudiškių g. 40, Panevėžys, 37119 Panevėžio m. sav."
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"VilniusLibrary",
+				"Online",
+				"KulturosFabrikas",
+				"SiauliuValstybineKolegija",
+				"KaunoTechnologijuUniversitetas",
+				"RoboLabas"
+			],
+			"start": "2026-01-30T18:00[Europe/Vilnius]",
+			"end": "2026-02-01T19:00[Europe/Vilnius]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://www.gamejam.lt/",
+			"name": {
+				"en": "Homepage"
+			},
+			"disabled": false
+		}
+	]
+}

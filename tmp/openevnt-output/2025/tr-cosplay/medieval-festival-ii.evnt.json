@@ -1,0 +1,107 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "Medieval Festival II"
+	},
+	"label": {},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Club Mirador"
+			},
+			"address": {
+				"countryCode": "TR",
+				"addr": "Gölbaşı Ankara"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-10-04[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"fair",
+				"cosplay"
+			]
+		},
+		{
+			"$type": "blue.deniz.events.age_restriction"
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://cdn.bubilet.com.tr/files/Etkinlik/medieval-festival-ii--42387.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 650,
+			"label": {}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://www.bubilet.com.tr/ankara/etkinlik/medieval-festival-ii-",
+			"disabled": false
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Side Quest"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://imgur.com/2zN9xXd.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/sidequest.event",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Heim"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://imgur.com/W2ZR283.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/heim.onstage",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

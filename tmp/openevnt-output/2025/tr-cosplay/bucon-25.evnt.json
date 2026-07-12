@@ -1,0 +1,97 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "BUCON'25"
+	},
+	"label": {},
+	"status": "cancelled",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Boğaziçi Üniversitesi Güney Kampüsü"
+			},
+			"address": {
+				"addr": "Boğaziçi Üniversitesi Güney Kampüsü Bebek Beşiktaş İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-03-01[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.richtext.markdown",
+			"content": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır.",
+			"language": "tr"
+		},
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/GEbyE68.jpeg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 0,
+			"label": {}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://forms.gle/Wr3wMMgs79arSnfr9",
+			"disabled": false,
+			"name": {
+				"tr": "Okul Dışı Kayıt"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://tr.ee/Nm7CIjb6zD",
+			"disabled": false,
+			"name": {
+				"tr": "GM Kayıt Formu"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Boğaziçi Üni. Oyun Kulübü"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/KhJQcn4.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/boun_buok",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

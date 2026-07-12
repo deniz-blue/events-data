@@ -1,0 +1,101 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "Japon Kültürü Festivali"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "İBB Japon Bahçesi Parkı"
+			},
+			"address": {
+				"countryCode": "TR",
+				"addr": "Sarıyer İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-05-24T16:00[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.richtext.markdown",
+			"content": "Etkinlik halka açık olup, kayıt gerekmemektedir!\nBahçe saat 13:00'dan önce açık olmayacaktır.\nEtkinlik alanına cosplay kostümleri ile gelebilirsiniz.\nBahçede yiyecek/içecek standı bulunmaktadır.\nCosplay kostümü için giyinme kabini **bulunmamaktadır**.\n\n### Stand Etkinlikleri\n\n**13:00 - 16:00**\n- Sumi-e Atölyesi\n- Manga Atölyesi\n- Geleneksel Japon Oyunlarıyla Japonca\n\n**13:00 - 17:00**\n- Japonca Eğitimi Kitapları Tanıtımı\n- Origami Atölyesi\n- MEXT Bursu Danışma\n- Beyblade Oyunu\n- Japonca İsim Yazma\n- Yukata Giydirme\n- Hatıra Fotosu Panosu (maiko, samuray)\n\n### Mini Konserler\n\nHer biri 10-15 dk.\n\n**13:00** - Koto (Japon telli çalgısı)\n**13:30** - Kadın Korosu\n**14:00** - Wadaiko (Japon davulu)\n**14:30** - Koto\n**15:00** - Kadın Korosu\n**15:30** - Wadaiko\n**16:30** - Wadaiko\n\n### Fotoblok Sergisi\n\nJaponya'yı Keşfetmek\n\n### Destekleyen Kuruluşlar\n\n- Japon Kültür ve Enformasyon Merkezi\n- Japon Sanat Merkezi\n- Japon Kültür Evi\n- Suetomi Koto Topluluğu\n- Türk-Japon Kadınları Dostluk ve Kültür Derneği İstanbul Şubesi\n- Masa-Daiko İstanbul Şubesi\n- Boğaziçi Üniversitesi Nitto Türk-Japon Öğrenci Topluluğu\n- Sabancı Üniversitesi Türk-Japon Kültürel Etkileşim Kulübü\n\n\n",
+			"language": "tr"
+		},
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay",
+				"festival"
+			]
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/bRWq93jw/3da32dccbd71.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 0,
+			"label": {}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://www.instagram.com/p/DJb3b4rMK-X/",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram Postu"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Japonya İstanbul Başkonsolosluğu"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/1tJbhxzZ/318447952-519042233577488-1854387411742347534-n-jpg-stp-dst-jpg-s150x150-tt6-nc-ht-instagram-fsaw6-1.jpg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/japonyaistanbulbaskonsoloslugu",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.announcement",
+			"id": "683169e15cb086256a21d482",
+			"eventId": "681ee5a966618a500ae7acb3",
+			"title": {},
+			"message": {
+				"tr": "Hava koşullarının uygun olmasından dolayı etkinliğimiz 24 Mayıs Cumartesi günü gerçekleşecektir 👋🏼"
+			},
+			"hidden": false,
+			"updatedAt": "2025-06-03T12:44:35.331Z"
+		}
+	]
+}

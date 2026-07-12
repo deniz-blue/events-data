@@ -1,0 +1,69 @@
+{
+	"v": "0.1",
+	"name": {
+		"en": "Comic Con Baltics 2026"
+	},
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "litexpo",
+			"name": {
+				"en": "Litexpo Exhibition and Congress Centre",
+				"lt": "Parodų ir kongresų centras LITEXPO"
+			},
+			"address": {
+				"countryCode": "LT",
+				"postalCode": "04215",
+				"addr": "Laisvės pr. 5, Vilnius"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"litexpo"
+			],
+			"start": "2026-05-22T13:00[Europe/Vilnius]",
+			"end": "2026-05-22T21:00[Europe/Vilnius]"
+		},
+		{
+			"venueIds": [
+				"litexpo"
+			],
+			"start": "2026-05-23T13:00[Europe/Vilnius]",
+			"end": "2026-05-23T21:00[Europe/Vilnius]"
+		},
+		{
+			"venueIds": [
+				"litexpo"
+			],
+			"start": "2026-05-24T13:00[Europe/Vilnius]",
+			"end": "2026-05-24T21:00[Europe/Vilnius]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://ccbaltics.com/",
+			"name": {
+				"en": "Homepage"
+			},
+			"disabled": false
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"poster",
+				"background"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://ccbaltics.com/wp-content/uploads/2025/08/Soc.-ir-pop-up-1200x1200-1.jpg",
+						"mimeType": "image/jpeg"
+					}
+				]
+			}
+		}
+	]
+}

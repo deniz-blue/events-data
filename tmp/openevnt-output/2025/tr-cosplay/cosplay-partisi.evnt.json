@@ -1,0 +1,113 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "Cosplay Partisi"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Coffe5 Cafe"
+			},
+			"address": {
+				"countryCode": "TR",
+				"addr": "Ambarlı Avcılar İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-06-15T13:00[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/08wsp2k/5cce2d04297c.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 130,
+			"label": {
+				"tr": "1) Kahve veya Kokteyl"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 200,
+			"label": {
+				"tr": "2) Tatlı"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 250,
+			"label": {
+				"tr": "3) Kahve veya Kokteyl + Tatlı"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://docs.google.com/forms/d/e/1FAIpQLSdXhm3nn3R7Aw26RbFJ97J9NObHk0BaIDMqInWXlvjZP9xiMA/viewform",
+			"disabled": false,
+			"name": {
+				"tr": "Katılım Formu"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "coffe5"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/xtZr4wgL/0cb773390b51.jpg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/coffe5official",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.announcement",
+			"id": "684c7739a93b8190bf59786a",
+			"eventId": "684c5fd6e224ec53373a5f03",
+			"title": {
+				"tr": "Duyuru"
+			},
+			"message": {
+				"tr": "Formda ismi olmayan etkinliğe alınmayacaktır\n\nKredi kartı seçeneği için sayfadan IBAN isteyin oraya yollayın\n~ @cosplaycaturkey"
+			},
+			"hidden": false,
+			"updatedAt": "2025-06-13T19:08:41.030Z"
+		}
+	]
+}

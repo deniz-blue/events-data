@@ -1,0 +1,81 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "Vibe Festival"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Kamelya Kır Bahçesi"
+			},
+			"address": {
+				"countryCode": "TR",
+				"addr": "Keçiören Ankara"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-09-06T16:00[Europe/Istanbul]"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-09-06T23:00[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "blue.deniz.events.extra",
+			"cosplay:scope": "primary"
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/7d8CXVc3/3359a89a2338.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Vibe Festival"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/d0ZpXbsv/520230544-17844392793531983-1183001696885958183-n-jpg-stp-dst-jpg-s150x150-tt6-efg-ey-J2-ZW5jb2-Rl-X.jpg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/agencyofvibe",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

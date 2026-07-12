@@ -1,0 +1,76 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "Ourcon'24"
+	},
+	"label": {},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Eryaman Kasr-ı"
+			},
+			"address": {
+				"addr": "Eryaman Kasr-ı Eryaman Etimesgut Ankara"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2024-12-14T14:00[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/L93T9Ie.jpeg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 200,
+			"label": {}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Ourcon"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/OFYynwU.jpeg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/ourconevent",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

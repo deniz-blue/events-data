@@ -1,0 +1,95 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "YUCON: Federation"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Yeditepe Üniversitesi"
+			},
+			"address": {
+				"countryCode": "TR",
+				"addr": "Ataşehir İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-08-16[Europe/Istanbul]"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-08-17[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.richtext.markdown",
+			"content": "**YUCON Federation**‘da cosplay tutkunları buluşuyor!\n\n16-17 Ağustos’ta [Yeditepe Üniversitesi kampüsünde](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) en sevdiğiniz karakterlerin kostümünü giyip büyülü bir atmosferin parçası olun!\n\nBilim Kurgu, FRP, MTG, Kutu Oyunları ve daha fazlası! Kostüm yarışmaları, fotoğraf çekimleri, yeni arkadaşlıklar ve unutulmaz anılar sizi bekliyor. Hem deneyimli cosplayerlar hem de ilk kez deneyecekler için mükemmel bir ortam! ✨\n\nKarakterinizi seçin, kostümünüzü hazırlayın ve bu eşsiz deneyimin parçası olun! 🚀",
+			"language": "tr"
+		},
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "blue.deniz.events.extra",
+			"cosplay:scope": "primary",
+			"cosplay:cloakroom": true
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/gZL4PvxR/f30765e3495d.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://www.instagram.com/p/DKuuZBKIjX5/",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram Postu"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Yeditepe Üni. Bilim Kurgu Kulübü"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/GfLVEIa.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/yeditepebilimkurgu",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

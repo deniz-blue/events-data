@@ -1,0 +1,95 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "Good Game Convention 1.0"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Yenikapı Kadir Topbaş Gösteri Merkezi"
+			},
+			"address": {
+				"countryCode": "TR",
+				"addr": "Fatih İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2026-01-30[Europe/Istanbul]"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2026-01-31[Europe/Istanbul]"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2026-02-01[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "blue.deniz.events.extra",
+			"cosplay:cloakroom": true
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/9mcst0qF/2567926ef433.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://ggconvention.com",
+			"disabled": false,
+			"name": {
+				"tr": "Websitesi"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "GG Convention"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.ibb.co/k6J38Kp3/add231bce5b7.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/gg.convention",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

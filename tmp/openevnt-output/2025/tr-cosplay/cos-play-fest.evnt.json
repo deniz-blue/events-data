@@ -1,0 +1,117 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "Cos & Play Fest"
+	},
+	"label": {
+		"tr": "Video oyunu temalı cosplay etkinliği"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "Kurtuluş ESpor"
+			},
+			"address": {
+				"addr": "Kurtuluş Espor Koşuyolu Kadıköy İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-03-08T14:00[Europe/Istanbul]"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-03-09T14:00[Europe/Istanbul]"
+		},
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-03-08T23:00[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.richtext.markdown",
+			"content": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır.",
+			"language": "tr"
+		},
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/gxWrpYL.jpeg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 400,
+			"label": {
+				"tr": "Kombine (İki Gün)"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 250,
+			"label": "Tek Gün"
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 250,
+			"label": "Tek Gün"
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 100,
+			"label": "+ Soft İçecek"
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://docs.google.com/forms/d/e/1FAIpQLSfBXK5YZYldr3Hm7JixDbM5ceW9HjmlT_Vn-m2BuTHPx4FUPg/viewform?usp=send_form",
+			"disabled": false
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "The Cosiety"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/qrAtbDv.jpeg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/thecosiety",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}

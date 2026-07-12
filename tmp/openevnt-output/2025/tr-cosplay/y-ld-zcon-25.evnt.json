@@ -1,0 +1,148 @@
+{
+	"v": "0.1",
+	"name": {
+		"tr": "YıldızCon'25"
+	},
+	"label": {
+		"tr": "'Halk efsaneleri' temalı cosplay etkinliği"
+	},
+	"status": "planned",
+	"venues": [
+		{
+			"$type": "directory.evnt.venue.physical",
+			"id": "0",
+			"name": {
+				"tr": "YTÜ Davutpaşa Kongre Merkezi"
+			},
+			"address": {
+				"addr": "YTÜ Davutpaşa Kongre Merkezi Esenler İstanbul"
+			}
+		}
+	],
+	"instances": [
+		{
+			"venueIds": [
+				"0"
+			],
+			"start": "2025-03-02T13:00[Europe/Istanbul]"
+		}
+	],
+	"components": [
+		{
+			"$type": "directory.evnt.richtext.markdown",
+			"content": "- 10:00 - Etkinlik kapı açılışı\n- 12:00\n  - FRP oyunları başlıyor\n  - Kutu oyunu sektörü paneli\n- 12:30 - Catan Turnuvası (NeoTroy)\n- 13:00\n  - Halk efsaneleri pop quizi\n  - RedParry Turnuvaları\n- 14:00 - Oyun/FRP içeriği üretme/pazarlama paneli\n- 14:30 - Treasure hunt başlıyor\n- 15:00 - FRP Oynuyoruz ile söyleşi\n- 16:00 - Cosplay defilesi\n- 17:00 - Just Dance!\n- 19:00 - Alan kapanışı\n\n\n\n",
+			"language": "tr"
+		},
+		{
+			"$type": "blue.deniz.events.categories",
+			"categories": [
+				"cosplay"
+			]
+		},
+		{
+			"$type": "directory.evnt.component.splashMedia",
+			"roles": [
+				"background",
+				"poster"
+			],
+			"media": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/EjggGE5.jpeg"
+					}
+				]
+			}
+		},
+		{
+			"$type": "blue.deniz.events.pricing",
+			"price": 0,
+			"label": {}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://forms.gle/zy5zc8LZ76H7a8Pu8",
+			"disabled": false,
+			"name": {
+				"tr": "Dış Katılımcı Formu"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://forms.gle/3qv5mEPmNMKX8whd8",
+			"disabled": false,
+			"name": {
+				"tr": "Araç Bilgi Formu"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://forms.gle/TtPYEtjPkQm9aP4k7",
+			"disabled": false,
+			"name": {
+				"tr": "Stant Başvuru Formu"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://forms.gle/nGDLYPoV7dojeFH7A",
+			"disabled": false,
+			"name": {
+				"tr": "FRP Oyuncu Kaydı"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://docs.google.com/forms/d/17ErYMMgzbubQXUuSbE6hezPjwyg-pCWj1xHM_Px9QBE/edit?usp=drivesdk",
+			"disabled": false,
+			"name": {
+				"tr": "Catan Turnuvası Kayıt Formu"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://linktr.ee/yildizbkfk",
+			"disabled": false,
+			"name": {}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://www.start.gg/tournament/y-ld-zcon25-turnuvalar/details",
+			"disabled": false,
+			"name": {
+				"tr": "Oyun Turnuvaları Katılım & Bilgi"
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://forms.gle/93FNPWDD8p7UZmnBA",
+			"disabled": false,
+			"name": {
+				"tr": "Cosplay Defilesi Katılımcı Formu"
+			}
+		},
+		{
+			"$type": "blue.deniz.events.organizer",
+			"name": {
+				"tr": "Yıldız BKFK"
+			},
+			"subtitle": {
+				"tr": "Yıldız Teknik Üniversitesi Bilim Kurgu Fantastik Kulübü"
+			},
+			"avatar": {
+				"sources": [
+					{
+						"url": "https://i.imgur.com/AnaRW4n.png"
+					}
+				]
+			}
+		},
+		{
+			"$type": "directory.evnt.component.link",
+			"url": "https://instagram.com/yildizbkfk",
+			"disabled": false,
+			"name": {
+				"tr": "Instagram"
+			}
+		}
+	]
+}
