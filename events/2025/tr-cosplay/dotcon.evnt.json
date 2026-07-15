@@ -22,15 +22,15 @@
   "instances": [
     {
       "venueIds": ["0"],
-      "start": "2024-12-22T14:00[Europe/Istanbul]"
-    },
-    {
-      "venueIds": ["0"],
       "start": "2024-12-20T17:00[Europe/Istanbul]"
     },
     {
       "venueIds": ["0"],
       "start": "2024-12-21T14:00[Europe/Istanbul]"
+    },
+    {
+      "venueIds": ["0"],
+      "start": "2024-12-22T14:00[Europe/Istanbul]"
     }
   ],
   "components": [
