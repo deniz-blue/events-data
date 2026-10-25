@@ -1,48 +1,47 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/slurp-serve.evnt.json",
   "name": {
     "tr": "Slurp & Serve"
   },
-  "label": {
-    "tr": "Mikado Ramen Cosplay Yarışması 1.0"
+  "venue": {
+    "name": {
+      "tr": "Mikado Ramen"
+    },
+    "address": "Çankaya Ankara",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 39.9281217,
+        "longitude": 32.82480750000001
+      }
+    ]
   },
-  "status": "planned",
-  "venues": [
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Mikado Ramen"
-      },
-      "address": {
-        "addr": "Çankaya Ankara",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 39.9281217,
-        "lng": 32.82480750000001
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-06-01T14:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "Mikado Ramen'in ilk cosplay yarışması için geri sayım başladı!\nKayıt yok, kostüm sınırlaması yok, sadece yaratıcılığını getirmen yeterli!\nJüri+izleyici oylaması ile günün en iyi cosplayi seçilecek!\nBirinciye 1000 tl değerinde Mikado Ramen hediye kartı \nİlk üçe süpriz hediyeler\nKatılan herkese %10 indirim\nTarih: 01.06.2025 \nSaat: 11.00",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "Mikado Ramen'in ilk cosplay yarışması için geri sayım başladı!\nKayıt yok, kostüm sınırlaması yok, sadece yaratıcılığını getirmen yeterli!\nJüri+izleyici oylaması ile günün en iyi cosplayi seçilecek!\nBirinciye 1000 tl değerinde Mikado Ramen hediye kartı \nİlk üçe süpriz hediyeler\nKatılan herkese %10 indirim\nTarih: 01.06.2025 \nSaat: 11.00"
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -52,7 +51,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.instagram.com/p/DJ-KMjCMvuI/",
       "disabled": false,
       "name": {
@@ -60,7 +59,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Mikado Ramen"
       },
@@ -73,11 +72,17 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/mikadoramen",
       "disabled": false,
       "name": {
         "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "tr": "Mikado Ramen Cosplay Yarışması 1.0"
       }
     }
   ]

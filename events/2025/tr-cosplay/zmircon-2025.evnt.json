@@ -1,38 +1,34 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/zmircon-2025.evnt.json",
   "name": {
     "tr": "İzmirCon 2025"
   },
-  "label": {
-    "tr": "Gothic Fantasy"
+  "venue": {
+    "name": {
+      "tr": "Tepekule Kongre Merkezi"
+    },
+    "address": "Tepekule Kongre Merkezi Adalet Bayraklı İzmir"
   },
-  "status": "planned",
-  "venues": [
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Tepekule Kongre Merkezi"
-      },
-      "address": {
-        "addr": "Tepekule Kongre Merkezi Adalet Bayraklı İzmir"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-05-03[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay", "frp"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay",
+        "frp"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -42,27 +38,26 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 450,
       "label": {
         "tr": "Ziyaretçi"
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 500,
       "label": {
         "tr": "Ziyaretçi + FRP"
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://kommunity.com/izmircon/events/izmircon25-e543429f",
-      "disabled": false,
-      "name": {}
+      "disabled": false
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLScQNKhnLVghMSs2g8yx57C9hZ6N2tm4VSDV0UWqWsPknE9Scg/viewform",
       "disabled": false,
       "name": {
@@ -70,7 +65,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSddbN2Lybgam5bT2oYjMNv4W0oce3H_ES8IHA9MupNFOALlvw/viewform",
       "disabled": false,
       "name": {
@@ -78,7 +73,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSclks2YTsR1mcIPhigKKbaS_QFs8OWsR-1EHtDkj-6mGm2wPw/viewform",
       "disabled": false,
       "name": {
@@ -86,7 +81,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLScXvXDLEYQQZK43ovzAKG-nhKLcnS9XCZ7pnBqPlNBjpxDwPA/viewform",
       "disabled": false,
       "name": {
@@ -94,7 +89,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "İzmirCon"
       },
@@ -107,11 +102,17 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/izmircon",
       "disabled": false,
       "name": {
         "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "tr": "Gothic Fantasy"
       }
     }
   ]

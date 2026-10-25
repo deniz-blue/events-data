@@ -1,50 +1,52 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/lightcon-2025.evnt.json",
   "name": {
     "tr": "LightCon 2025"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Çikolata Evim İzmir Alsancak"
+    },
+    "address": "Konak İzmir",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 38.4301904,
+        "longitude": 27.1414371
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Çikolata Evim İzmir Alsancak"
-      },
-      "address": {
-        "addr": "Konak İzmir",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 38.4301904,
-        "lng": 27.1414371
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-07-12T17:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "- 15 Yaş altı alınmayacaktır\n- Cosplay yapmak zorunludur, kostüm zorunluluğu yoktur\n- Uygunsuz davranışlarda bulunan kişiler ileride düzenleyebileceğimiz potansiyel etkinliklerden yasaklanacaktır\n- Daha fazla sorusu olan adminlere ulaşabilir ",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "- 15 Yaş altı alınmayacaktır\n- Cosplay yapmak zorunludur, kostüm zorunluluğu yoktur\n- Uygunsuz davranışlarda bulunan kişiler ileride düzenleyebileceğimiz potansiyel etkinliklerden yasaklanacaktır\n- Daha fazla sorusu olan adminlere ulaşabilir "
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.extra",
+      "$type": "blue.deniz.events.extra#0",
       "cosplay:scope": "primary",
       "cosplay:mandatory": true
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -54,14 +56,14 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {
         "tr": "Kahve/Tatlı alımı zorunludur"
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.instagram.com/p/DLkbnv2Ikai",
       "disabled": false,
       "name": {
@@ -69,7 +71,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "tukoi1283"
       },
@@ -82,7 +84,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/tukoi1283",
       "disabled": false,
       "name": {
@@ -90,7 +92,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "necrofncy"
       },
@@ -103,7 +105,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/necrofncy",
       "disabled": false,
       "name": {

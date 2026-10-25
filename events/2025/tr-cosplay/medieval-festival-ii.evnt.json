@@ -1,44 +1,45 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/medieval-festival-ii.evnt.json",
   "name": {
     "tr": "Medieval Festival II"
   },
-  "label": {},
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Club Mirador"
+    },
+    "address": "Gölbaşı Ankara",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 39.8116982,
+        "longitude": 32.7826082
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Club Mirador"
-      },
-      "address": {
-        "addr": "Gölbaşı Ankara",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 39.8116982,
-        "lng": 32.7826082
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-10-04[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["fair", "cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "fair",
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.age_restriction"
+      "$type": "blue.deniz.events.age_restriction#0"
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -48,17 +49,17 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 650,
       "label": {}
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.bubilet.com.tr/ankara/etkinlik/medieval-festival-ii-",
       "disabled": false
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Side Quest"
       },
@@ -71,7 +72,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/sidequest.event",
       "disabled": false,
       "name": {
@@ -79,7 +80,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Heim"
       },
@@ -92,7 +93,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/heim.onstage",
       "disabled": false,
       "name": {

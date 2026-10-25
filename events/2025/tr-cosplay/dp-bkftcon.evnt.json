@@ -1,40 +1,44 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/dp-bkftcon.evnt.json",
   "name": {
     "tr": "DPÜ BKFTCON"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Kütahya Dumlupınar Üniversitesi"
+    },
+    "address": "Kütahya Merkez Kütahya",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 39.4842268,
+        "longitude": 29.8968364
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Kütahya Dumlupınar Üniversitesi"
-      },
-      "address": {
-        "addr": "Kütahya Merkez Kütahya",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 39.4842268,
-        "lng": 29.8968364
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-05-27[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay", "frp", "boardgame", "workshop"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay",
+        "frp",
+        "boardgame",
+        "workshop"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -44,12 +48,12 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.instagram.com/p/DJ38rhUsuIP/?igsh=MnUybW9kaGNqYzVr",
       "disabled": false,
       "name": {
@@ -57,7 +61,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "DPU BKFT"
       }

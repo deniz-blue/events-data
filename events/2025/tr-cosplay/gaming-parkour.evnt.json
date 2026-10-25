@@ -1,40 +1,34 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/gaming-parkour.evnt.json",
   "name": {
     "tr": "Gaming Parkour"
   },
-  "label": {},
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "ESA Arena"
+    },
+    "address": "ESA Espor Arena Maslak Sarıyer İstanbul"
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "ESA Arena"
-      },
-      "address": {
-        "addr": "ESA Espor Arena Maslak Sarıyer İstanbul"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2024-11-23T17:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Deniz'in Etkinlik Sitesi"
       },

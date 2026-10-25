@@ -1,49 +1,51 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/the-cosplay-parade.evnt.json",
   "name": {
     "tr": "The Cosplay Parade"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Yaşam Davet Salonu"
+    },
+    "address": "Küçükçekmece İstanbul",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 41.0516608,
+        "longitude": 28.7625698
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Yaşam Davet Salonu"
-      },
-      "address": {
-        "addr": "Küçükçekmece İstanbul",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 41.0516608,
-        "lng": 28.7625698
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-10-12T16:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "🌟The Cosplay Parade🌟\n\nIşıklar, kameralar, kırmızı halı! ✨\nBu etkinlikte herkes bir yıldız… Türkiye'nin ilk Red Carpet Temalı Cosplay Etkinliği sizlerle.\nGöz kamaştıran elbiseler, şık takımlar, zarif detaylar ve red carpet ihtişamı ile unutulmaz bir etkinliğe davetlisiniz.\n\n💎 Dress Code: Red Carpet\n\n* Karakterini galaya gidiyormuş gibi hayal et ve kombinle, ışıltınla herkesi büyüle!\n*Günlük kıyafetler uygun değildir.\n*Gala şıklığına uygun elbiseler, abiye kıyafetler, smokinler, gömlek-kravat ve şık kombinler vb. beklenir.\n*Temaya uymak gereklidir✨✨\n\nÖzetle: Bu etkinlikte sahne senin, şıklığınla parlamaya hazırlan!\n\n📸 Kırmızı halıda yürürken flaşlar altında ışıldayacak, profesyonel çekimlerle yıldız gibi anılacaksın.\n🎶 Gündüz; Defileler, yarışmalar, danslar ve daha fazlası\n🍹 Gece; özel kokteyller, müzik ve after party ile eğlence hız kesmeden devam edecek.\n\n🎟 Sınırlı bilet kontenjan - kırmızı halıda yerini ayırtmaya hazır ol, bu eşsiz günün parlayan yıldızı sen ol!\n\nDetaylar (bilet, yarışma vb.) ilerleyen zamanda açıklanacaktır.✨\n\nEtkinlik: The Cosplay Parade\nAlan: Yaşam Davet Salonu (Küçükçekmece/istanbul)\nTarih: 12 Ekim Pazar 2025\nSaat: 13.00-22.00\n\n#thecosiety #redcarpet #cosplay #cosplayevent #redcarpetevent #cosplayphotography",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "🌟The Cosplay Parade🌟\n\nIşıklar, kameralar, kırmızı halı! ✨\nBu etkinlikte herkes bir yıldız… Türkiye'nin ilk Red Carpet Temalı Cosplay Etkinliği sizlerle.\nGöz kamaştıran elbiseler, şık takımlar, zarif detaylar ve red carpet ihtişamı ile unutulmaz bir etkinliğe davetlisiniz.\n\n💎 Dress Code: Red Carpet\n\n* Karakterini galaya gidiyormuş gibi hayal et ve kombinle, ışıltınla herkesi büyüle!\n*Günlük kıyafetler uygun değildir.\n*Gala şıklığına uygun elbiseler, abiye kıyafetler, smokinler, gömlek-kravat ve şık kombinler vb. beklenir.\n*Temaya uymak gereklidir✨✨\n\nÖzetle: Bu etkinlikte sahne senin, şıklığınla parlamaya hazırlan!\n\n📸 Kırmızı halıda yürürken flaşlar altında ışıldayacak, profesyonel çekimlerle yıldız gibi anılacaksın.\n🎶 Gündüz; Defileler, yarışmalar, danslar ve daha fazlası\n🍹 Gece; özel kokteyller, müzik ve after party ile eğlence hız kesmeden devam edecek.\n\n🎟 Sınırlı bilet kontenjan - kırmızı halıda yerini ayırtmaya hazır ol, bu eşsiz günün parlayan yıldızı sen ol!\n\nDetaylar (bilet, yarışma vb.) ilerleyen zamanda açıklanacaktır.✨\n\nEtkinlik: The Cosplay Parade\nAlan: Yaşam Davet Salonu (Küçükçekmece/istanbul)\nTarih: 12 Ekim Pazar 2025\nSaat: 13.00-22.00\n\n#thecosiety #redcarpet #cosplay #cosplayevent #redcarpetevent #cosplayphotography"
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.extra",
+      "$type": "blue.deniz.events.extra#0",
       "cosplay:scope": "primary"
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -53,7 +55,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "The Cosiety"
       },
@@ -66,7 +68,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/thecosiety",
       "disabled": false,
       "name": {

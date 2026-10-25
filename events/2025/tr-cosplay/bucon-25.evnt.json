@@ -1,41 +1,40 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/bucon-25.evnt.json",
   "name": {
     "tr": "BUCON'25"
   },
-  "label": {},
   "status": "cancelled",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Boğaziçi Üniversitesi Güney Kampüsü"
+    },
+    "address": "Boğaziçi Üniversitesi Güney Kampüsü Bebek Beşiktaş İstanbul"
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Boğaziçi Üniversitesi Güney Kampüsü"
-      },
-      "address": {
-        "addr": "Boğaziçi Üniversitesi Güney Kampüsü Bebek Beşiktaş İstanbul"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-03-01[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır.",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "Boğaziçi Üniversitesi Oyun Kulübü, casusluk temalı BUCON’25’i sunar! Cosplay yarışması, hazine avı, söyleşiler, FRP ve daha başka pek çok etkinlik bulunduran dopdolu programıyla 1 Mart tarihinde Güney Meydan’da düzenlenecek BUCON’25, içinde saklı gizemlerini çözecek yetenekli casuslarını bekliyor!\n\nBUCON’25’e katılım ücretsiz olup BUOK üyesi ya da Boğaziçi öğrencisi olmanız gerekmemektedir. Okul dışından katılacak kişilerin bioda bulunan linktree hesabındaki kayıt formunu doldurmaları yeterlidir! Detaylı etkinlik programı ve diğer gelişmeler için sosyal medya hesaplarımızı takipte kalabilir, sorularınız için bize ulaşabilirsiniz.\n\nCosplaylerinizin temaya uygun olması teşvik edilse de temadan bağımsız cosplayler de kabul edilmektedir. Okulun kuralları çerçevesinde belirli politik semboller bulunduran veya gerçekçi silah barındıran cosplayler etkinlik alanına alınmayacaktır."
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -45,12 +44,12 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://forms.gle/Wr3wMMgs79arSnfr9",
       "disabled": false,
       "name": {
@@ -58,7 +57,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://tr.ee/Nm7CIjb6zD",
       "disabled": false,
       "name": {
@@ -66,7 +65,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Boğaziçi Üni. Oyun Kulübü"
       },
@@ -79,7 +78,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/boun_buok",
       "disabled": false,
       "name": {

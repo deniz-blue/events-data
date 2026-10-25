@@ -1,43 +1,41 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/turkic-cosplay.evnt.json",
   "name": {
     "tr": "Turkic Cosplay"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Ankara Hacı Bayram Veli Üniversitesi Itri Kongre ve Kültür Merkezi"
+    },
+    "address": "Yenimahalle Ankara",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 39.9427944,
+        "longitude": 32.8178955
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Ankara Hacı Bayram Veli Üniversitesi Itri Kongre ve Kültür Merkezi"
-      },
-      "address": {
-        "addr": "Yenimahalle Ankara",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 39.9427944,
-        "lng": 32.8178955
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-10-14[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.extra",
+      "$type": "blue.deniz.events.extra#0",
       "cosplay:scope": "primary"
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "HBV Türk Töresi ve Harsı Topluluğu"
       },
@@ -50,7 +48,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/ahbvturktoresi",
       "disabled": false,
       "name": {

@@ -1,54 +1,55 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/yucon-federation.evnt.json",
   "name": {
     "tr": "YUCON: Federation"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Yeditepe Üniversitesi"
+    },
+    "address": "Ataşehir İstanbul",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 40.9719767,
+        "longitude": 29.1522123
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Yeditepe Üniversitesi"
-      },
-      "address": {
-        "addr": "Ataşehir İstanbul",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 40.9719767,
-        "lng": 29.1522123
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-08-16[Europe/Istanbul]"
     },
     {
-      "venueIds": ["0"],
       "start": "2025-08-17[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "**YUCON Federation**‘da cosplay tutkunları buluşuyor!\n\n16-17 Ağustos’ta [Yeditepe Üniversitesi kampüsünde](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) en sevdiğiniz karakterlerin kostümünü giyip büyülü bir atmosferin parçası olun!\n\nBilim Kurgu, FRP, MTG, Kutu Oyunları ve daha fazlası! Kostüm yarışmaları, fotoğraf çekimleri, yeni arkadaşlıklar ve unutulmaz anılar sizi bekliyor. Hem deneyimli cosplayerlar hem de ilk kez deneyecekler için mükemmel bir ortam! ✨\n\nKarakterinizi seçin, kostümünüzü hazırlayın ve bu eşsiz deneyimin parçası olun! 🚀",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "**YUCON Federation**‘da cosplay tutkunları buluşuyor!\n\n16-17 Ağustos’ta [Yeditepe Üniversitesi kampüsünde](https://www.google.com/maps/search/?api=1&query_place_id=ChIJHVV4ve_FyhQRJcn35slKrC0&query=ChIJHVV4ve_FyhQRJcn35slKrC0) en sevdiğiniz karakterlerin kostümünü giyip büyülü bir atmosferin parçası olun!\n\nBilim Kurgu, FRP, MTG, Kutu Oyunları ve daha fazlası! Kostüm yarışmaları, fotoğraf çekimleri, yeni arkadaşlıklar ve unutulmaz anılar sizi bekliyor. Hem deneyimli cosplayerlar hem de ilk kez deneyecekler için mükemmel bir ortam! ✨\n\nKarakterinizi seçin, kostümünüzü hazırlayın ve bu eşsiz deneyimin parçası olun! 🚀"
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.extra",
+      "$type": "blue.deniz.events.extra#0",
       "cosplay:scope": "primary",
       "cosplay:cloakroom": true
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -58,7 +59,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.instagram.com/p/DKuuZBKIjX5/",
       "disabled": false,
       "name": {
@@ -66,7 +67,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Yeditepe Üni. Bilim Kurgu Kulübü"
       },
@@ -79,7 +80,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/yeditepebilimkurgu",
       "disabled": false,
       "name": {

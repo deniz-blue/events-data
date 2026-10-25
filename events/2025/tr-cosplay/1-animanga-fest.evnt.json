@@ -1,44 +1,43 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/1-animanga-fest.evnt.json",
   "name": {
     "tr": "1. AniManga Fest"
   },
-  "label": {},
   "status": "cancelled",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Tarihi Havagazı Fabrikası Kültür Merkezi"
+    },
+    "address": "Tarihi Havagazı Fabrikası Kültür Merkezi Alsancak Konak İzmir"
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Tarihi Havagazı Fabrikası Kültür Merkezi"
-      },
-      "address": {
-        "addr": "Tarihi Havagazı Fabrikası Kültür Merkezi Alsancak Konak İzmir"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-04-11[Europe/Istanbul]"
     },
     {
-      "venueIds": ["0"],
       "start": "2025-04-12[Europe/Istanbul]"
     },
     {
-      "venueIds": ["0"],
       "start": "2025-04-13[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay", "fair", "concert", "seminar"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay",
+        "fair",
+        "concert",
+        "seminar"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -48,21 +47,21 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 1725,
       "label": {
         "tr": "Kombine Festival Girişi"
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 805,
       "label": {
         "tr": "Günlük Festival Girişi"
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "AniManga Fest"
       },
@@ -78,7 +77,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/animangafest",
       "disabled": false,
       "name": {

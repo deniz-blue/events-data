@@ -1,48 +1,48 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/vibe-festival.evnt.json",
   "name": {
     "tr": "Vibe Festival"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Kamelya Kır Bahçesi"
+    },
+    "address": "Keçiören Ankara",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 40.0723127,
+        "longitude": 32.8277153
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Kamelya Kır Bahçesi"
-      },
-      "address": {
-        "addr": "Keçiören Ankara",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 40.0723127,
-        "lng": 32.8277153
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-09-06T16:00[Europe/Istanbul]"
     },
     {
-      "venueIds": ["0"],
       "start": "2025-09-06T23:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.extra",
+      "$type": "blue.deniz.events.extra#0",
       "cosplay:scope": "primary"
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -52,7 +52,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Vibe Festival"
       },
@@ -65,7 +65,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/agencyofvibe",
       "disabled": false,
       "name": {

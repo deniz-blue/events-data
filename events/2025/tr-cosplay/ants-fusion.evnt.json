@@ -1,35 +1,34 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/ants-fusion.evnt.json",
   "name": {
     "tr": "Ants Fusion"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "İstanbul Kültür Üniversitesi"
+    },
+    "address": "İstanbul Kültür Üniversitesi Bakırköy İstanbul"
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "İstanbul Kültür Üniversitesi"
-      },
-      "address": {
-        "addr": "İstanbul Kültür Üniversitesi Bakırköy İstanbul"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-05-08[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["tech", "cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "tech",
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -39,12 +38,12 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "İKÜ Tasarım Fabrikası"
       },
@@ -57,7 +56,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/ikutasarimfabrikasi",
       "disabled": false,
       "name": {
@@ -65,7 +64,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Ants"
       },
@@ -78,7 +77,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/antsplayzone",
       "disabled": false,
       "name": {

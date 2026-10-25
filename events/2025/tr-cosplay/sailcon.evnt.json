@@ -1,50 +1,52 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/sailcon.evnt.json",
   "name": {
     "tr": "SailCon"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Küçük Prens Gezi Yatları"
+    },
+    "address": "Beşiktaş İstanbul - Avrupa",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 41.0645149,
+        "longitude": 29.0411956
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Küçük Prens Gezi Yatları"
-      },
-      "address": {
-        "addr": "Beşiktaş İstanbul - Avrupa",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 41.0645149,
-        "lng": 29.0411956
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-07-05T14:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "Etkinlik Kuralları\n\n- Etkinliğimize 12 yaş ve üzeri katılımcılar alınıcaktır.\n\n- Etkinlikte sınırlı sayıda kontenjan vardır.\n\n- Etkinlikte kapıda bilet satışı olmayacaktır.\n\n- Etkinliğe giriş için online katılımcı formu doldurmak zorunludur.\n\n- Etkinlik alanı teknede olucağı için denize izmarit vb. çöp atmak yasaktır.\n\n- Gemide sigara içilmesi yasaktır.\n\n- Denize atlamak, denize karşı tehlikeli hareketlerde bulunmak (ittirmek vb.) davranışlarda bulunmayınız aksi takdirde sorumluluk bize ait değildir.\n\n- Etkinliğe insanlara zarar verilebilecek kesici,delici alet sokulması yasaktır.\n\n- Etkinlik alanında rahatsızlık veren, rahatsızlığa sebep olacak davranışlarda bulunanlar etkinliklikten atılacaktır.",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "Etkinlik Kuralları\n\n- Etkinliğimize 12 yaş ve üzeri katılımcılar alınıcaktır.\n\n- Etkinlikte sınırlı sayıda kontenjan vardır.\n\n- Etkinlikte kapıda bilet satışı olmayacaktır.\n\n- Etkinliğe giriş için online katılımcı formu doldurmak zorunludur.\n\n- Etkinlik alanı teknede olucağı için denize izmarit vb. çöp atmak yasaktır.\n\n- Gemide sigara içilmesi yasaktır.\n\n- Denize atlamak, denize karşı tehlikeli hareketlerde bulunmak (ittirmek vb.) davranışlarda bulunmayınız aksi takdirde sorumluluk bize ait değildir.\n\n- Etkinliğe insanlara zarar verilebilecek kesici,delici alet sokulması yasaktır.\n\n- Etkinlik alanında rahatsızlık veren, rahatsızlığa sebep olacak davranışlarda bulunanlar etkinliklikten atılacaktır."
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.extra",
+      "$type": "blue.deniz.events.extra#0",
       "cosplay:scope": "primary",
       "cosplay:cloakroom": true
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -54,14 +56,14 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 300,
       "label": {
         "tr": "Etkinlik Bileti (Online)"
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSefX_cJVzfAzekrsRSCEujsRwod3jaSF6ZY9wuZXw9dvB07LQ/viewform",
       "disabled": false,
       "name": {
@@ -69,7 +71,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSd0wtHHLCEUCMujhJR1R8lrCK1gGjE8Nvq_wlt6ayB6nc1Xww/viewform",
       "disabled": false,
       "name": {
@@ -77,7 +79,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLScbE4jAt9nxHKnZ-Y-1oOu2yRs-qsuhpl8lGfMw8r02lrmc1Q/viewform",
       "disabled": true,
       "name": {
@@ -85,7 +87,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSdk-InaMWgGMX7SX1PUwToHnaK56CpQkEU-hOTRov5gSQ4WlQ/viewform",
       "disabled": false,
       "name": {
@@ -93,7 +95,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "SailCon"
       },
@@ -106,7 +108,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/sail.con",
       "disabled": false,
       "name": {
@@ -114,7 +116,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.announcement",
+      "$type": "blue.deniz.events.announcement#0",
       "id": "68679231e1316f6a42fbac36",
       "eventId": "683afd75af1e8415ab696dda",
       "title": {

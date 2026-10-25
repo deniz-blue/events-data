@@ -1,0 +1,36 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/gamejams/ltgamejam26-klaipeda.evnt.json",
+  "name": {
+    "en": "LT Game Jam 2026 Klaipėda"
+  },
+  "venue": {
+    "name": {
+      "en": "Culture Factory",
+      "lt": "Kultūros Fabrikas"
+    },
+    "address": "Bangų g. 5A, Klaipėda, 91250 Klaipėdos m. sav.",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2026-01-30T18:00[Europe/Vilnius]",
+      "end": "2026-02-01T19:00[Europe/Vilnius]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.gamejam.lt/",
+      "name": {
+        "en": "Homepage"
+      },
+      "disabled": false
+    },
+    {
+      "$type": "directory.evnt.component.relation#0",
+      "type": "parent",
+      "target": "https://deniz.blue/events-data/2026/gamejams/ltgamejam26.evnt.json"
+    }
+  ]
+}

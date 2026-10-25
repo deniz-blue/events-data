@@ -1,40 +1,41 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/cosplay-partisi.evnt.json",
   "name": {
     "tr": "Cosplay Partisi"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Coffe5 Cafe"
+    },
+    "address": "Ambarlı Avcılar İstanbul",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 40.9783665,
+        "longitude": 28.7186457
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Coffe5 Cafe"
-      },
-      "address": {
-        "addr": "Ambarlı Avcılar İstanbul",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 40.9783665,
-        "lng": 28.7186457
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-06-15T13:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -44,28 +45,28 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 130,
       "label": {
         "tr": "1) Kahve veya Kokteyl"
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 200,
       "label": {
         "tr": "2) Tatlı"
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 250,
       "label": {
         "tr": "3) Kahve veya Kokteyl + Tatlı"
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSdXhm3nn3R7Aw26RbFJ97J9NObHk0BaIDMqInWXlvjZP9xiMA/viewform",
       "disabled": false,
       "name": {
@@ -73,7 +74,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "coffe5"
       },
@@ -86,7 +87,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/coffe5official",
       "disabled": false,
       "name": {
@@ -94,7 +95,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.announcement",
+      "$type": "blue.deniz.events.announcement#0",
       "id": "684c7739a93b8190bf59786a",
       "eventId": "684c5fd6e224ec53373a5f03",
       "title": {

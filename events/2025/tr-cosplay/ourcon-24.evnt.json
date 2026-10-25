@@ -1,36 +1,33 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/ourcon-24.evnt.json",
   "name": {
     "tr": "Ourcon'24"
   },
-  "label": {},
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Eryaman Kasr-ı"
+    },
+    "address": "Eryaman Kasr-ı Eryaman Etimesgut Ankara"
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Eryaman Kasr-ı"
-      },
-      "address": {
-        "addr": "Eryaman Kasr-ı Eryaman Etimesgut Ankara"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2024-12-14T14:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -40,12 +37,12 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 200,
       "label": {}
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Ourcon"
       },
@@ -58,7 +55,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/ourconevent",
       "disabled": false,
       "name": {

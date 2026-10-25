@@ -1,51 +1,45 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/cos-play-fest.evnt.json",
   "name": {
     "tr": "Cos & Play Fest"
   },
-  "label": {
-    "tr": "Video oyunu temalı cosplay etkinliği"
+  "venue": {
+    "name": {
+      "tr": "Kurtuluş ESpor"
+    },
+    "address": "Kurtuluş Espor Koşuyolu Kadıköy İstanbul"
   },
-  "status": "planned",
-  "venues": [
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Kurtuluş ESpor"
-      },
-      "address": {
-        "addr": "Kurtuluş Espor Koşuyolu Kadıköy İstanbul"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-03-08T14:00[Europe/Istanbul]"
     },
     {
-      "venueIds": ["0"],
       "start": "2025-03-09T14:00[Europe/Istanbul]"
     },
     {
-      "venueIds": ["0"],
       "start": "2025-03-08T23:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır.",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "En sevdiğiniz oyun karakterleriyle büyülü bir dünyaya adım atmaya hazır mısınız!?\n\nGelin, oyun dünyasının en ikonik karakterlerini bir araya getireceğimiz, unutulmaz bir Cosplay Etkinliğinde buluşalım! Kahramanlar, anti kahramanlar, fantastik yaratıklar, efsanevi karakterler ve daha fazlası... Herkesin favorisi olacak bir etkinlik sizleri bekliyor.\n\nYepyeni bir yılda harika bir etkinliğe hepinizi bekleriz.\nDetaylar ilerleyen zamanda açıklanacaktır. Takipte kalın✨\n\nNot: Etkinliğe katılmak için temaya uyma zorunluluğu yoktur. Sadece Cosplay Yarışması için temaya uymak gerekli olacaktır."
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -55,34 +49,34 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 400,
       "label": {
         "tr": "Kombine (İki Gün)"
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 250,
       "label": "Tek Gün"
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 250,
       "label": "Tek Gün"
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 100,
       "label": "+ Soft İçecek"
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSfBXK5YZYldr3Hm7JixDbM5ceW9HjmlT_Vn-m2BuTHPx4FUPg/viewform?usp=send_form",
       "disabled": false
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "The Cosiety"
       },
@@ -95,11 +89,17 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/thecosiety",
       "disabled": false,
       "name": {
         "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "tr": "Video oyunu temalı cosplay etkinliği"
       }
     }
   ]

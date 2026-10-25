@@ -1,39 +1,37 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/cosvision.evnt.json",
   "name": {
     "tr": "CosVision"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "İstanbul Festivali"
+    },
+    "address": "Fatih İstanbul",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 41.0004447,
+        "longitude": 28.9496459
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "İstanbul Festivali"
-      },
-      "address": {
-        "addr": "Fatih İstanbul",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 41.0004447,
-        "lng": 28.9496459
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-08-02[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Hype Zone Festival"
       },
@@ -46,7 +44,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/hypezonefestival",
       "disabled": false,
       "name": {

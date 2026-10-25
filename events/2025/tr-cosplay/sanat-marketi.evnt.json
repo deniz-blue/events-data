@@ -1,48 +1,49 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/sanat-marketi.evnt.json",
   "name": {
     "tr": "Sanatçı Marketi"
   },
-  "label": {
-    "tr": "Sanatçı Marketi 2025!"
+  "venue": {
+    "name": {
+      "tr": "Başak Cafe"
+    },
+    "address": "Başak Cafe Kartaltepe Bakırköy İstanbul",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 40.98112769999999,
+        "longitude": 28.8753953
+      }
+    ]
   },
-  "status": "planned",
-  "venues": [
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Başak Cafe"
-      },
-      "address": {
-        "addr": "Başak Cafe Kartaltepe Bakırköy İstanbul"
-      },
-      "coordinates": {
-        "lat": 40.98112769999999,
-        "lng": 28.8753953
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-06-13T14:00[Europe/Istanbul]",
       "end": "2025-06-13T20:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.\n\nBu etkinlikte en sevdiğiniz küçük işletmenizin arkasında emek veren kişiyle tanışma şansınız olacak, ürünleri görebilecek ve kargo ücreti ödemeden alabileceksiniz! ✨ Ayrıca küçük ikramlarımız, samimi sohbet ortamımızla size güzel vakit vadediyoruz!\n\nEtkinlik mekanımız Başak Kafe, tüm ziyaretçilerimiz ve katılımcılarımıza çay, kahve alımlarında %10 indirim veriyor🙏🏼💗 @basakcafeofficial",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "“Sanatçı Marketi” yurt dışında çok yapılan, Türkiye’de olmasını içten içe umduğunuzu bildiğimiz bir etkinlik 🌝✨ Bunu yapmamızın amacı küçük işletmelerin görünürlüklerini artırmak ve onlara bir destek ağı oluşturmak.\n\nBu etkinlikte en sevdiğiniz küçük işletmenizin arkasında emek veren kişiyle tanışma şansınız olacak, ürünleri görebilecek ve kargo ücreti ödemeden alabileceksiniz! ✨ Ayrıca küçük ikramlarımız, samimi sohbet ortamımızla size güzel vakit vadediyoruz!\n\nEtkinlik mekanımız Başak Kafe, tüm ziyaretçilerimiz ve katılımcılarımıza çay, kahve alımlarında %10 indirim veriyor🙏🏼💗 @basakcafeofficial"
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["fair", "festival", "cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "fair",
+        "festival",
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -52,14 +53,14 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {
         "tr": "Ziyaretçi Katılımı"
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://l.instagram.com/?u=https%3A%2F%2Fforms.gle%2FwbJQHde4wWJcu73XA%3Ffbclid%3DPAZXh0bgNhZW0CMTEAAadMXNS8XzEOTl8Afa2Os0IkTq3i6ad1Vxqj-QnBhtBSq5y8GLlIWF_9igCW_w_aem_-a_wNZ3WS5rj-fcxzZMcaw&e=AT0oy0X51c0fs52ew-vFfe91viZc729mQO1t_UqpKYaWwlKi137bVlcY9cpVa2dtOcWNj7NzoA4n6fRy45u6jCIyIQqxUtL5_RAb1Rgih64muZYlIcdDYFM",
       "disabled": false,
       "name": {
@@ -67,7 +68,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Sanatçı Marketi"
       },
@@ -83,11 +84,17 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/artistsmarket2025",
       "disabled": false,
       "name": {
         "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "tr": "Sanatçı Marketi 2025!"
       }
     }
   ]

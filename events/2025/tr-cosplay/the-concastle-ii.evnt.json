@@ -1,53 +1,52 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/the-concastle-ii.evnt.json",
   "name": {
     "tr": "The Concastle II"
   },
-  "label": {
-    "tr": "The Return Of The King"
+  "venue": {
+    "name": {
+      "tr": "Aydos Oba Cafe Restaurant"
+    },
+    "address": "Kartal İstanbul",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 40.9424939,
+        "longitude": 29.2173932
+      }
+    ]
   },
-  "status": "planned",
-  "venues": [
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Aydos Oba Cafe Restaurant"
-      },
-      "address": {
-        "addr": "Kartal İstanbul",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 40.9424939,
-        "lng": 29.2173932
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-07-26T16:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "Etkinlik Akışı\n\n- Cosplay Yarışması\n  - Birincilik: 6000 TL\n  - İkincilik: 4500 TL\n  - Üçüncülük: 3000 TL\n- Çizim Yarışması\n  - Birincilik: Tenda hediye kutusu\n  - İkincilik: Defter + Poster\n  - Üçüncülük: Kanatlı Kolye\n  - Yarışma kayıtları etkinlik alanında alınacaktır.\n  - Kara kalem çalışması şeklinde olacaktır.\n  - Materyaller tarafımızca verilecektir\n  - 45 dk çizim süresi olacaktır.\n  - Çizimler jüri tarafından değerlendirilecektir\n- Medieval Fantasy temalı Bilgi Yarışması\n- Okçuluk Yarışması\n  - Birincilik: Yay motifli pelerin, Lotr Okçuluk Sertifikası, Poster\n  - İkincilik: Kafatası Figür, Rozet\n  - Üçüncülük: Rozet, Sticker\n  - Yarışma öncesi 1 saatlik periyot içerisinde atış eğitimi verilecektir\n  - Yarışmada 3 ateş hakkı olacaktır\n  - Belirlenen hedefleri platformdan aşağıya düşüren tam puan, sadece hareket ettiren yarım puan alacaktır.\n  - Puan sıralamasına göre tur atlaması olacaktır.\n  - Ekipmanlara zarar verilmemelidir\n  - Yaya insanlara doğru tutmak, zarar verme ihtimali davranışlar yasaktır\n- Kraliyet Dövüşü\n  - Birincilik: Manga & Poster\n  - Kadınlar ve erkekler için sünger kılıçlarla iki ayrı dövüş turnuvası olacaktır\n  - Rakibini 2 kez daire dışına çıkarabilen veya rakibine 3 kez darbe indirebilen kişi müsabakayı kazanıp tur atlayacaktır\n  - Finalde kazananlar kral tarafından şövalye ilan edilecektir\n- Cosplay Defilesi\n- Hazine Avı\n- FRP & Kutu Oyunları\n- Müzik & Dans Şöleni\n- ...\n\n\n\n",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "Etkinlik Akışı\n\n- Cosplay Yarışması\n  - Birincilik: 6000 TL\n  - İkincilik: 4500 TL\n  - Üçüncülük: 3000 TL\n- Çizim Yarışması\n  - Birincilik: Tenda hediye kutusu\n  - İkincilik: Defter + Poster\n  - Üçüncülük: Kanatlı Kolye\n  - Yarışma kayıtları etkinlik alanında alınacaktır.\n  - Kara kalem çalışması şeklinde olacaktır.\n  - Materyaller tarafımızca verilecektir\n  - 45 dk çizim süresi olacaktır.\n  - Çizimler jüri tarafından değerlendirilecektir\n- Medieval Fantasy temalı Bilgi Yarışması\n- Okçuluk Yarışması\n  - Birincilik: Yay motifli pelerin, Lotr Okçuluk Sertifikası, Poster\n  - İkincilik: Kafatası Figür, Rozet\n  - Üçüncülük: Rozet, Sticker\n  - Yarışma öncesi 1 saatlik periyot içerisinde atış eğitimi verilecektir\n  - Yarışmada 3 ateş hakkı olacaktır\n  - Belirlenen hedefleri platformdan aşağıya düşüren tam puan, sadece hareket ettiren yarım puan alacaktır.\n  - Puan sıralamasına göre tur atlaması olacaktır.\n  - Ekipmanlara zarar verilmemelidir\n  - Yaya insanlara doğru tutmak, zarar verme ihtimali davranışlar yasaktır\n- Kraliyet Dövüşü\n  - Birincilik: Manga & Poster\n  - Kadınlar ve erkekler için sünger kılıçlarla iki ayrı dövüş turnuvası olacaktır\n  - Rakibini 2 kez daire dışına çıkarabilen veya rakibine 3 kez darbe indirebilen kişi müsabakayı kazanıp tur atlayacaktır\n  - Finalde kazananlar kral tarafından şövalye ilan edilecektir\n- Cosplay Defilesi\n- Hazine Avı\n- FRP & Kutu Oyunları\n- Müzik & Dans Şöleni\n- ...\n\n\n\n"
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "blue.deniz.events.extra",
+      "$type": "blue.deniz.events.extra#0",
       "cosplay:scope": "primary",
       "cosplay:cloakroom": true
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -57,35 +56,35 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 500,
       "label": {
         "tr": "👑 Kraliyet Mührü (Tüm Gün) [Online]"
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 350,
       "label": {
         "tr": "✨ Gündüz Şöleni (13.00–19.30) [Online]"
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 380,
       "label": {
         "tr": "✨ Gündüz Şöleni (13.00–19.30) [Kapıda]"
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 170,
       "label": {
         "tr": "🌙 Taverna Gecesi (20.00-22.00) [Kapıda]"
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://forms.gle/cYkFm1c6pkRH87kb6",
       "disabled": false,
       "name": {
@@ -93,7 +92,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://forms.gle/9vS4ukSicjMf8P4C8",
       "disabled": false,
       "name": {
@@ -101,7 +100,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "The Cosiety"
       },
@@ -114,11 +113,17 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/thecosiety",
       "disabled": false,
       "name": {
         "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "tr": "The Return Of The King"
       }
     }
   ]

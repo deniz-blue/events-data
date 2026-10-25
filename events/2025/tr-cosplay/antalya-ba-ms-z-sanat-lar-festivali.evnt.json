@@ -1,46 +1,50 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/antalya-ba-ms-z-sanat-lar-festivali.evnt.json",
   "name": {
     "tr": "Antalya Bağımsız Sanatçılar Festivali",
     "en": "Antalya Independent Artists' Fest"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Mavro Restoran"
+    },
+    "address": "Muratpaşa Antalya",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 36.8883778,
+        "longitude": 30.6684608
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Mavro Restoran"
-      },
-      "address": {
-        "addr": "Muratpaşa Antalya",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 36.8883778,
-        "lng": 30.6684608
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-05-24T16:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "Antalya Bağımsız Sanatçılar Festivali maskotu Portakal hepinizi 24 Mayıs'ta gerçekleşecek etkinliklerimize davet ediyor! Profesyonel sanatçılar tarafından verilen ücretsiz workshoplar, sergi ve interaktif sanatçı pazarı ile rengarenk birgün sizi bekliyor!",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "Antalya Bağımsız Sanatçılar Festivali maskotu Portakal hepinizi 24 Mayıs'ta gerçekleşecek etkinliklerimize davet ediyor! Profesyonel sanatçılar tarafından verilen ücretsiz workshoplar, sergi ve interaktif sanatçı pazarı ile rengarenk birgün sizi bekliyor!"
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["festival", "workshop", "cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "festival",
+        "workshop",
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -50,12 +54,12 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.instagram.com/p/DJj4lyCKm2o/",
       "disabled": false,
       "name": {
@@ -63,7 +67,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.instagram.com/p/DJmCuIbq0lP/",
       "disabled": false,
       "name": {
@@ -71,7 +75,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://chat.whatsapp.com/DnFMGYWi0LEIFz4y94Tanb",
       "disabled": false,
       "name": {
@@ -79,7 +83,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "I. Deniz Türk"
       },
@@ -92,7 +96,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/idenizturk",
       "disabled": false,
       "name": {
@@ -100,7 +104,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Deniz Işıkver"
       },
@@ -113,7 +117,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/shinysealight",
       "disabled": false,
       "name": {

@@ -1,32 +1,26 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/conventions/gekkofest26.evnt.json",
   "name": {
     "en": "GekkoFest 2026"
   },
-  "venues": [
+  "venue": {
+    "name": {
+      "en": "SMK College of Applied Sciences",
+      "lt": "SMK Aukštoji mokykla"
+    },
+    "address": "Kalvarijų g. 137E, Vilnius, 08211 Vilniaus m. sav.",
+    "countryCode": "LT"
+  },
+  "occurrences": [
     {
-      "id": "v",
-      "address": {
-        "addr": "Kalvarijų g. 137E, Vilnius, 08211 Vilniaus m. sav.",
-        "countryCode": "LT"
-      },
-      "name": {
-        "en": "SMK College of Applied Sciences",
-        "lt": "SMK Aukštoji mokykla"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["v"],
       "start": "2026-01-23T15:00[Europe/Vilnius]",
       "end": "2026-01-23T18:30[Europe/Vilnius]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "name": {
         "en": "Instagram Page"
       },

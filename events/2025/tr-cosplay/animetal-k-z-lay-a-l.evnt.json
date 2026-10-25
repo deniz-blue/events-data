@@ -1,45 +1,47 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/animetal-k-z-lay-a-l.evnt.json",
   "name": {
     "tr": "Animetal Kızılay Açılışı"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Animetal Shop Etlik"
+    },
+    "address": "Kocatepe Çankaya Ankara",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 39.9169013,
+        "longitude": 32.8587504
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Animetal Shop Etlik"
-      },
-      "address": {
-        "addr": "Kocatepe Çankaya Ankara",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 39.9169013,
-        "lng": 32.8587504
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-06-28T17:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "28 Haziran Cumartesi günü Animetalin 5. cosplay partili etkinliğini yeni açılan Kızılay mağazamızın önünde gerçekleştireceğiz.\n\nEtkinlik hakkında küçük hatırlatmalar,\nHerhangi bir askeri kamuflaj içeren kostümler yasaktır.\nAirsoft ve benzeri silahlar yasaktır. Plastik olanlara izin vardır.\nMüstehcen kostümler yasaktır.\nBu kurallar sizlerin iyiliği içindir ve etkinliğin merkezi konumu sebebiyle kimsenin başına bir problem açılmaması içindir. Anlayışınız için teşekkürler 🤍\n\nPlanlarınızı ayarlayın hepinizi bekliyoruz.💥🔥🤘\nKocatepe Mahallesi Kızılırmak Caddesi No 39 Kızılay Çankaya ",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "28 Haziran Cumartesi günü Animetalin 5. cosplay partili etkinliğini yeni açılan Kızılay mağazamızın önünde gerçekleştireceğiz.\n\nEtkinlik hakkında küçük hatırlatmalar,\nHerhangi bir askeri kamuflaj içeren kostümler yasaktır.\nAirsoft ve benzeri silahlar yasaktır. Plastik olanlara izin vardır.\nMüstehcen kostümler yasaktır.\nBu kurallar sizlerin iyiliği içindir ve etkinliğin merkezi konumu sebebiyle kimsenin başına bir problem açılmaması içindir. Anlayışınız için teşekkürler 🤍\n\nPlanlarınızı ayarlayın hepinizi bekliyoruz.💥🔥🤘\nKocatepe Mahallesi Kızılırmak Caddesi No 39 Kızılay Çankaya "
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -49,11 +51,11 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.instagram.com/p/DLAGDdUoOKB/",
       "disabled": false,
       "name": {
@@ -61,7 +63,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Çelebi Müzik & Organizasyon"
       },
@@ -74,7 +76,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/celebimuzikorganizasyon",
       "disabled": false,
       "name": {

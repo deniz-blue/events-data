@@ -1,43 +1,39 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/y-ld-zcon-25.evnt.json",
   "name": {
     "tr": "YıldızCon'25"
   },
-  "label": {
-    "tr": "'Halk efsaneleri' temalı cosplay etkinliği"
+  "venue": {
+    "name": {
+      "tr": "YTÜ Davutpaşa Kongre Merkezi"
+    },
+    "address": "YTÜ Davutpaşa Kongre Merkezi Esenler İstanbul"
   },
-  "status": "planned",
-  "venues": [
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "YTÜ Davutpaşa Kongre Merkezi"
-      },
-      "address": {
-        "addr": "YTÜ Davutpaşa Kongre Merkezi Esenler İstanbul"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-03-02T13:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "- 10:00 - Etkinlik kapı açılışı\n- 12:00\n  - FRP oyunları başlıyor\n  - Kutu oyunu sektörü paneli\n- 12:30 - Catan Turnuvası (NeoTroy)\n- 13:00\n  - Halk efsaneleri pop quizi\n  - RedParry Turnuvaları\n- 14:00 - Oyun/FRP içeriği üretme/pazarlama paneli\n- 14:30 - Treasure hunt başlıyor\n- 15:00 - FRP Oynuyoruz ile söyleşi\n- 16:00 - Cosplay defilesi\n- 17:00 - Just Dance!\n- 19:00 - Alan kapanışı\n\n\n\n",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "- 10:00 - Etkinlik kapı açılışı\n- 12:00\n  - FRP oyunları başlıyor\n  - Kutu oyunu sektörü paneli\n- 12:30 - Catan Turnuvası (NeoTroy)\n- 13:00\n  - Halk efsaneleri pop quizi\n  - RedParry Turnuvaları\n- 14:00 - Oyun/FRP içeriği üretme/pazarlama paneli\n- 14:30 - Treasure hunt başlıyor\n- 15:00 - FRP Oynuyoruz ile söyleşi\n- 16:00 - Cosplay defilesi\n- 17:00 - Just Dance!\n- 19:00 - Alan kapanışı\n\n\n\n"
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -47,12 +43,12 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://forms.gle/zy5zc8LZ76H7a8Pu8",
       "disabled": false,
       "name": {
@@ -60,7 +56,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://forms.gle/3qv5mEPmNMKX8whd8",
       "disabled": false,
       "name": {
@@ -68,7 +64,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://forms.gle/TtPYEtjPkQm9aP4k7",
       "disabled": false,
       "name": {
@@ -76,7 +72,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://forms.gle/nGDLYPoV7dojeFH7A",
       "disabled": false,
       "name": {
@@ -84,7 +80,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/17ErYMMgzbubQXUuSbE6hezPjwyg-pCWj1xHM_Px9QBE/edit?usp=drivesdk",
       "disabled": false,
       "name": {
@@ -92,13 +88,12 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://linktr.ee/yildizbkfk",
-      "disabled": false,
-      "name": {}
+      "disabled": false
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://www.start.gg/tournament/y-ld-zcon25-turnuvalar/details",
       "disabled": false,
       "name": {
@@ -106,7 +101,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://forms.gle/93FNPWDD8p7UZmnBA",
       "disabled": false,
       "name": {
@@ -114,7 +109,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Yıldız BKFK"
       },
@@ -130,11 +125,17 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/yildizbkfk",
       "disabled": false,
       "name": {
         "tr": "Instagram"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "tr": "'Halk efsaneleri' temalı cosplay etkinliği"
       }
     }
   ]

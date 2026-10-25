@@ -1,36 +1,33 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/mini-yucon-apocolyapse.evnt.json",
   "name": {
     "tr": "Mini-YUCON: Apocolyapse"
   },
-  "label": {},
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "tr": "Yeditepe Üniversitesi"
+    },
+    "address": "Ataşehir İstanbul"
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "tr": "Yeditepe Üniversitesi"
-      },
-      "address": {
-        "addr": "Ataşehir İstanbul"
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2024-12-14T13:00[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay"
+      ]
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -40,12 +37,12 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {}
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "Yeditepe Üni. Bilim Kurgu Kulübü"
       },
@@ -58,7 +55,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/yeditepebilimkurgu",
       "disabled": false,
       "name": {

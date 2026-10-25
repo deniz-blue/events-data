@@ -1,57 +1,59 @@
 {
-  "v": "0.1",
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2025/tr-cosplay/btcturk-game-fest.evnt.json",
   "name": {
     "tr": "BtcTurk Game Fest"
   },
-  "status": "planned",
-  "venues": [
+  "venue": {
+    "name": {
+      "en": "ESA Espor Arena"
+    },
+    "address": "Maslak Sarıyer İstanbul",
+    "countryCode": "TR",
+    "components": [
+      {
+        "$type": "directory.evnt.component.coordinates#0",
+        "latitude": 41.1131763,
+        "longitude": 29.021342
+      }
+    ]
+  },
+  "occurrences": [
     {
-      "id": "0",
-      "name": {
-        "en": "ESA Espor Arena"
-      },
-      "address": {
-        "addr": "Maslak Sarıyer İstanbul",
-        "countryCode": "TR"
-      },
-      "coordinates": {
-        "lat": 41.1131763,
-        "lng": 29.021342
-      },
-      "$type": "directory.evnt.venue.physical"
-    }
-  ],
-  "instances": [
-    {
-      "venueIds": ["0"],
       "start": "2025-06-27[Europe/Istanbul]"
     },
     {
-      "venueIds": ["0"],
       "start": "2025-06-28[Europe/Istanbul]"
     },
     {
-      "venueIds": ["0"],
       "start": "2025-06-29[Europe/Istanbul]"
     }
   ],
   "components": [
     {
-      "$type": "directory.evnt.richtext.markdown",
-      "content": "[Bu posttan](https://www.instagram.com/p/DLP3rl7NXVf/) alıntı:\n\n> 👾 BtcTurk GameFest’te sahne senin olabilir!\n> 🎭 Cey Lazuli ve CosplayMila’nın jüriliğinde gerçekleşecek Cosplay Yarışması için kayıtlar başladı!\n> \n> 📅 Etkinlik: 29 Haziran - ESA Arena\n> ⏳ Son Başvuru: 28 Haziran Cumartesi, 18:00\n> 💰 Ödül Havuzu: 55.000 TL\n> 🥇 30.000 TL\n> 🥈 15.000 TL\n> 🥉 10.000 TL\n> \n> 🎟 Tüm katılımcılar, GameFest büyük finallerine davetli!\n> 🎭 Büyük Final günü Jüri ön elemesiyle seçilecek 10 finalist, sahnede kıyasıya yarışacak.\n> \n> ⏰ Katılımcılar etkinlik günü 15:00’te kostümleriyle hazır olmalı!\n",
-      "language": "tr"
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "tr": "[Bu posttan](https://www.instagram.com/p/DLP3rl7NXVf/) alıntı:\n\n> 👾 BtcTurk GameFest’te sahne senin olabilir!\n> 🎭 Cey Lazuli ve CosplayMila’nın jüriliğinde gerçekleşecek Cosplay Yarışması için kayıtlar başladı!\n> \n> 📅 Etkinlik: 29 Haziran - ESA Arena\n> ⏳ Son Başvuru: 28 Haziran Cumartesi, 18:00\n> 💰 Ödül Havuzu: 55.000 TL\n> 🥇 30.000 TL\n> 🥈 15.000 TL\n> 🥉 10.000 TL\n> \n> 🎟 Tüm katılımcılar, GameFest büyük finallerine davetli!\n> 🎭 Büyük Final günü Jüri ön elemesiyle seçilecek 10 finalist, sahnede kıyasıya yarışacak.\n> \n> ⏰ Katılımcılar etkinlik günü 15:00’te kostümleriyle hazır olmalı!\n"
+      }
     },
     {
-      "$type": "blue.deniz.events.categories",
-      "categories": ["cosplay", "esports", "festival"]
+      "$type": "blue.deniz.events.categories#0",
+      "categories": [
+        "cosplay",
+        "esports",
+        "festival"
+      ]
     },
     {
-      "$type": "blue.deniz.events.extra",
+      "$type": "blue.deniz.events.extra#0",
       "cosplay:scope": "allowed"
     },
     {
-      "$type": "directory.evnt.component.splashMedia",
-      "roles": ["background", "poster"],
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background",
+        "poster"
+      ],
       "media": {
         "sources": [
           {
@@ -61,14 +63,14 @@
       }
     },
     {
-      "$type": "blue.deniz.events.pricing",
+      "$type": "blue.deniz.events.pricing#0",
       "price": 0,
       "label": {
         "tr": "?"
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSdHChrO9r0i8c3jEPO09H2QiSYlwL3VYqdt8Ot-XBc42NNaOA/viewform?usp=send_form",
       "disabled": false,
       "name": {
@@ -76,7 +78,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://btcturkgamefest.com/",
       "disabled": false,
       "name": {
@@ -84,7 +86,7 @@
       }
     },
     {
-      "$type": "blue.deniz.events.organizer",
+      "$type": "blue.deniz.events.organizer#0",
       "name": {
         "tr": "BtcTurk GameFest"
       },
@@ -97,7 +99,7 @@
       }
     },
     {
-      "$type": "directory.evnt.component.link",
+      "$type": "directory.evnt.component.link#0",
       "url": "https://instagram.com/btcturkgamefest",
       "disabled": false,
       "name": {
