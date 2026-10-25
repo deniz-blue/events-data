@@ -1,0 +1,38 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/conventions/animega-mess26.evnt.json",
+  "name": {
+    "en": "Animega Mess 2026"
+  },
+  "venue": {
+    "name": {
+      "en": "T1 Venue"
+    },
+    "address": "Tallinn",
+    "countryCode": "EE"
+  },
+  "occurrences": [
+    {
+      "start": "2026-11-07[Europe/Tallinn]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.instagram.com/p/Dbc2ipNIZbD/",
+      "name": {
+        "en": "Announcement"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Anime convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://otaku.lt/events?month=2026-11&event=67-animega-mess-2026"
+    }
+  ]
+}

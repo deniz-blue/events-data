@@ -1,0 +1,40 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/pyrkon27.evnt.json",
+  "name": {
+    "en": "Pyrkon 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Poznań International Fair",
+      "pl": "Międzynarodowe Targi Poznańskie"
+    },
+    "address": "Głogowska 14, Poznań",
+    "countryCode": "PL"
+  },
+  "occurrences": [
+    {
+      "start": "2027-06-18[Europe/Warsaw]",
+      "end": "2027-06-20[Europe/Warsaw]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://pyrkon.pl/en",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Fantasy festival"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://www.ebilet.pl/now/pyrkon-2027-z-pierwszymi-ogloszeniami/"
+    }
+  ]
+}

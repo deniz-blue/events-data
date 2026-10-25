@@ -1,0 +1,89 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/gaming/spot-ozas-autumn26.evnt.json",
+  "name": {
+    "lt": "SPOT pramogų renginys (rudens leidimas)"
+  },
+  "venue": {
+    "name": {
+      "lt": "PPC OZAS"
+    },
+    "address": "Ozo g. 18, Vilnius",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2026-10-30T10:00[Europe/Vilnius]",
+      "end": "2026-10-30T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-10-31T10:00[Europe/Vilnius]",
+      "end": "2026-10-31T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-11-01T10:00[Europe/Vilnius]",
+      "end": "2026-11-01T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-11-02T10:00[Europe/Vilnius]",
+      "end": "2026-11-02T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-11-03T10:00[Europe/Vilnius]",
+      "end": "2026-11-03T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-11-04T10:00[Europe/Vilnius]",
+      "end": "2026-11-04T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-11-05T10:00[Europe/Vilnius]",
+      "end": "2026-11-05T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-11-06T10:00[Europe/Vilnius]",
+      "end": "2026-11-06T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-11-07T10:00[Europe/Vilnius]",
+      "end": "2026-11-07T21:00[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-11-08T10:00[Europe/Vilnius]",
+      "end": "2026-11-08T21:00[Europe/Vilnius]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.facebook.com/events/1626562395482820/",
+      "name": {
+        "en": "Facebook event"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Free games at the OZAS mall"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "PC, console and retro games, driving simulators and Just Dance in the events area on the ground floor, free. Weekends add esports and a cosplay masquerade. Run by OZAS, Comic Con Baltics and Baltics Gaming Expo."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.languages#0",
+      "languages": [
+        {
+          "code": "lt"
+        }
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://otaku.lt/events?month=2026-10&event=118-spot-pramog-renginys-rudens-leidimas"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/conventions/magnificon-winter26.evnt.json",
+  "name": {
+    "en": "Magnificon Winter Expo 2026"
+  },
+  "status": "uncertain",
+  "venue": {
+    "name": {
+      "en": "EXPO Kraków"
+    },
+    "address": "Galicyjska 9, Kraków",
+    "countryCode": "PL"
+  },
+  "occurrences": [
+    {
+      "start": "2026-12-12[Europe/Warsaw]"
+    },
+    {
+      "start": "2026-12-13[Europe/Warsaw]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.magnificonexpo.com/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Japanese pop culture festival"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://otaku.lt/events?month=2026-12&event=98-magnificon-winter-expo-2026"
+    }
+  ]
+}

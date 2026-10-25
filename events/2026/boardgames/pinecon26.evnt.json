@@ -1,0 +1,62 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/boardgames/pinecon26.evnt.json",
+  "name": {
+    "en": "PineCon 2026"
+  },
+  "venue": {
+    "name": {
+      "en": "Grand SPA Lietuva conference centre",
+      "lt": "Grand SPA Lietuva konferencijų centras"
+    },
+    "address": "V. Kudirkos g. 45, Druskininkai",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2026-05-09[Europe/Vilnius]",
+      "end": "2026-05-10[Europe/Vilnius]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://pinecon.lt/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/pinecon26.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "presentation": {
+          "dominantColor": "#8e2dec"
+        }
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://pinecon.lt/"
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Board game festival",
+        "lt": "Stalo žaidimų festivalis"
+      }
+    }
+  ]
+}

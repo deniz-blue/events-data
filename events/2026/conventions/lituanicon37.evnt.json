@@ -1,0 +1,124 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/conventions/lituanicon37.evnt.json",
+  "name": {
+    "lt": "Lituanicon XXXVII: Kelionė"
+  },
+  "venue": {
+    "name": {
+      "en": "SMK College of Applied Sciences",
+      "lt": "SMK Aukštoji mokykla"
+    },
+    "address": "Kalvarijų g. 137E, Vilnius",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2026-10-10T11:00[Europe/Vilnius]",
+      "activities": [
+        {
+          "name": {
+            "en": "Talks"
+          }
+        },
+        {
+          "name": {
+            "en": "Panel discussions"
+          }
+        },
+        {
+          "name": {
+            "en": "Workshops"
+          }
+        },
+        {
+          "name": {
+            "en": "Art gallery"
+          }
+        },
+        {
+          "name": {
+            "en": "Tabletop RPGs"
+          }
+        },
+        {
+          "name": {
+            "en": "Quiz"
+          }
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.lituanicon.lt/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.lituanicon.lt/lituanicon-xxxvii-kelione-programa/",
+      "name": {
+        "en": "Programme"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.instagram.com/lituanicon/",
+      "name": {
+        "en": "Instagram"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "The oldest gathering in Lithuania for people into fantasy, science fiction and horror, held every year since 1990. Entry is free and volunteers run all of it."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.languages#0",
+      "languages": [
+        {
+          "code": "lt"
+        },
+        {
+          "code": "en"
+        }
+      ]
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/lituanicon37.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "presentation": {
+          "dominantColor": "#552668"
+        }
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://www.lituanicon.lt/"
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Fantasy and sci-fi festival",
+        "lt": "Fantastinių idėjų ir kūrybos festivalis"
+      }
+    }
+  ]
+}

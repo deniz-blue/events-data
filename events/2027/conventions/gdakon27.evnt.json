@@ -1,0 +1,39 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/gdakon27.evnt.json",
+  "name": {
+    "en": "Gdakon 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Radisson Blu Hotel, Sopot"
+    },
+    "address": "Sopot",
+    "countryCode": "PL"
+  },
+  "occurrences": [
+    {
+      "start": "2027-03-17[Europe/Warsaw]",
+      "end": "2027-03-21[Europe/Warsaw]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://gdakon.org/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Furry convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://gdakon.org/"
+    }
+  ]
+}

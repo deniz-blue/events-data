@@ -1,0 +1,40 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/copernicon27.evnt.json",
+  "name": {
+    "pl": "Copernicon 2027"
+  },
+  "venue": {
+    "name": {
+      "pl": "Toruńska starówka",
+      "en": "Toruń Old Town"
+    },
+    "address": "Toruń",
+    "countryCode": "PL"
+  },
+  "occurrences": [
+    {
+      "start": "2027-09-17[Europe/Warsaw]",
+      "end": "2027-09-19[Europe/Warsaw]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://copernicon.pl/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Fantasy and pop culture festival"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://copernicon.pl/"
+    }
+  ]
+}

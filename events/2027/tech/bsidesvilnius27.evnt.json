@@ -1,0 +1,67 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/tech/bsidesvilnius27.evnt.json",
+  "name": {
+    "en": "BSides Vilnius 2027"
+  },
+  "status": "uncertain",
+  "occurrences": [
+    {
+      "start": "2027[Europe/Vilnius]",
+      "activities": [
+        {
+          "name": {
+            "en": "Talks"
+          }
+        },
+        {
+          "name": {
+            "en": "Workshops"
+          }
+        },
+        {
+          "name": {
+            "en": "CTF tournament"
+          }
+        },
+        {
+          "name": {
+            "en": "Soldering workshop"
+          }
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://bsidesvilnius.lt/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://discord.gg/sbVmP6B822",
+      "name": {
+        "en": "Discord"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "Run by the community: two days of talks, workshops and a CTF tournament. The 2026 edition drew over 400 people."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://bsidesvilnius.lt/"
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Cybersecurity conference"
+      }
+    }
+  ]
+}

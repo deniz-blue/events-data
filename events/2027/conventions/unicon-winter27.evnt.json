@@ -1,0 +1,45 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/unicon-winter27.evnt.json",
+  "name": {
+    "en": "UniCon Winter 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Ķīpsala International Exhibition Centre",
+      "lv": "Starptautiskais izstāžu centrs Ķīpsala"
+    },
+    "address": "Ķīpsalas iela 8, Rīga",
+    "countryCode": "LV"
+  },
+  "occurrences": [
+    {
+      "start": "2027-01-08[Europe/Riga]"
+    },
+    {
+      "start": "2027-01-09[Europe/Riga]"
+    },
+    {
+      "start": "2027-01-10[Europe/Riga]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.unicon.lv/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Pop culture convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://www.unicon.lv/"
+    }
+  ]
+}

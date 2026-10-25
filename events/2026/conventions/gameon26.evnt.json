@@ -1,0 +1,199 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/conventions/gameon26.evnt.json",
+  "name": {
+    "en": "GameOn 2026"
+  },
+  "venue": {
+    "name": {
+      "en": "Litexpo Exhibition and Congress Centre",
+      "lt": "Parodų ir kongresų centras LITEXPO"
+    },
+    "address": "Laisvės pr. 5, Vilnius",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2026-10-23T11:00[Europe/Vilnius]",
+      "end": "2026-10-23T18:00[Europe/Vilnius]",
+      "activities": [
+        {
+          "name": {
+            "en": "Main stage"
+          }
+        },
+        {
+          "name": {
+            "en": "Tournaments"
+          }
+        },
+        {
+          "name": {
+            "en": "Indie games"
+          }
+        },
+        {
+          "name": {
+            "en": "Artist Alley"
+          }
+        },
+        {
+          "name": {
+            "en": "Cosplay contest"
+          }
+        },
+        {
+          "name": {
+            "en": "Creators' club"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2026-10-24T10:00[Europe/Vilnius]",
+      "end": "2026-10-24T18:00[Europe/Vilnius]",
+      "activities": [
+        {
+          "name": {
+            "en": "Main stage"
+          }
+        },
+        {
+          "name": {
+            "en": "Tournaments"
+          }
+        },
+        {
+          "name": {
+            "en": "Indie games"
+          }
+        },
+        {
+          "name": {
+            "en": "Artist Alley"
+          }
+        },
+        {
+          "name": {
+            "en": "Cosplay contest"
+          }
+        },
+        {
+          "name": {
+            "en": "Creators' club"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2026-10-25T10:00[Europe/Vilnius]",
+      "end": "2026-10-25T18:00[Europe/Vilnius]",
+      "activities": [
+        {
+          "name": {
+            "en": "Main stage"
+          }
+        },
+        {
+          "name": {
+            "en": "Tournaments"
+          }
+        },
+        {
+          "name": {
+            "en": "Indie games"
+          }
+        },
+        {
+          "name": {
+            "en": "Artist Alley"
+          }
+        },
+        {
+          "name": {
+            "en": "Cosplay contest"
+          }
+        },
+        {
+          "name": {
+            "en": "Creators' club"
+          }
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://gameon.lt/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://stuff.deniz.blue/gameon/",
+      "name": {
+        "en": "Hall map"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://kakava.lt/pirkti-bilietus/11644/23890",
+      "name": {
+        "en": "Tickets"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://discord.gg/2KPbWs6",
+      "name": {
+        "en": "Discord"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.instagram.com/gameoneu/",
+      "name": {
+        "en": "Instagram"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "Three days of games at Litexpo, in Vilnius for the ninth time. Big-stage shows and tournaments, a developers' quarter full of indie games, talks, and meetups with content creators."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/gameon26.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "presentation": {
+          "dominantColor": "#f25615"
+        }
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://gameon.lt/"
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Gaming culture and game industry event"
+      }
+    }
+  ]
+}

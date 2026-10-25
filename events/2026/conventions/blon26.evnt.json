@@ -1,0 +1,61 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/conventions/blon26.evnt.json",
+  "name": {
+    "en": "BLON 2026"
+  },
+  "venue": {
+    "name": {
+      "en": "Klaipėda"
+    },
+    "address": "Klaipėda",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2026-09-10[Europe/Vilnius]",
+      "end": "2026-09-13[Europe/Vilnius]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://blon.lt/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/blon26.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "presentation": {
+          "dominantColor": "#f3e082"
+        }
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://blon.lt/"
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Animation and video game festival",
+        "lt": "Animacijos ir videožaidimų festivalis"
+      }
+    }
+  ]
+}

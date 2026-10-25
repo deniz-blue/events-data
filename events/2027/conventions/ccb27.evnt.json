@@ -1,0 +1,229 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/ccb27.evnt.json",
+  "name": {
+    "en": "Comic Con Baltics 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Litexpo Exhibition and Congress Centre",
+      "lt": "Parodų ir kongresų centras LITEXPO"
+    },
+    "address": "Laisvės pr. 5, Vilnius",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2027-09-03T10:00[Europe/Vilnius]",
+      "end": "2027-09-03T19:00[Europe/Vilnius]",
+      "activities": [
+        {
+          "name": {
+            "en": "Panels and talks"
+          }
+        },
+        {
+          "name": {
+            "en": "Autographs and photos"
+          }
+        },
+        {
+          "name": {
+            "en": "Cosplay"
+          }
+        },
+        {
+          "name": {
+            "en": "Gaming arena"
+          }
+        },
+        {
+          "name": {
+            "en": "Artist Alley"
+          }
+        },
+        {
+          "name": {
+            "en": "K-pop stage"
+          }
+        },
+        {
+          "name": {
+            "en": "Marketplace"
+          }
+        },
+        {
+          "name": {
+            "en": "Family area"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2027-09-04T10:00[Europe/Vilnius]",
+      "end": "2027-09-04T19:00[Europe/Vilnius]",
+      "activities": [
+        {
+          "name": {
+            "en": "Panels and talks"
+          }
+        },
+        {
+          "name": {
+            "en": "Autographs and photos"
+          }
+        },
+        {
+          "name": {
+            "en": "Cosplay"
+          }
+        },
+        {
+          "name": {
+            "en": "Gaming arena"
+          }
+        },
+        {
+          "name": {
+            "en": "Artist Alley"
+          }
+        },
+        {
+          "name": {
+            "en": "K-pop stage"
+          }
+        },
+        {
+          "name": {
+            "en": "Marketplace"
+          }
+        },
+        {
+          "name": {
+            "en": "Family area"
+          }
+        }
+      ]
+    },
+    {
+      "start": "2027-09-05T10:00[Europe/Vilnius]",
+      "end": "2027-09-05T18:00[Europe/Vilnius]",
+      "activities": [
+        {
+          "name": {
+            "en": "Panels and talks"
+          }
+        },
+        {
+          "name": {
+            "en": "Autographs and photos"
+          }
+        },
+        {
+          "name": {
+            "en": "Cosplay"
+          }
+        },
+        {
+          "name": {
+            "en": "Gaming arena"
+          }
+        },
+        {
+          "name": {
+            "en": "Artist Alley"
+          }
+        },
+        {
+          "name": {
+            "en": "K-pop stage"
+          }
+        },
+        {
+          "name": {
+            "en": "Marketplace"
+          }
+        },
+        {
+          "name": {
+            "en": "Family area"
+          }
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://ccbaltics.com/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.bilietai.lt/series/UFLX6X3THM/comic-con-baltics-2027-sponsored-by-samsung",
+      "name": {
+        "en": "Tickets"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://ccbaltics.com/guests/",
+      "name": {
+        "en": "Guests"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://discord.com/invite/ccbaltics",
+      "name": {
+        "en": "Discord"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.instagram.com/ccbaltics/",
+      "name": {
+        "en": "Instagram"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "Three days at Litexpo with screen guests, cosplay and K-pop shows, and a gaming arena. Guests announced so far: Dante Basco, Jessica Henwick and Finn Jones."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/ccb27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "presentation": {
+          "dominantColor": "#09384c"
+        }
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://ccbaltics.com/"
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Pop culture festival"
+      }
+    }
+  ]
+}

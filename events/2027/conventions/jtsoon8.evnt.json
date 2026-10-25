@@ -1,0 +1,42 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/jtsoon8.evnt.json",
+  "name": {
+    "en": "J-TSOON 8"
+  },
+  "venue": {
+    "name": {
+      "en": "Kultuurikatel and Energia Avastuskeskus",
+      "et": "Kultuurikatel ja Energia Avastuskeskus"
+    },
+    "address": "Põhja pst 27a, Tallinn",
+    "countryCode": "EE"
+  },
+  "occurrences": [
+    {
+      "start": "2027-04-17[Europe/Tallinn]"
+    },
+    {
+      "start": "2027-04-18[Europe/Tallinn]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://j-tsoon.ee/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Anime, K-pop and pop culture festival"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://j-tsoon.ee/"
+    }
+  ]
+}
