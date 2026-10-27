@@ -9,6 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: openevnt/action@main
+        with:
+          pages-url: https://deniz.blue/events-data/
 
   deploy:
     needs: build
