@@ -1,0 +1,60 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/tech/40c3.evnt.json",
+  "name": {
+    "en": "40C3"
+  },
+  "venue": {
+    "name": {
+      "de": "Messe Hamburg"
+    },
+    "address": "Messeplatz 1, 20357 Hamburg",
+    "countryCode": "DE"
+  },
+  "occurrences": [
+    {
+      "start": "2026-12-27[Europe/Berlin]",
+      "end": "2026-12-30[Europe/Berlin]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://events.ccc.de/congress/2026/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/CCH_building_main_entrance_during_37th_Chaos_Communication_Congress_2023-12-30_07.jpg/1280px-CCH_building_main_entrance_during_37th_Chaos_Communication_Congress_2023-12-30_07.jpg",
+            "mimeType": "image/jpeg",
+            "dimensions": {
+              "width": 1280,
+              "height": 857
+            }
+          }
+        ],
+        "alt": {
+          "en": "The CCH in Hamburg during the 37th Chaos Communication Congress"
+        }
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "The 40th Chaos Communication Congress"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://events.ccc.de/"
+    }
+  ]
+}

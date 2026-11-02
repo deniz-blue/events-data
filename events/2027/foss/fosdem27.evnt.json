@@ -1,0 +1,61 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/foss/fosdem27.evnt.json",
+  "name": {
+    "en": "FOSDEM 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "ULB Solbosch Campus",
+      "fr": "Université Libre de Bruxelles"
+    },
+    "address": "Av. F. D. Roosevelt 50, 1050 Bruxelles",
+    "countryCode": "BE"
+  },
+  "occurrences": [
+    {
+      "start": "2027-01-30[Europe/Brussels]",
+      "end": "2027-01-31[Europe/Brussels]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://fosdem.org/2027/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2020-02-02_FOSDEM_Janson_01.jpg/1280px-2020-02-02_FOSDEM_Janson_01.jpg",
+            "mimeType": "image/jpeg",
+            "dimensions": {
+              "width": 1280,
+              "height": 792
+            }
+          }
+        ],
+        "alt": {
+          "en": "The Janson auditorium at FOSDEM"
+        }
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Free and open source software conference, free entry"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://fosdem.org/2027/"
+    }
+  ]
+}
