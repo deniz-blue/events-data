@@ -27,6 +27,30 @@
       }
     },
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/copernicon27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "Copernicon logo"
+        },
+        "presentation": {
+          "dominantColor": "#0b2432"
+        }
+      }
+    },
+    {
       "$type": "blue.deniz.events.label#0",
       "label": {
         "en": "Fantasy and pop culture festival"

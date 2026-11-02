@@ -32,6 +32,30 @@
       }
     },
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/unicon-winter27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "Cosplayers on the UniCon stage"
+        },
+        "presentation": {
+          "dominantColor": "#0e0e37"
+        }
+      }
+    },
+    {
       "$type": "blue.deniz.events.label#0",
       "label": {
         "en": "Pop culture convention"

@@ -29,6 +29,30 @@
       }
     },
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/jtsoon8.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "J-TSOON logo"
+        },
+        "presentation": {
+          "dominantColor": "#520b10"
+        }
+      }
+    },
+    {
       "$type": "blue.deniz.events.label#0",
       "label": {
         "en": "Anime, K-pop and pop culture festival"

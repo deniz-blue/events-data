@@ -26,6 +26,30 @@
       }
     },
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/gdakon27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "Gdakon art of animal characters working in a laboratory"
+        },
+        "presentation": {
+          "dominantColor": "#222920"
+        }
+      }
+    },
+    {
       "$type": "blue.deniz.events.label#0",
       "label": {
         "en": "Furry convention"

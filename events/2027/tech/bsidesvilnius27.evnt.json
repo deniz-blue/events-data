@@ -54,6 +54,30 @@
       }
     },
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/bsidesvilnius27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "BSides Vilnius logo"
+        },
+        "presentation": {
+          "dominantColor": "#ffffff"
+        }
+      }
+    },
+    {
       "$type": "directory.evnt.component.source#0",
       "url": "https://bsidesvilnius.lt/"
     },
