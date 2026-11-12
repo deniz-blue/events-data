@@ -1,0 +1,38 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/foss/chaosscon27.evnt.json",
+  "name": {
+    "en": "CHAOSScon 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Commons Hub Brussels"
+    },
+    "address": "Rue de la Madeleine 51, Bruxelles",
+    "countryCode": "BE"
+  },
+  "occurrences": [
+    {
+      "start": "2027-01-28[Europe/Brussels]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://chaoss.community/chaosscon-2027-eu/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "A day of talks on open source project health metrics, the day before FOSDEM, in the Commons Hub Open Source Village."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://chaoss.community/chaosscon-2027-eu/"
+    }
+  ]
+}

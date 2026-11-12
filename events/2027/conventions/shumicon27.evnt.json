@@ -1,0 +1,39 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/shumicon27.evnt.json",
+  "name": {
+    "en": "Shumicon 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Dipoli"
+    },
+    "address": "Otakaari 24, Espoo",
+    "countryCode": "FI"
+  },
+  "occurrences": [
+    {
+      "start": "2027-04-10[Europe/Helsinki]",
+      "end": "2027-04-11[Europe/Helsinki]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://shumicon.fi/en/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Cosplay and anime convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://shumicon.fi/en/venue/"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/sognacon27.evnt.json",
+  "name": {
+    "en": "SognaCon 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Sogndal Kulturhus"
+    },
+    "address": "Sogndal",
+    "countryCode": "NO"
+  },
+  "occurrences": [
+    {
+      "start": "2027-03-06T12:00[Europe/Oslo]",
+      "end": "2027-03-06T22:00[Europe/Oslo]"
+    },
+    {
+      "start": "2027-03-07T10:00[Europe/Oslo]",
+      "end": "2027-03-07T16:00[Europe/Oslo]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://sognacon.no/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Gaming and pop culture festival, free entry"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://sognacon.no/"
+    }
+  ]
+}

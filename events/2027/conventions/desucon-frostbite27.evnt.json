@@ -1,0 +1,46 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/desucon-frostbite27.evnt.json",
+  "name": {
+    "en": "Desucon Frostbite 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Sibelius Hall",
+      "fi": "Lahden Sibeliustalo"
+    },
+    "address": "Ankkurikatu 7, Lahti",
+    "countryCode": "FI"
+  },
+  "occurrences": [
+    {
+      "start": "2027-01-22T17:00[Europe/Helsinki]",
+      "end": "2027-01-24T17:00[Europe/Helsinki]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://desucon.fi/frostbite2027/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "Desucon's winter edition, built around talks on anime and manga. 18+."
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Anime convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://desucon.fi/frostbite2027/info/"
+    }
+  ]
+}

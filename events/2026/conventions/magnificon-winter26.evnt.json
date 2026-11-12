@@ -4,7 +4,6 @@
   "name": {
     "en": "Magnificon Winter Expo 2026"
   },
-  "status": "uncertain",
   "venue": {
     "name": {
       "en": "EXPO Kraków"
@@ -29,6 +28,13 @@
       }
     },
     {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://miohi.tixx.pl/bilety/2948/magnificon-expo-winter-2026.html",
+      "name": {
+        "en": "Tickets"
+      }
+    },
+    {
       "$type": "blue.deniz.events.label#0",
       "label": {
         "en": "Japanese pop culture festival"
@@ -36,7 +42,7 @@
     },
     {
       "$type": "directory.evnt.component.source#0",
-      "url": "https://otaku.lt/events?month=2026-12&event=98-magnificon-winter-expo-2026"
+      "url": "https://miohi.tixx.pl/bilety/2948/magnificon-expo-winter-2026.html"
     }
   ]
 }

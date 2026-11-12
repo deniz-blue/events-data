@@ -1,0 +1,81 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/art/lyceum-popup-market26.evnt.json",
+  "name": {
+    "en": "Pop-up art market at Galerija Lyceum",
+    "lt": "Pop-up meno turgelis"
+  },
+  "venue": {
+    "name": {
+      "en": "Galerija Lyceum"
+    },
+    "address": "Danės g. 9, Klaipėda",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2026-12-12[Europe/Vilnius]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "A Christmas market where young artists show and sell their work: prints, stickers, commissions. Organised by Galerija Lyceum and the Seito San Japanese language centre.\n\n**Open call for artists.** Taking part is free; travel isn't covered. Entries are selected, and AI art or copied 3D prints won't get in. Questions to info@seitosan.lt (LT, EN or JP)."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "background"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/lyceum-popup-market26.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1080,
+              "height": 1080
+            }
+          }
+        ],
+        "alt": {
+          "en": "Open call poster: Pop-up meno turgelis, 2026-12-12, Galerija Lyceum × Seito San"
+        }
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "mailto:info@seitosan.lt",
+      "name": {
+        "en": "Email the organiser"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.instagram.com/lyceum_galerija/",
+      "name": {
+        "en": "Instagram"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://galerijalyceum.lt/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Art market, with Seito San Japanese language centre",
+        "lt": "Meno turgelis, kartu su japonų kalbos centru „Seito San“"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://www.instagram.com/lyceum_galerija/"
+    }
+  ]
+}

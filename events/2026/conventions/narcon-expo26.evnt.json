@@ -1,0 +1,56 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/conventions/narcon-expo26.evnt.json",
+  "name": {
+    "en": "NärCon Expo Södertälje 2026"
+  },
+  "venue": {
+    "name": {
+      "en": "Södertälje Stadsscen"
+    },
+    "address": "Nyköpingsvägen 26, Södertälje",
+    "countryCode": "SE"
+  },
+  "occurrences": [
+    {
+      "start": "2026-11-21T10:00[Europe/Stockholm]",
+      "end": "2026-11-21T19:00[Europe/Stockholm]"
+    },
+    {
+      "start": "2026-11-22T10:00[Europe/Stockholm]",
+      "end": "2026-11-22T18:00[Europe/Stockholm]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://expo.narcon.se/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://kippu.events/sv/event/178/narcon-expo-sodertalje-2026",
+      "name": {
+        "en": "Tickets"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "A smaller NärCon, held together with Cosplay-SM, the Swedish cosplay championship."
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Gaming and cosplay convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://expo.narcon.se/"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/gameon27.evnt.json",
+  "name": {
+    "en": "GameOn 2027"
+  },
+  "status": "uncertain",
+  "venue": {
+    "name": {
+      "en": "Litexpo Exhibition and Congress Centre",
+      "lt": "Parodų ir kongresų centras LITEXPO"
+    },
+    "address": "Laisvės pr. 5, Vilnius",
+    "countryCode": "LT"
+  },
+  "occurrences": [
+    {
+      "start": "2027[Europe/Vilnius]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://gameon.lt/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://discord.gg/2KPbWs6",
+      "name": {
+        "en": "Discord"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.instagram.com/gameoneu/",
+      "name": {
+        "en": "Instagram"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "Games at Litexpo every autumn: big-stage shows and tournaments, a developers' quarter full of indie games, talks, and meetups with content creators."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://gameon.lt/"
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Gaming culture and game industry event"
+      }
+    }
+  ]
+}

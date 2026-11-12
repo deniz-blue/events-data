@@ -1,0 +1,54 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/animeonice27.evnt.json",
+  "name": {
+    "en": "Anime on Ice 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Metropolis Hall",
+      "de": "Metropolis Halle"
+    },
+    "address": "Großbeerenstraße 200, Potsdam",
+    "countryCode": "DE"
+  },
+  "occurrences": [
+    {
+      "start": "2027-01-08T14:00[Europe/Berlin]",
+      "end": "2027-01-08T21:15[Europe/Berlin]"
+    },
+    {
+      "start": "2027-01-09T10:00[Europe/Berlin]",
+      "end": "2027-01-09T21:00[Europe/Berlin]"
+    },
+    {
+      "start": "2027-01-10T10:00[Europe/Berlin]",
+      "end": "2027-01-10T18:00[Europe/Berlin]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.animeonice.de/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "A new winter convention from Anime Messe Babelsberg, with an indoor ice rink booked separately from the ticket. Opening hours are provisional."
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Anime convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://www.animeonice.de/"
+    }
+  ]
+}

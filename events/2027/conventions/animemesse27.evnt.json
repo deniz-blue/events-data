@@ -1,0 +1,39 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/animemesse27.evnt.json",
+  "name": {
+    "en": "Anime Messe Babelsberg 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Filmpark Babelsberg"
+    },
+    "address": "Großbeerenstraße 200, Potsdam",
+    "countryCode": "DE"
+  },
+  "occurrences": [
+    {
+      "start": "2027-07-22[Europe/Berlin]",
+      "end": "2027-07-25[Europe/Berlin]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.animemesse.de/en/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Anime convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://www.animemesse.de/en/info/location/"
+    }
+  ]
+}

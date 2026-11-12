@@ -1,0 +1,40 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2026/conventions/mofucon26.evnt.json",
+  "name": {
+    "en": "MofuCon 2026"
+  },
+  "venue": {
+    "name": {
+      "en": "Ljubljana Exhibition and Convention Centre",
+      "sl": "Gospodarsko razstavišče"
+    },
+    "address": "Dunajska cesta 18, Ljubljana",
+    "countryCode": "SI"
+  },
+  "occurrences": [
+    {
+      "start": "2026-12-19T10:00[Europe/Ljubljana]",
+      "end": "2026-12-19T20:00[Europe/Ljubljana]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://mofucon.si/en/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Anime and manga convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://mofucon.si/en/"
+    }
+  ]
+}

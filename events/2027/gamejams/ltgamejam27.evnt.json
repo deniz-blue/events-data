@@ -1,0 +1,40 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/gamejams/ltgamejam27.evnt.json",
+  "name": {
+    "en": "LT Game Jam 2027"
+  },
+  "status": "uncertain",
+  "occurrences": [
+    {
+      "start": "2027-01[Europe/Vilnius]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.gamejam.lt/",
+      "name": {
+        "en": "Homepage"
+      },
+      "disabled": false
+    },
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://discord.com/invite/a9HNHQGhA4",
+      "name": {
+        "en": "LT GameJam"
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "Lithuania's Global Game Jam sites. Global Game Jam 2027 runs 25–31 January; the Lithuanian sites and their weekend are not announced yet."
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://globalgamejam.org/"
+    }
+  ]
+}

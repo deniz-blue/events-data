@@ -1,0 +1,39 @@
+{
+  "v": "0.2",
+  "id": "https://deniz.blue/events-data/2027/conventions/narcon-vinter27.evnt.json",
+  "name": {
+    "en": "NärCon Vinter 2027"
+  },
+  "venue": {
+    "name": {
+      "en": "Linköping"
+    },
+    "address": "Linköping",
+    "countryCode": "SE"
+  },
+  "occurrences": [
+    {
+      "start": "2027-02-25[Europe/Stockholm]",
+      "end": "2027-02-28[Europe/Stockholm]"
+    }
+  ],
+  "components": [
+    {
+      "$type": "directory.evnt.component.link#0",
+      "url": "https://www.narcon.se/",
+      "name": {
+        "en": "Homepage"
+      }
+    },
+    {
+      "$type": "blue.deniz.events.label#0",
+      "label": {
+        "en": "Gaming and cosplay convention"
+      }
+    },
+    {
+      "$type": "directory.evnt.component.source#0",
+      "url": "https://www.narcon.se/event"
+    }
+  ]
+}
