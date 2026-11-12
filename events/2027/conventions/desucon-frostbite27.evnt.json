@@ -20,6 +20,30 @@
   ],
   "components": [
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/desucon-frostbite27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "The Desucon venue lit green at night in the snow"
+        },
+        "presentation": {
+          "dominantColor": "#040402"
+        }
+      }
+    },
+    {
       "$type": "directory.evnt.component.link#0",
       "url": "https://desucon.fi/frostbite2027/",
       "name": {

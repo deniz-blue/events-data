@@ -28,6 +28,30 @@
   ],
   "components": [
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/animeonice27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "Anime on Ice 2027 poster: two anime girls in winter clothes, 8–10 Jan 2027, Metropolis Halle Potsdam"
+        },
+        "presentation": {
+          "dominantColor": "#bcc6d5"
+        }
+      }
+    },
+    {
       "$type": "directory.evnt.component.link#0",
       "url": "https://www.animeonice.de/",
       "name": {

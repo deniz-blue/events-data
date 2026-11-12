@@ -19,15 +19,9 @@
   ],
   "components": [
     {
-      "$type": "directory.evnt.text.markdown#0",
-      "content": {
-        "en": "A Christmas market where young artists show and sell their work: prints, stickers, commissions. Organised by Galerija Lyceum and the Seito San Japanese language centre.\n\n**Open call for artists.** Taking part is free; travel isn't covered. Entries are selected, and AI art or copied 3D prints won't get in. Questions to info@seitosan.lt (LT, EN or JP)."
-      }
-    },
-    {
       "$type": "directory.evnt.component.splashMedia#0",
       "roles": [
-        "background"
+        "banner"
       ],
       "media": {
         "sources": [
@@ -35,14 +29,23 @@
             "url": "https://stuff.deniz.blue/ltevents/art/lyceum-popup-market26.webp",
             "mimeType": "image/webp",
             "dimensions": {
-              "width": 1080,
-              "height": 1080
+              "width": 1200,
+              "height": 630
             }
           }
         ],
         "alt": {
           "en": "Open call poster: Pop-up meno turgelis, 2026-12-12, Galerija Lyceum × Seito San"
+        },
+        "presentation": {
+          "dominantColor": "#517737"
         }
+      }
+    },
+    {
+      "$type": "directory.evnt.text.markdown#0",
+      "content": {
+        "en": "A Christmas market where young artists show and sell their work: prints, stickers, commissions. Organised by Galerija Lyceum and the Seito San Japanese language centre.\n\n**Open call for artists.** Taking part is free; travel isn't covered. Entries are selected, and AI art or copied 3D prints won't get in. Questions to info@seitosan.lt (LT, EN or JP)."
       }
     },
     {

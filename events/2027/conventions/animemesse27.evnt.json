@@ -19,6 +19,30 @@
   ],
   "components": [
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/animemesse27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "Anime characters in front of the Filmpark Babelsberg entrance"
+        },
+        "presentation": {
+          "dominantColor": "#98a3a1"
+        }
+      }
+    },
+    {
       "$type": "directory.evnt.component.link#0",
       "url": "https://www.animemesse.de/en/",
       "name": {

@@ -19,6 +19,30 @@
   ],
   "components": [
     {
+      "$type": "directory.evnt.component.splashMedia#0",
+      "roles": [
+        "banner"
+      ],
+      "media": {
+        "sources": [
+          {
+            "url": "https://stuff.deniz.blue/ltevents/art/shumicon27.webp",
+            "mimeType": "image/webp",
+            "dimensions": {
+              "width": 1200,
+              "height": 630
+            }
+          }
+        ],
+        "alt": {
+          "en": "Shumicon logo between two chibi mascots"
+        },
+        "presentation": {
+          "dominantColor": "#3d2b2a"
+        }
+      }
+    },
+    {
       "$type": "directory.evnt.component.link#0",
       "url": "https://shumicon.fi/en/",
       "name": {
