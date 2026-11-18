@@ -13,8 +13,16 @@
   },
   "occurrences": [
     {
-      "start": "2027-07-22[Europe/Berlin]",
-      "end": "2027-07-25[Europe/Berlin]"
+      "start": "2027-07-22[Europe/Berlin]"
+    },
+    {
+      "start": "2027-07-23[Europe/Berlin]"
+    },
+    {
+      "start": "2027-07-24[Europe/Berlin]"
+    },
+    {
+      "start": "2027-07-25[Europe/Berlin]"
     }
   ],
   "components": [

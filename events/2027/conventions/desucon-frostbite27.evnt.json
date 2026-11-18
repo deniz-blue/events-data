@@ -14,7 +14,13 @@
   },
   "occurrences": [
     {
-      "start": "2027-01-22T17:00[Europe/Helsinki]",
+      "start": "2027-01-22T17:00[Europe/Helsinki]"
+    },
+    {
+      "start": "2027-01-23[Europe/Helsinki]"
+    },
+    {
+      "start": "2027-01-24[Europe/Helsinki]",
       "end": "2027-01-24T17:00[Europe/Helsinki]"
     }
   ],

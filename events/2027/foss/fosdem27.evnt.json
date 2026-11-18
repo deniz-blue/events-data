@@ -14,8 +14,10 @@
   },
   "occurrences": [
     {
-      "start": "2027-01-30[Europe/Brussels]",
-      "end": "2027-01-31[Europe/Brussels]"
+      "start": "2027-01-30[Europe/Brussels]"
+    },
+    {
+      "start": "2027-01-31[Europe/Brussels]"
     }
   ],
   "components": [

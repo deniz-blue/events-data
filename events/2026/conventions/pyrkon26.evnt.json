@@ -14,7 +14,13 @@
   },
   "occurrences": [
     {
-      "start": "2026-06-19T12:00[Europe/Warsaw]",
+      "start": "2026-06-19T12:00[Europe/Warsaw]"
+    },
+    {
+      "start": "2026-06-20[Europe/Warsaw]"
+    },
+    {
+      "start": "2026-06-21[Europe/Warsaw]",
       "end": "2026-06-21T15:00[Europe/Warsaw]"
     }
   ],

@@ -14,8 +14,13 @@
   },
   "occurrences": [
     {
-      "start": "2027-09-17[Europe/Warsaw]",
-      "end": "2027-09-19[Europe/Warsaw]"
+      "start": "2027-09-17[Europe/Warsaw]"
+    },
+    {
+      "start": "2027-09-18[Europe/Warsaw]"
+    },
+    {
+      "start": "2027-09-19[Europe/Warsaw]"
     }
   ],
   "components": [

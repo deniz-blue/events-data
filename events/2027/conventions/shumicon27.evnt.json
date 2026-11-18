@@ -13,8 +13,10 @@
   },
   "occurrences": [
     {
-      "start": "2027-04-10[Europe/Helsinki]",
-      "end": "2027-04-11[Europe/Helsinki]"
+      "start": "2027-04-10[Europe/Helsinki]"
+    },
+    {
+      "start": "2027-04-11[Europe/Helsinki]"
     }
   ],
   "components": [

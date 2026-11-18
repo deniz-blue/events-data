@@ -14,8 +14,10 @@
   },
   "occurrences": [
     {
-      "start": "2026-05-09[Europe/Vilnius]",
-      "end": "2026-05-10[Europe/Vilnius]"
+      "start": "2026-05-09[Europe/Vilnius]"
+    },
+    {
+      "start": "2026-05-10[Europe/Vilnius]"
     }
   ],
   "components": [

@@ -14,8 +14,16 @@
   },
   "occurrences": [
     {
-      "start": "2027-07-22[Europe/Stockholm]",
-      "end": "2027-07-25[Europe/Stockholm]"
+      "start": "2027-07-22[Europe/Stockholm]"
+    },
+    {
+      "start": "2027-07-23[Europe/Stockholm]"
+    },
+    {
+      "start": "2027-07-24[Europe/Stockholm]"
+    },
+    {
+      "start": "2027-07-25[Europe/Stockholm]"
     }
   ],
   "components": [

@@ -13,8 +13,16 @@
   },
   "occurrences": [
     {
-      "start": "2026-12-27[Europe/Berlin]",
-      "end": "2026-12-30[Europe/Berlin]"
+      "start": "2026-12-27[Europe/Berlin]"
+    },
+    {
+      "start": "2026-12-28[Europe/Berlin]"
+    },
+    {
+      "start": "2026-12-29[Europe/Berlin]"
+    },
+    {
+      "start": "2026-12-30[Europe/Berlin]"
     }
   ],
   "components": [
